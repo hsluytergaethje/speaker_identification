@@ -1,0 +1,638 @@
+start	end	tok	normtok	lemma	pos	rfpos	coreference	dependency	parentID	NER	sentstart	senID	stwr	frame	speaker	intexpr	note
+0	1	Es	Es	es	PPER	N.Reg.Nom.Sg.Neut	-	subj	1	-	yes	0	-	-	-	-	-
+3	7	wurde	wurde	werden	VAFIN	VFIN.Aux.3.Sg.Past.Ind	-	root	1	-	no	0	-	-	-	-	-
+9	15	getanzt	getanzt	tanzen	VVPP	VPP.Full.Psp	-	aux	1	-	no	0	-	-	-	-	-
+17	17	,	,	--	$,	SYM.Pun.Comma	-	root	3	-	no	0	-	-	-	-	-
+19	21	der	der	der	ART	ART.Def.Nom.Sg.Masc	9	det	5	-	no	0	-	-	-	-	-
+23	31	Vortänzer	Vortänzer	Vortänzer	NN	N.Reg.Nom.Sg.Masc	9	subj	6	-	no	0	-	-	-	-	-
+33	36	hieß	hieß	heißen	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	kon	1	-	no	0	-	-	-	-	-
+38	42	Wippe	Wippe	Wippe	NN	N.Reg.Acc.Sg.Fem	28|34|40|46	pred	6	yes	no	0	-	-	-	-	-
+44	44	,	,	--	$,	SYM.Pun.Comma	-	root	8	-	no	0	-	-	-	-	-
+46	47	er	er	er	PPER	PRO.Pers.Subst.3.Nom.Sg.Masc	4|5	subj	10	-	no	0	-	-	-	-	-
+49	51	war	war	sein	VAFIN	VFIN.Sein.3.Sg.Past.Ind	-	s	6	-	no	0	-	-	-	-	-
+53	59	schwarz	schwarz	schwarz	ADJD	ADJD.Pos	-	adv	12	-	no	0	-	-	-	-	-
+61	69	gekleidet	gekleidet	kleiden	VVPP	VPP.Full.Psp	-	aux	10	-	no	0	-	-	-	-	-
+71	71	,	,	--	$,	SYM.Pun.Comma	-	root	13	-	no	0	-	-	-	-	-
+73	77	hatte	hatte	haben	VAFIN	VFIN.Haben.3.Sg.Past.Ind	-	kon	10	-	no	0	-	-	-	-	-
+79	83	einen	einen	ein	ART	ART.Indef.Acc.Sg.Masc	26|26|26|26	det	17	-	no	0	-	-	-	-	-
+85	94	gestickten	gestickten	gestickt	ADJA	ADJA.Pos.Acc.Sg.Masc	26|26|26|26	attr	17	-	no	0	-	-	-	-	-
+96	98	Hut	Hut	Hut	NN	N.Reg.Acc.Sg.Masc	26|26|26|26	obja	14	-	no	0	-	-	-	-	-
+100	102	mit	mit	mit	APPR	APPR.Dat	26|26|26|26	pp	17	-	no	0	-	-	-	-	-
+104	107	zwei	zwei	zwei	CARD	CARD	26|26|26|26	attr	20	-	no	0	-	-	-	-	-
+109	120	Buntstreifen	Buntstreifen	Buntstreifen	NN	N.Reg.Dat.Pl.Masc	26|26|26|26	pn	18	-	no	0	-	-	-	-	-
+122	122	,	,	--	$,	SYM.Pun.Comma	26|26|26|26	root	21	-	no	0	-	-	-	-	-
+124	128	einen	einen	ein	ART	ART.Indef.Acc.Sg.Masc	26|26|26|26	det	23	-	no	0	-	-	-	-	-
+130	139	Federbusch	Federbusch	Federbusch	NN	N.Reg.Acc.Sg.Masc	26|26|26|26	app	17	-	no	0	-	-	-	-	-
+141	143	auf	auf	auf	APPR	APPR.Auf	26|26|26|26	pp	23	-	no	0	-	-	-	-	-
+145	147	dem	dem	der	ART	ART.Def.Dat.Sg.Masc	26|26|26|26	det	26	-	no	0	-	-	-	-	-
+149	151	Hut	Hut	Hut	NN	N.Reg.Dat.Sg.Masc	15|16|17|18|19|20|21|22|23|24	pn	24	-	no	0	-	-	-	-	-
+153	153	.	.	--	$.	SYM.Pun.Sent	-	root	27	-	no	0	-	-	-	-	-
+155	157	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	7|34|40|46	subj	30	-	yes	1	-	-	-	-	-
+159	164	selbst	selbst	selbst	ADV	ADV	-	adv	28	-	no	1	-	-	-	-	-
+166	171	tanzte	tanzte	antanzen	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	root	30	-	no	1	-	-	-	-	-
+173	178	hinten	hinten	hinten	ADV	ADV	-	adv	30	-	no	1	-	-	-	-	-
+180	181	an	an	an	PTKVZ	PART.Verb	-	avz	30	-	no	1	-	-	-	-	-
+183	183	,	,	--	$,	SYM.Pun.Comma	-	root	33	-	no	1	-	-	-	-	-
+185	187	ihr	ihr	ihr	PPOSAT	PRO.Poss.Attr.-.Nom.Sg.Masc	7|28|40|46	det	35	-	no	1	-	-	-	-	-
+189	194	Tänzer	Tänzer	Tänzer	NN	N.Reg.Nom.Sg.Masc	-	subj	36	-	no	1	-	-	-	-	-
+196	198	war	war	sein	VAFIN	VFIN.Sein.3.Sg.Past.Ind	-	kon	30	-	no	1	-	-	-	-	-
+200	203	grün	grün	grün	ADJD	ADJD.Pos	-	adv	38	-	no	1	-	-	-	-	-
+205	213	gekleidet	gekleidet	kleiden	VVPP	VPP.Full.Psp	-	aux	36	-	no	1	-	-	-	-	-
+215	215	,	,	--	$,	SYM.Pun.Comma	-	root	39	-	no	1	-	-	-	-	-
+217	219	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	7|28|34|46	subj	41	-	no	1	-	-	-	-	-
+221	223	sei	sei	sein	VAFIN	VFIN.Sein.3.Sg.Pres.Subj	-	kon	36	-	no	1	-	-	-	-	-
+225	231	zweimal	zweimal	zweimal	ADV	ADV	-	adv	43	-	no	1	-	-	-	-	-
+233	240	gefallen	gefallen	fallen	VVPP	VPP.Full.Psp	-	aux	41	-	no	1	-	-	-	-	-
+242	242	,	,	--	$,	SYM.Pun.Comma	-	root	44	-	no	1	-	-	-	-	-
+244	249	worauf	worauf	worauf	PWAV	PROADV.Inter	-	pp	48	-	no	1	-	-	-	-	-
+251	253	ihr	ihr	ihr	PPOSAT	PRO.Poss.Attr.-.Nom.Sg.Masc	7|28|34|40	det	47	-	no	1	-	-	-	-	-
+255	260	Teufel	Teufel	Teufel	NN	N.Reg.Nom.Sg.Masc	557|558|627	subj	48	-	no	1	-	-	-	-	-
+262	267	lachte	lachte	lachen	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	root	48	-	no	1	-	-	-	-	-
+269	269	.	.	--	$.	SYM.Pun.Sent	-	root	49	-	no	1	-	-	-	-	-
+271	274	Zwei	Zwei	Zwei	CARD	CARD	57	attr	53	-	yes	2	-	-	-	-	-
+276	279	blau	blau	blau	ADJD	ADJD.Pos	57	adv	52	-	no	2	-	-	-	-	-
+281	290	gekleidete	gekleidete	gekleidet	ADJA	ADJA.Pos.Nom.Pl.Masc	57	attr	53	-	no	2	-	-	-	-	-
+292	301	Spielleute	Spielleute	Spielleute	NN	N.Reg.Nom.Pl.*	57	subj	54	-	no	2	-	-	-	-	-
+303	307	waren	waren	sein	VAFIN	VFIN.Sein.3.Pl.Past.Ind	-	root	54	-	no	2	-	-	-	-	-
+309	310	da	da	da	ADV	ADV	-	adv	54	-	no	2	-	-	-	-	-
+312	312	,	,	--	$,	SYM.Pun.Comma	-	root	56	-	no	2	-	-	-	-	-
+314	316	die	die	der	PRELS	PRO.Rel.Subst.-.Nom.Sg.Fem	50|51|52|53	root	57	-	no	2	-	-	-	-	-
+318	320	ein	ein	ein	ART	ART.Indef.Acc.Sg.Neut	-	det	59	-	no	2	-	-	-	-	-
+322	328	Bennith	Bennith	Bennith	NN	N.Reg.Acc.Sg.Neut	-	subj	60	-	no	2	-	-	-	-	-
+330	338	aufgehabt	aufgehabt	aufhaben	VVPP	VFIN.Full.3.Sg.Pres.Ind	-	root	60	-	no	2	-	-	-	-	-
+340	340	,	,	--	$,	SYM.Pun.Comma	-	root	61	-	no	2	-	-	-	-	-
+342	347	hetten	hätten	haben	VAFIN	VFIN.Haben.3.Pl.Past.Subj	-	root	62	-	no	2	-	-	-	-	-
+349	351	mit	mit	mit	APPR	APPR.Dat	-	pp	62	-	no	2	-	-	-	-	-
+353	356	zwen	zwei	zwei	CARD	CARD	-	pn	63	-	no	2	-	-	-	-	-
+358	367	hummelcken	Hummelken	Hummelk	NN	N.Reg.Dat.Pl.Neut	-	app	64	-	no	2	-	-	-	-	-
+369	376	gespilet	gespielt	spielen	VVPP	VPP.Full.Psp	-	app	65	-	no	2	-	-	-	-	-
+378	378	,	,	--	$,	SYM.Pun.Comma	-	root	67	-	no	2	-	-	-	-	-
+380	381	so	so	so	ADV	ADV	-	adv	72	-	no	2	-	-	-	-	-
+383	385	mit	mit	mit	APPR	APPR.Dat	-	pp	72	-	no	2	-	-	-	-	-
+387	392	weißen	weißen	weiß	ADJA	ADJA.Pos.Dat.Pl.Masc	-	attr	71	-	no	2	-	-	-	-	-
+394	400	knochen	Knochen	Knochen	NN	N.Reg.Dat.Pl.Masc	-	pn	69	-	no	2	-	-	-	-	-
+402	408	belecht	beleg	beleg	PTKVZ	ADJD.Pos	-	kon	63	-	no	2	-	-	-	-	-
+410	416	gewesen	gewesen	sein	VAPP	VPP.Sein.Psp	-	root	73	-	no	2	-	-	-	-	-
+418	418	.	.	--	$.	SYM.Pun.Sent	-	root	74	-	no	2	-	-	-	-	-
+420	422	Der	Der	der	ART	ART.Def.Nom.Sg.Masc	-	det	76	-	yes	3	-	-	-	-	-
+424	427	Koch	Koch	Koch	NE	N.Name.Nom.Sg.Masc	-	subj	77	-	no	3	-	-	-	-	-
+429	431	war	war	sein	VAFIN	VFIN.Sein.3.Sg.Past.Ind	-	root	77	-	no	3	-	-	-	-	-
+433	436	grün	grün	grün	ADJD	ADJD.Pos	-	adv	79	-	no	3	-	-	-	-	-
+438	446	gekleidet	gekleidet	kleiden	VVPP	VPP.Full.Psp	-	aux	77	-	no	3	-	-	-	-	-
+448	448	.	.	--	$.	SYM.Pun.Sent	-	root	80	-	no	3	-	-	-	-	-
+450	451	Es	Es	es	PPER	PRO.Pers.Subst.3.Nom.Sg.Neut	-	expl	91	-	yes	4	-	-	-	-	-
+453	458	wurden	wurden	werden	VAFIN	VFIN.Aux.3.Pl.Past.Ind	-	root	82	-	no	4	-	-	-	-	-
+460	463	zwei	zwei	zwei	CARD	CARD	-	attr	84	-	no	4	-	-	-	-	-
+465	470	Ochsen	Ochsen	Ochse	NN	N.Reg.Nom.Pl.Masc	-	subj	82	-	no	4	-	-	-	-	-
+472	472	,	,	--	$,	SYM.Pun.Comma	-	root	85	-	no	4	-	-	-	-	-
+474	476	ein	ein	ein	ART	ART.Indef.Nom.Sg.Masc	-	det	87	-	no	4	-	-	-	-	-
+478	482	Bulle	Bulle	Bulle	NN	N.Reg.Nom.Sg.Masc	-	kon	84	-	no	4	-	-	-	-	-
+484	486	und	und	und	KON	CONJ.Coord.-	-	kon	87	-	no	4	-	-	-	-	-
+488	494	etliche	etliche	etlicher	PIAT	PRO.Indef.Attr.-.Nom.Pl.Neut	-	det	90	-	no	4	-	-	-	-	-
+496	501	Schafe	Schafe	Schafe	NN	N.Reg.Nom.Pl.Neut	-	cj	88	-	no	4	-	-	-	-	-
+503	514	geschlachtet	geschlachtet	schlachten	VVPP	VPP.Full.Psp	-	aux	82	-	no	4	-	-	-	-	-
+516	516	,	,	--	$,	SYM.Pun.Comma	-	root	92	-	no	4	-	-	-	-	-
+518	521	Eier	Eier	Eier	NN	N.Reg.Nom.Pl.Neut	-	obja	96	-	no	4	-	-	-	-	-
+523	525	und	und	und	KON	CONJ.Coord.-	-	kon	93	-	no	4	-	-	-	-	-
+527	532	Butter	Butter	Butter	NN	N.Reg.Nom.Sg.Fem	101|127|135|148|160|172|195|249|266	cj	94	-	no	4	-	-	-	-	-
+534	541	gegessen	gegessen	gegessen	VVPP	VPP.Full.Psp	-	kon	91	-	no	4	-	-	-	-	-
+543	543	,	,	--	$,	SYM.Pun.Comma	-	root	97	-	no	4	-	-	-	-	-
+545	546	an	an	an	APPR	APPR.An	-	pp	91	-	no	4	-	-	-	-	-
+548	553	Tafeln	Tafeln	Tafel	NN	N.Reg.Dat.Pl.Fem	-	pn	98	-	no	4	-	-	-	-	-
+555	555	,	,	--	$,	SYM.Pun.Comma	-	root	100	-	no	4	-	-	-	-	-
+557	559	die	die	der	PRELS	PRO.Rel.Subst.-.Nom.Pl.Fem	95|127|135|148|160|172|195|249|266	root	101	-	no	4	-	-	-	-	-
+561	563	mit	mit	mit	APPR	APPR.Dat	-	objp	105	-	no	4	-	-	-	-	-
+565	570	bunten	bunten	bunt	ADJA	ADJA.Pos.Dat.Pl.Fem	-	attr	104	-	no	4	-	-	-	-	-
+572	576	Laken	Laken	Laken	NN	N.Reg.Dat.Pl.Fem	-	pn	102	-	no	4	-	-	-	-	-
+578	584	gedeckt	gedeckt	decken	VVPP	VPP.Full.Psp	-	root	105	-	no	4	-	-	-	-	-
+586	586	,	,	--	$,	SYM.Pun.Comma	-	root	106	-	no	4	-	-	-	-	-
+588	590	man	man	man	PIS	PRO.Indef.Subst.-.Nom.Sg.*	-	subj	108	-	no	4	-	-	-	-	-
+592	595	habe	habe	haben	VAFIN	VFIN.Haben.3.Sg.Pres.Subj	-	root	108	-	no	4	-	-	-	-	-
+597	599	auf	auf	auf	APPR	APPR.Auf	-	pp	111	-	no	4	-	-	-	-	-
+601	606	Bänken	Bänken	Bank	NN	N.Reg.Dat.Pl.Fem	-	pn	109	-	no	4	-	-	-	-	-
+608	615	gesessen	gesessen	sitzen	VVPP	VPP.Full.Psp	-	aux	108	-	no	4	-	-	-	-	-
+617	617	,	,	--	$,	SYM.Pun.Comma	-	root	112	-	no	4	-	-	-	-	-
+619	621	aus	aus	aus	APPR	APPR.Dat	-	pp	121	-	no	4	-	-	-	-	-
+623	629	Gläsern	Gläsern	Gläs	NN	N.Reg.Dat.Pl.Neut	-	pn	113	-	no	4	-	-	-	-	-
+631	634	Wein	Wein	Wein	NN	N.Reg.Acc.Sg.Masc	-	app	114	-	no	4	-	-	-	-	-
+636	638	und	und	und	KON	CONJ.Coord.-	-	kon	115	-	no	4	-	-	-	-	-
+640	654	Magdeburgisches	Magdeburgisches	Magdeburgisch	ADJA	N.Reg.Acc.Sg.Neut	-	cj	116	-	no	4	-	-	-	-	-
+656	659	auch	auch	auch	ADV	ADV	-	adv	119	-	no	4	-	-	-	-	-
+661	672	Garlebesches	Garlebesches	Garlebesch	ADJA	ADJA.Pos.Nom.Sg.Neut	-	app	117	-	no	4	-	-	-	-	-
+674	677	Bier	Bier	Bier	NN	N.Reg.Nom.Sg.Neut	-	obja	121	-	no	4	-	-	-	-	-
+679	687	getrunken	getrunken	trinken	VVPP	VPP.Full.Psp	-	kon	111	-	no	4	-	-	-	-	-
+689	689	.	.	--	$.	SYM.Pun.Sent	-	root	122	-	no	4	-	-	-	-	-
+691	692	Zu	Zu	zu	APPR	APPR.Dat	-	root	123	-	yes	5	-	-	-	-	-
+694	695	S.	S.	S.	NN	N.Reg.Nom.Sg.Fem	-	pn	123	-	no	5	-	-	-	-	-
+697	712	Wolbrechts-Nacht	Wolbrechts-Nacht	Wolbrechts-Nacht	NE	N.Name.Dat.Sg.Fem	-	subj	126	-	yes	6	-	-	-	-	-
+714	717	habe	habe	haben	VAFIN	VFIN.Haben.3.Sg.Pres.Subj	-	root	126	-	no	6	-	-	-	-	-
+719	721	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	95|101|135|148|160|172|195|249|266	obja	130	-	no	6	-	-	-	-	-
+723	726	beim	beim	bei	APPRART	APPRART.Dat.Sg.Masc	-	pp	130	-	no	6	-	-	-	-	-
+728	733	Teufel	Teufel	Teufel	NN	N.Reg.Dat.Sg.Masc	132	pn	128	-	no	6	-	-	-	-	-
+735	744	geschlafen	geschlafen	schlafen	VVPP	VPP.Full.Psp	-	aux	126	-	no	6	-	-	-	-	-
+746	746	.	.	--	$.	SYM.Pun.Sent	-	root	131	-	no	6	-	-	-	-	-
+748	749	Er	Er	er	PPER	PRO.Pers.Subst.3.Nom.Sg.Masc	129	subj	133	-	yes	7	-	-	-	-	-
+751	753	kam	kam	kommen	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	root	133	-	no	7	-	-	-	-	-
+755	756	zu	zu	zu	APPR	APPR.Dat	-	objp	133	-	no	7	-	-	-	-	-
+758	760	ihr	ihr	ihr	PPOSAT	PRO.Pers.Subst.3.Dat.Sg.Fem	95|101|127|148|160|172|195|249|266	pn	134	-	no	7	-	-	-	-	-
+762	764	als	als	als	KOUS	APPR.Als	-	kom	133	-	no	7	-	-	-	-	-
+766	768	ein	ein	ein	ART	ART.Indef.Acc.Sg.Neut	-	det	139	-	no	7	-	-	-	-	-
+770	775	swartz	schwarz	schwarz	ADJD	ADJD.Pos	-	attr	139	-	no	7	-	-	-	-	-
+777	782	Ketken	Ketken	Ketken	ADJA	N.Reg.Acc.Sg.Neut	-	cj	136	-	no	7	-	-	-	-	-
+784	784	,	,	--	$,	SYM.Pun.Comma	-	root	140	-	no	7	-	-	-	-	-
+786	788	und	und	und	KON	CONJ.Coord.-	-	kon	133	-	no	7	-	-	-	-	-
+790	792	war	war	sein	VAFIN	VFIN.Sein.3.Sg.Past.Ind	-	cj	141	-	no	7	-	-	-	-	-
+794	798	immer	immer	immer	ADV	ADV	-	adv	144	-	no	7	-	-	-	-	-
+800	803	kalt	kalt	kalt	ADJD	ADJD.Pos	-	pred	142	-	no	7	-	-	-	-	-
+805	805	.	.	--	$.	SYM.Pun.Sent	-	root	145	-	no	7	-	-	-	-	-
+807	812	Ferner	Ferner	Ferner	ADV	ADV	-	adv	147	-	yes	8	-	-	-	-	-
+814	817	habe	habe	haben	VAFIN	VFIN.Haben.3.Sg.Pres.Subj	-	root	147	-	no	8	-	-	-	-	-
+819	821	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	95|101|127|135|160|172|195|249|266	obja	147	-	no	8	-	-	-	-	-
+823	827	einem	einem	ein	ART	PRO.Indef.Subst.-.Dat.Sg.Masc	-	objd	147	-	no	8	-	-	-	-	-
+829	831	ein	ein	ein	ART	ART.Indef.Acc.Sg.Neut	-	det	153	-	no	8	-	-	-	-	-
+833	837	goeth	goeth	Goeth	NN	ADJD.Pos	-	attr	153	-	no	8	-	-	-	-	-
+839	845	gegoßen	gegoßen	gegoßen	VVPP	ADJA.Pos.Acc.Sg.Masc	-	attr	153	-	no	8	-	-	-	-	-
+847	856	Donnerstag	Donnerstag	Donnerstag	NN	N.Reg.Acc.Sg.Masc	-	subj	147	-	no	8	-	-	-	-	-
+858	862	Abend	Abend	Abend	NN	N.Reg.Acc.Sg.Masc	-	app	153	-	no	8	-	-	-	-	-
+864	864	,	,	--	$,	SYM.Pun.Comma	-	root	155	-	no	8	-	-	-	-	-
+866	868	das	das	der	ART	ART.Def.Nom.Sg.Neut	163	det	157	-	no	8	-	-	-	-	-
+870	875	Wasser	Wasser	Wasser	NN	N.Reg.Nom.Sg.Neut	163	subj	159	-	no	8	-	-	-	-	-
+877	880	dazu	dazu	dazu	PAV	PROADV.Dem	-	pp	157	-	no	8	-	-	-	-	-
+882	885	habe	habe	haben	VAFIN	VFIN.Haben.3.Sg.Pres.Subj	-	kon	147	-	no	8	-	-	-	-	-
+887	889	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	95|101|127|135|148|172|195|249|266	obja	161	-	no	8	-	-	-	-	-
+891	897	gefüllt	gefüllt	füllen	VVPP	VPP.Full.Psp	-	aux	159	-	no	8	-	-	-	-	-
+899	901	aus	aus	aus	APPR	APPR.Dat	-	pp	161	-	no	8	-	-	-	-	-
+903	908	seinem	seinem	sein	PPOSAT	PRO.Poss.Attr.-.Dat.Sg.Masc	156|157	det	164	-	no	8	-	-	-	-	-
+910	919	Adell-Pöll	Adell-Pöll	Adell-Pöll	NE	N.Reg.Dat.Sg.Masc	-	pn	162	-	no	8	-	-	-	-	-
+921	922	in	in	in	APPR	APPR.In	-	pp	161	-	no	8	-	-	-	-	-
+924	928	aller	aller	aller	PIAT	PRO.Indef.Attr.-.Gen.Pl.Masc	-	det	167	-	no	8	-	-	-	-	-
+930	935	Teufel	Teufel	Teufel	NN	N.Reg.Gen.Pl.Masc	-	pn	165	-	no	8	-	-	-	-	-
+937	941	Namen	Namen	Name	NN	N.Reg.Acc.Pl.Masc	-	app	167	-	no	8	-	-	-	-	-
+943	943	.	.	--	$.	SYM.Pun.Sent	-	root	169	-	no	8	-	-	-	-	-
+945	950	Ferner	Ferner	ferner	ADV	ADV	-	adv	171	-	yes	9	-	-	-	-	-
+952	955	habe	habe	haben	VAFIN	VFIN.Haben.3.Sg.Pres.Subj	-	root	171	-	no	9	-	-	-	-	-
+957	959	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	95|101|127|135|148|160|195|249|266	subj	171	-	no	9	-	-	-	-	-
+961	963	die	die	der	ART	ART.Def.Acc.Pl.*	-	det	174	-	no	9	-	-	-	-	-
+965	969	Leute	Leute	Leute	NN	N.Reg.Acc.Pl.*	-	obja	175	-	no	9	-	-	-	-	-
+971	977	gebadet	gebadet	baden	VVPP	ADJD.Pos	-	aux	171	-	no	9	-	-	-	-	-
+979	980	in	in	in	APPR	APPR.In	-	pp	175	-	no	9	-	-	-	-	-
+982	990	neunerlei	neunerlei	neunerlei	ADV	CARD	-	attr	178	-	no	9	-	-	-	-	-
+992	999	Kräutern	Kräutern	Kräuter	NN	N.Reg.Dat.Pl.Neut	-	pn	176	-	no	9	-	-	-	-	-
+1001	1003	und	und	und	KON	CONJ.Coord.-	-	kon	176	-	no	9	-	-	-	-	-
+1005	1008	noch	noch	noch	ADV	ADV	-	adv	181	-	no	9	-	-	-	-	-
+1010	1015	anders	anders	anders	ADV	ADV	-	cj	179	-	no	9	-	-	-	-	-
+1017	1021	daran	daran	daran	PAV	PROADV.Dem	-	pp	175	-	no	9	-	-	-	-	-
+1023	1023	.	.	--	$.	SYM.Pun.Sent	-	root	183	-	no	9	-	-	-	-	-
+1025	1028	1582	1582	1582	CARD	CARD	-	root	184	-	yes	10	-	-	-	-	-
+1030	1030	,	,	--	$,	SYM.Pun.Comma	-	root	185	-	no	10	-	-	-	-	-
+1032	1034	24.	24.	24.	ADJA	ADJA.Pos.Dat.Sg.Masc	-	attr	187	-	no	10	-	-	-	-	-
+1036	1044	September	September	September	NN	N.Reg.Dat.Sg.Masc	-	root	187	-	no	10	-	-	-	-	-
+1046	1046	.	.	--	$.	SYM.Pun.Sent	-	root	188	-	no	10	-	-	-	-	-
+1048	1051	Hans	Hans	Hans	NE	N.Name.Nom.Sg.Masc	-	subj	192	yes	yes	11	-	frame.1	speaker.1	-	-
+1053	1062	Schwarthen	Schwarten	Schwart	NE	N.Reg.Nom.Pl.Fem	-	app	189	yes	no	11	-	frame.1	speaker.1	-	-
+1064	1071	Hausfrau	Hausfrau	Hausfrau	NN	N.Reg.Nom.Sg.Fem	-	app	190	-	no	11	-	frame.1	speaker.1	-	-
+1073	1079	bekennt	bekennt	bekennen	VVFIN	VFIN.Full.3.Sg.Pres.Ind	-	root	192	-	no	11	-	frame.1	-	intexpr.1	-
+1081	1081	,	,	--	$,	SYM.Pun.Comma	-	root	193	-	no	11	-	frame.1	-	-	-
+1083	1085	daß	daß	daß	KOUS	CONJ.SubFin.-	-	konj	198	-	no	11	indirect.speech.1	frame.2	-	-	-
+1087	1089	ihr	ihr	ihr	PPER	PRO.Pers.Subst.3.Dat.Sg.Fem	95|101|127|135|148|160|172|249|266	objd	198	-	no	11	indirect.speech.1	frame.2	-	-	-
+1091	1093	die	die	der	ART	ART.Def.Nom.Sg.Fem	-	det	197	-	no	11	indirect.speech.1	frame.2	-	-	-
+1095	1105	Engefersche	Engefersche	Engefersche	NN	N.Reg.Nom.Sg.Fem	-	obja	198	-	no	11	indirect.speech.1	frame.2	speaker.2	-	-
+1107	1114	befohlen	befohlen	befohlen	VVPP	VPP.Full.Psp	-	par	192	-	no	11	indirect.speech.1	frame.2	-	intexpr.2	-
+1116	1116	,	,	--	$,	SYM.Pun.Comma	-	root	199	-	no	11	indirect.speech.1	frame.2	-	-	-
+1118	1123	Wasser	Wasser	Wasser	NN	N.Reg.Acc.Sg.Neut	-	obja	192	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1125	1126	zu	zu	zu	PTKZU	PART.Zu	-	part	202	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1128	1132	holen	holen	holen	VVINF	VINF.Full.-	-	obji	192	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1134	1136	und	und	und	KON	CONJ.Coord.-	-	kon	202	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1138	1139	zu	zu	zu	PTKZU	PART.Zu	-	part	205	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1141	1146	füllen	füllen	füllen	VVINF	VINF.Full.-	-	cj	203	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1148	1152	gegen	gegen	gegen	APPR	APPR.Acc	-	pp	205	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1154	1156	den	den	der	ART	ART.Def.Acc.Sg.Masc	310|311|602|603	det	208	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1158	1162	Strom	Strom	Strom	NN	N.Reg.Acc.Sg.Masc	310|311|602|603	pn	206	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1164	1165	in	in	in	APPR	APPR.In	-	pp	205	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1167	1171	aller	aller	aller	PIAT	PRO.Indef.Attr.-.Dat.Sg.Masc	-	det	211	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1173	1178	Teufel	Teufel	Teufel	NN	N.Reg.Dat.Sg.Masc	-	pn	209	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1180	1184	Namen	Namen	Name	NN	N.Reg.Acc.Sg.Masc	-	app	211	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1186	1186	,	,	--	$,	SYM.Pun.Comma	-	root	213	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1188	1190	und	und	und	KON	CONJ.Coord.-	-	root	214	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1192	1195	Hans	Hans	Hans	NE	N.Name.Nom.Sg.Masc	-	objd	226	yes	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1197	1202	Sedorp	Sedorp	Sedorp	NE	N.Name.Nom.Sg.Masc	-	app	215	yes	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1204	1206	bei	bei	bei	APPR	APPR.Dat	-	pp	226	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1208	1212	einer	einer	ein	ART	ART.Indef.Dat.Sg.Fem	-	det	219	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1214	1222	Krankheit	Krankheit	Krankheit	NN	N.Reg.Dat.Sg.Fem	-	pn	217	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1224	1232	desselben	desselben	derselbe	PDS	PRO.Dem.Subst.-.Gen.Sg.Neut	-	gmod	219	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1234	1240	dreimal	dreimal	dreimal	ADV	ADV	-	adv	226	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1242	1246	Hände	Hände	Hand	NN	N.Reg.Acc.Pl.Fem	-	obja	226	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1248	1250	und	und	und	KON	CONJ.Coord.-	-	kon	222	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1252	1255	Füße	Füße	Fuß	NN	N.Reg.Acc.Pl.Masc	-	cj	223	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1257	1258	zu	zu	zu	PTKZU	PART.Zu	-	part	226	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1260	1266	waschen	waschen	waschen	VVINF	VINF.Full.-	-	cj	214	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1268	1271	zwei	zwei	zwei	CARD	CARD	322|323|324|325|326	attr	228	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1273	1283	Donnerstage	Donnerstage	Donnerstag	NN	N.Reg.Nom.Pl.Masc	322|323|324|325|326	root	228	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1285	1287	und	und	und	KON	CONJ.Coord.-	322|323|324|325|326	kon	228	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1289	1296	Dienstag	Dienstag	Dienstag	NN	N.Reg.Nom.Sg.Masc	322|323|324|325|326	cj	229	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1298	1302	Abend	Abend	Abend	NN	N.Reg.Acc.Sg.Masc	322|323|324|325|326	app	230	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1304	1304	›	&gt;	&gt;	$(	CARD	322|323|324|325|326	app	231	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1306	1310	recht	recht	recht	ADJD	ADJD.Pos	-	adv	234	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1312	1316	sides	sides	sid	NE	ADJA.Pos.Acc.Sg.Neut	-	attr	235	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1318	1320	umb	um	um	APPR	CONJ.SubInf.-	-	app	232	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1322	1322	‹	&lt;	&lt;	$(	N.Reg.Acc.Sg.Neut	-	app	235	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1324	1324	,	,	--	$,	SYM.Pun.Comma	-	root	237	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1326	1328	und	und	und	KON	CONJ.Coord.-	-	root	238	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1330	1331	es	es	es	PPER	PRO.Pers.Subst.3.Nom.Sg.Neut	-	obja	241	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1333	1336	dann	dann	dann	ADV	ADV	-	adv	241	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1338	1348	wegzugießen	wegzugießen	wegzugießen	VVIZU	VINF.Full.-	-	cj	238	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1350	1350	.	.	--	$.	SYM.Pun.Sent	-	root	242	-	no	11	indirect.speech.1|indirect.speech.2	-	-	-	-
+1352	1354	Bei	Bei	bei	APPR	APPR.Dat	-	pp	248	-	yes	12	-	-	-	-	-
+1356	1358	der	der	der	ART	ART.Def.Dat.Sg.Fem	-	det	245	-	no	12	-	-	-	-	-
+1360	1368	Krankheit	Krankheit	Krankheit	NN	N.Reg.Dat.Sg.Fem	-	pn	243	-	no	12	-	-	-	-	-
+1370	1374	einer	einer	ein	ART	ART.Indef.Gen.Sg.Fem	270|271	det	247	-	no	12	-	-	-	-	-
+1376	1379	Frau	Frau	Frau	NN	N.Reg.Gen.Sg.Fem	270|271	gmod	245	-	no	12	-	-	-	-	-
+1381	1384	nahm	nahm	nehmen	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	root	248	-	no	12	-	-	-	-	-
+1386	1388	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	95|101|127|135|148|160|172|195|266	subj	248	-	no	12	-	-	-	-	-
+1390	1394	einen	einen	ein	ART	ART.Indef.Acc.Sg.Masc	-	det	252	-	no	12	-	-	-	-	-
+1396	1406	unbenutzten	unbenutzten	unbenutzt	ADJA	ADJA.Pos.Acc.Sg.Masc	-	attr	252	-	no	12	-	-	-	-	-
+1408	1411	Pott	Pott	Pott	NN	N.Reg.Acc.Sg.Masc	-	obja	248	-	no	12	-	-	-	-	-
+1413	1413	,	,	--	$,	SYM.Pun.Comma	-	root	253	-	no	12	-	-	-	-	-
+1415	1420	füllte	füllte	dreinfüllen	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	kon	248	-	no	12	-	-	-	-	-
+1422	1427	Wasser	Wasser	Wasser	NN	N.Reg.Dat.Sg.Neut	-	obja	254	-	no	12	-	-	-	-	-
+1429	1433	drein	drein	drein	PTKVZ	PART.Verb	-	avz	254	-	no	12	-	-	-	-	-
+1435	1435	,	,	--	$,	SYM.Pun.Comma	-	root	257	-	no	12	-	-	-	-	-
+1437	1439	und	und	und	KON	CONJ.Coord.-	-	kon	248	-	no	12	-	-	-	-	-
+1441	1446	machte	machte	machen	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	cj	258	-	no	12	-	-	-	-	-
+1448	1456	unbenutzt	unbenutzt	unbenutzt	ADJD	ADJD.Pos	-	adv	259	-	no	12	-	-	-	-	-
+1458	1462	Wachs	Wachs	Wachs	NN	N.Reg.Acc.Sg.Neut	-	subj	259	-	no	12	-	-	-	-	-
+1464	1467	drin	drin	drin	ADV	ADV	-	adv	259	-	no	12	-	-	-	-	-
+1469	1473	weich	weich	weich	ADJD	ADJD.Pos	-	pred	259	-	no	12	-	-	-	-	-
+1475	1475	,	,	--	$,	SYM.Pun.Comma	-	root	264	-	no	12	-	-	-	-	-
+1477	1482	worauf	worauf	worauf	PWAV	PROADV.Inter	-	root	265	-	no	12	-	-	-	-	-
+1484	1486	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Pl.*	95|101|127|135|148|160|172|195|249	root	266	-	no	12	-	-	-	-	-
+1488	1490	den	den	der	ART	ART.Def.Acc.Sg.Masc	-	det	268	-	no	12	-	-	-	-	-
+1492	1495	Saum	Saum	Saum	NN	N.Reg.Acc.Sg.Masc	-	obja	273	-	no	12	-	-	-	-	-
+1497	1499	von	von	von	APPR	APPR.Dat	-	pp	268	-	no	12	-	-	-	-	-
+1501	1503	der	der	der	ART	ART.Def.Dat.Sg.Fem	246|247|271	det	271	-	no	12	-	-	-	-	-
+1505	1508	Frau	Frau	Frau	NN	N.Reg.Dat.Sg.Fem	246|247|270	pn	269	-	no	12	-	-	-	-	-
+1510	1514	Hemde	Hemde	Hemde	NN	N.Reg.Dat.Sg.Neut	-	objd	273	-	no	12	-	-	-	-	-
+1516	1523	genommen	genommen	nehmen	VVPP	VPP.Full.Psp	-	aux	278	-	no	12	-	-	-	-	-
+1525	1525	,	,	--	$,	SYM.Pun.Comma	-	root	274	-	no	12	-	-	-	-	-
+1527	1529	ein	ein	ein	ART	ART.Indef.Nom.Sg.Neut	-	det	276	-	no	12	-	-	-	-	-
+1531	1535	Licht	Licht	Licht	NN	N.Reg.Nom.Sg.Neut	-	obja	278	-	no	12	-	-	-	-	-
+1537	1541	davon	davon	davon	PAV	PROADV.Dem	-	objp	278	-	no	12	-	-	-	-	-
+1543	1549	gemacht	gemacht	machen	VVPP	VPP.Full.Psp	-	aux	281	-	no	12	-	-	-	-	-
+1551	1551	,	,	--	$,	SYM.Pun.Comma	-	root	279	-	no	12	-	-	-	-	-
+1553	1554	es	es	es	PPER	PRO.Pers.Subst.3.Nom.Sg.Neut	-	obja	281	-	no	12	-	-	-	-	-
+1556	1565	angesteckt	angesteckt	anstecken	VVPP	ADJD.Pos	-	root	281	-	no	12	-	-	-	-	-
+1567	1569	und	und	und	KON	CONJ.Coord.-	-	root	282	-	no	12	-	-	-	-	-
+1571	1579	umgekehrt	umgekehrt	umgekehrt	ADJD	ADJD.Pos	-	adv	284	-	no	12	-	-	-	-	-
+1581	1591	niederwärts	niederwärts	niederwärts	ADV	ADJD.Pos	-	adv	285	-	no	12	-	-	-	-	-
+1593	1601	abbrennen	abbrennen	abbrennen	VVINF	VINF.Full.-	-	aux	286	-	no	12	-	-	-	-	-
+1603	1608	lassen	lassen	lassen	VVINF	VINF.Full.-	-	cj	282	-	no	12	-	-	-	-	-
+1610	1610	,	,	--	$,	SYM.Pun.Comma	-	root	287	-	no	12	-	-	-	-	-
+1612	1614	daß	daß	daß	KOUS	CONJ.SubFin.-	-	konj	294	-	no	12	-	-	-	-	-
+1616	1618	die	die	der	ART	ART.Def.Nom.Pl.Masc	-	det	290	-	no	12	-	-	-	-	-
+1620	1626	Tropfen	Tropfen	Tropfen	NN	N.Reg.Nom.Pl.Masc	-	subj	294	-	no	12	-	-	-	-	-
+1628	1630	auf	auf	auf	APPR	APPR.Auf	-	pp	290	-	no	12	-	-	-	-	-
+1632	1642	unbenutzten	unbenutzten	unbenutzt	ADJA	ADJA.Pos.Acc.Sg.Masc	-	attr	293	-	no	12	-	-	-	-	-
+1644	1647	Stal	Stahl	Stahl	NN	N.Reg.Acc.Sg.Masc	-	pn	291	-	no	12	-	-	-	-	-
+1649	1656	gefallen	gefallen	fallen	VVPP	VPP.Full.Psp	-	root	294	-	no	12	-	-	-	-	-
+1658	1658	.	.	--	$.	SYM.Pun.Sent	-	root	295	-	no	12	-	-	-	-	-
+1660	1663	1582	1582	1582	FM.la	CARD	-	root	296	-	yes	13	-	-	-	-	-
+1665	1665	,	,	--	$,	SYM.Pun.Comma	-	root	297	-	no	13	-	-	-	-	-
+1667	1668	2.	2.	2.	FM.la	ADJA.Pos.*.Sg.Masc	-	attr	299	-	no	13	-	-	-	-	-
+1670	1676	October	Oktober	Oktober	FM.la	N.Reg.*.Sg.Masc	-	root	299	-	no	13	-	-	-	-	-
+1678	1678	.	.	--	$.	SYM.Pun.Sent	-	root	300	-	no	13	-	-	-	-	-
+1680	1685	Anncke	Anke	Anke	NE	N.Name.Nom.Sg.Fem	306|348|358	subj	303	yes	yes	14	-	frame.3	speaker.3_7	-	-
+1687	1694	Engefers	Engefers	Engefer	NE	N.Name.Gen.Sg.Fem	306|348|358	app	301	yes	no	14	-	frame.3	speaker.3_7	-	-
+1696	1702	bekennt	bekennt	bekennen	VVFIN	VFIN.Full.3.Sg.Pres.Ind	-	root	303	-	no	14	-	frame.3	-	intexpr.3	-
+1704	1704	,	,	--	$,	SYM.Pun.Comma	-	root	304	-	no	14	-	frame.3	-	-	-
+1706	1708	daß	daß	daß	KOUS	CONJ.SubFin.-	-	root	305	-	no	14	indirect.speech.3	-	-	-	-
+1710	1712	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	301|302|348|358	subj	332	-	no	14	indirect.speech.3	-	-	-	-
+1714	1719	Wasser	Wasser	Wasser	NN	N.Reg.Acc.Sg.Neut	-	obja	308	-	no	14	indirect.speech.3	-	-	-	-
+1721	1727	gefüllt	gefüllt	füllen	VVPP	ADJD.Pos	-	aux	332	-	no	14	indirect.speech.3	-	-	-	-
+1729	1733	gegen	gegen	gegen	APPR	APPR.Acc	-	pp	308	-	no	14	indirect.speech.3	-	-	-	-
+1735	1737	den	den	der	ART	ART.Def.Acc.Sg.Masc	207|208|602|603	det	311	-	no	14	indirect.speech.3	-	-	-	-
+1739	1743	Strom	Strom	Strom	NN	N.Reg.Acc.Sg.Masc	207|208|602|603	pn	309	-	no	14	indirect.speech.3	-	-	-	-
+1745	1746	in	in	in	APPR	APPR.In	-	pp	308	-	no	14	indirect.speech.3	-	-	-	-
+1748	1752	aller	aller	aller	PIAT	PRO.Indef.Attr.-.Dat.Sg.Masc	-	det	314	-	no	14	indirect.speech.3	-	-	-	-
+1754	1759	Teufel	Teufel	Teufel	NN	N.Reg.Dat.Sg.Masc	-	pn	312	-	no	14	indirect.speech.3	-	-	-	-
+1761	1765	Namen	Namen	Name	NN	N.Reg.Acc.Sg.Masc	-	app	314	-	no	14	indirect.speech.3	-	-	-	-
+1767	1767	,	,	--	$,	SYM.Pun.Comma	-	root	316	-	no	14	indirect.speech.3	-	-	-	-
+1769	1771	den	den	der	ART	ART.Def.Acc.Sg.Masc	-	det	318	-	no	14	indirect.speech.3	-	-	-	-
+1773	1778	Sedorp	Sedorp	Sedorp	NN	N.Reg.Acc.Sg.Masc	-	obja	320	-	no	14	indirect.speech.3	-	-	-	-
+1780	1784	damit	damit	damit	PAV	PROADV.Dem	-	pp	320	-	no	14	indirect.speech.3	-	-	-	-
+1786	1794	gewaschen	gewaschen	waschen	VVPP	VPP.Full.Psp	-	aux	332	-	no	14	indirect.speech.3	-	-	-	-
+1796	1796	,	,	--	$,	SYM.Pun.Comma	-	root	321	-	no	14	indirect.speech.3	-	-	-	-
+1798	1801	drei	drei	drei	CARD	CARD	227|228|229|230|231|232|323|324|325|326	attr	323	-	no	14	indirect.speech.3	-	-	-	-
+1803	1813	Donnerstage	Donnerstage	Donnerstag	NN	N.Reg.Acc.Pl.Masc	227|228|229|230|231|232|322|324|325|326	obja	332	-	no	14	indirect.speech.3	-	-	-	-
+1815	1817	und	und	und	KON	CONJ.Coord.-	227|228|229|230|231|232|322|323|325|326	kon	323	-	no	14	indirect.speech.3	-	-	-	-
+1819	1822	drei	drei	drei	CARD	CARD	227|228|229|230|231|232|322|323|324|326	attr	326	-	no	14	indirect.speech.3	-	-	-	-
+1824	1832	Dienstage	Dienstage	Dienstag	NN	N.Reg.Acc.Pl.Masc	227|228|229|230|231|232|322|323|324|325	cj	324	-	no	14	indirect.speech.3	-	-	-	-
+1834	1839	Abends	Abends	Abends	NN	ADV	-	gmod	323	-	no	14	indirect.speech.3	-	-	-	-
+1841	1841	,	,	--	$,	SYM.Pun.Comma	-	root	328	-	no	14	indirect.speech.3	-	-	-	-
+1843	1846	dann	dann	dann	ADV	ADV	-	adv	331	-	no	14	indirect.speech.3	-	-	-	-
+1848	1850	das	das	der	ART	ART.Def.Acc.Sg.Neut	-	det	331	-	no	14	indirect.speech.3	-	-	-	-
+1852	1857	Wasser	Wasser	Wasser	NN	N.Reg.Acc.Sg.Neut	-	kon	323	-	no	14	indirect.speech.3	-	-	-	-
+1859	1869	weggegossen	weggegossen	weggegießen	VVPP	VINF.Full.zu	-	root	332	-	no	14	indirect.speech.3	-	-	-	-
+1871	1872	an	an	an	APPR	APPR.An	-	pp	332	-	no	14	indirect.speech.3	-	-	-	-
+1874	1878	einen	einen	ein	ART	ART.Indef.Acc.Sg.Masc	-	det	335	-	no	14	indirect.speech.3	-	-	-	-
+1880	1882	Ort	Ort	Ort	NN	N.Reg.Acc.Sg.Masc	-	pn	333	-	no	14	indirect.speech.3	-	-	-	-
+1884	1884	,	,	--	$,	SYM.Pun.Comma	-	root	336	-	no	14	indirect.speech.3	-	-	-	-
+1886	1887	wo	wo	wo	PWAV	PROADV.Inter	-	adv	340	-	no	14	indirect.speech.3	-	-	-	-
+1889	1892	kein	kein	kein	PIAT	PRO.Indef.Attr.-.Nom.Sg.Masc	-	det	339	-	no	14	indirect.speech.3	-	-	-	-
+1894	1899	Mensch	Mensch	Mensch	NN	N.Reg.Nom.Sg.Masc	-	subj	340	-	no	14	indirect.speech.3	-	-	-	-
+1901	1905	ginge	ginge	gehen	VVFIN	VFIN.Full.3.Sg.Past.Subj	-	rel	332	-	no	14	indirect.speech.3	-	-	-	-
+1907	1907	.	.	--	$.	SYM.Pun.Sent	-	root	341	-	no	14	indirect.speech.3	-	-	-	-
+1909	1909	–	-	--	$(	SYM.Pun.Hyph	-	root	342	-	yes	15	-	-	-	-	-
+1911	1912	3.	3.	3.	ADV	ADV	-	attr	344	-	yes	16	-	-	-	-	-
+1914	1920	Bekandt	bekannt	bekannt	ADJD	ADJD.Pos	-	root	344	-	no	16	-	frame.7	-	intexpr.7	-
+1922	1924	das	das	der	ART	PRO.Dem.Subst.-.Nom.Sg.Neut	-	root	345	-	no	16	-	frame.7	-	-	-
+1926	1926	,	,	--	$,	SYM.Pun.Comma	-	root	346	-	no	16	-	frame.7	-	-	-
+1928	1930	wan	wann	wann	PWAV	PROADV.Inter	-	root	347	-	no	16	indirect.speech.7|reported.speech.9	-	-	-	-
+1932	1934	sie	sie	sie	PPER	PRO.Pers.Subst.3.Acc.Pl.*	301|302|306|358	subj	347	-	no	16	indirect.speech.7|reported.speech.9	-	speaker.9	-	-
+1936	1938	die	die	der	ART	ART.Def.Nom.Sg.Fem	-	det	350	-	no	16	indirect.speech.7|reported.speech.9	-	-	-	-
+1940	1943	Lude	Lude	Lude	NN	N.Reg.Nom.Sg.Masc	-	obja	347	-	no	16	indirect.speech.7|reported.speech.9	-	-	-	-
+1945	1952	gesegnet	gesegnet	segnen	VVPP	VPP.Full.Psp	-	neb	347	-	no	16	indirect.speech.7|reported.speech.9	-	-	intexpr.9	-
+1954	1956	und	und	und	KON	CONJ.Coord.-	-	kon	351	-	no	16	indirect.speech.7	-	-	-	-
+1958	1960	den	den	der	ART	ART.Def.Acc.Sg.Masc	-	det	354	-	no	16	indirect.speech.7	-	-	-	-
+1962	1966	Kopff	Kopf	Kopf	NN	N.Reg.Acc.Sg.Masc	-	obja	355	yes	no	16	indirect.speech.7	-	-	-	-
+1968	1974	gezogen	gezogen	ziehen	VVPP	VPP.Full.Psp	-	cj	352	-	no	16	indirect.speech.7	-	-	-	-
+1976	1976	,	,	--	$,	SYM.Pun.Comma	-	root	356	-	no	16	indirect.speech.7	-	-	-	-
+1978	1982	hette	hätte	haben	VAFIN	VFIN.Haben.3.Sg.Past.Subj	-	kon	347	-	no	16	indirect.speech.7	frame.8	-	-	-
+1984	1986	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	301|302|306|348	subj	359	-	no	16	indirect.speech.7	frame.8	speaker.8	-	-
+1988	1993	gesagt	gesagt	sagen	VVPP	VPP.Full.Psp	-	neb	357	-	no	16	indirect.speech.7	frame.8	-	intexpr.8	-
+1995	1995	:	:	--	$.	SYM.Pun.Colon	-	root	360	-	no	16	indirect.speech.7	frame.8	-	-	-
+1997	1999	Den	Den	der	ART	ART.Def.Acc.Sg.Masc	-	det	362	-	yes	17	indirect.speech.7|direct.speech.8	-	-	-	-
+2001	2005	funth	Fund	Fund	NN	N.Reg.Acc.Sg.Masc	-	root	362	-	no	17	indirect.speech.7|direct.speech.8	-	-	-	-
+2007	2009	den	den	der	ART	PRO.Dem.Subst.-.Acc.Sg.Masc	-	det	364	-	no	17	indirect.speech.7|direct.speech.8	-	-	-	-
+2011	2013	ick	ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	-	obja	365	-	no	17	indirect.speech.7|direct.speech.8	-	-	-	-
+2015	2019	finde	finde	finden	VVFIN	VFIN.Full.1.Sg.Pres.Ind	-	root	365	-	no	17	indirect.speech.7|direct.speech.8	-	-	-	-
+2021	2021	,	,	--	$,	SYM.Pun.Comma	-	root	366	-	no	17	indirect.speech.7|direct.speech.8	-	-	-	-
+2023	2025	die	die	der	PDS	PRO.Dem.Subst.-.Nom.Sg.Fem	-	det	368	-	yes	18	indirect.speech.7|direct.speech.8	-	-	-	-
+2027	2029	mus	muss	muss	VMFIN	VFIN.Mod.3.Sg.Pres.Ind	-	root	368	-	no	18	indirect.speech.7|direct.speech.8	-	-	-	-
+2031	2042	verschwinden	verschwinden	verschwinden	VVINF	VINF.Full.-	-	root	369	-	no	18	indirect.speech.7|direct.speech.8	-	-	-	-
+2044	2044	,	,	--	$,	SYM.Pun.Comma	-	root	370	-	no	18	indirect.speech.7|direct.speech.8	-	-	-	-
+2046	2048	als	als	als	KOUS	CONJ.Comp.-	-	root	371	-	yes	19	indirect.speech.7|direct.speech.8	-	-	-	-
+2050	2052	des	des	der	ART	ART.Def.Gen.Sg.*	-	det	373	-	no	19	indirect.speech.7|direct.speech.8	-	-	-	-
+2054	2061	todemans	todemans	Todeman	ADJA	FM	-	cj	371	-	no	19	indirect.speech.7|direct.speech.8	-	-	-	-
+2063	2067	handt	Hand	Hand	NN	N.Reg.Gen.Sg.Fem	-	app	373	-	no	19	indirect.speech.7|direct.speech.8	-	-	-	-
+2069	2069	,	,	--	$,	SYM.Pun.Comma	-	root	375	-	no	19	indirect.speech.7|direct.speech.8	-	-	-	-
+2071	2073	die	die	der	PRELS	PRO.Rel.Subst.-.Nom.Sg.Fem	-	root	376	-	yes	20	indirect.speech.7|direct.speech.8	-	-	-	-
+2075	2077	die	die	der	ART	ART.Def.Acc.Pl.Neut	-	det	378	-	no	20	indirect.speech.7|direct.speech.8	-	-	-	-
+2079	2082	wede	wede	wede	NN	N.Reg.Acc.Pl.Neut	-	root	378	-	no	20	indirect.speech.7|direct.speech.8	-	-	-	-
+2084	2088	wandt	wandte	wenden	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	app	378	-	no	20	indirect.speech.7|direct.speech.8	-	-	-	-
+2090	2090	,	,	--	$,	SYM.Pun.Comma	-	root	380	-	no	20	indirect.speech.7|direct.speech.8	-	-	-	-
+2092	2094	dar	dar	dar	PTKVZ	PART.Verb	-	root	381	-	yes	21	indirect.speech.7|direct.speech.8	-	-	-	-
+2096	2098	die	die	der	ART	PRO.Dem.Subst.-.Acc.Pl.Neut	393	det	384	-	no	21	indirect.speech.7|direct.speech.8	-	-	-	-
+2100	2106	hillige	hellige	hellig	ADJA	ADJA.Pos.Nom.Sg.Masc	393	attr	384	-	no	21	indirect.speech.7|direct.speech.8	-	-	-	-
+2108	2113	Christ	Christ	Christ	NN	N.Reg.Nom.Sg.Masc	393	subj	381	-	no	21	indirect.speech.7|direct.speech.8	-	-	-	-
+2115	2117	mit	mit	mit	APPR	ADV	-	pp	387	-	no	21	indirect.speech.7|direct.speech.8	-	-	-	-
+2119	2126	gebunden	gebunden	binden	VVPP	VPP.Full.Psp	-	pn	385	-	no	21	indirect.speech.7|direct.speech.8	-	-	-	-
+2128	2132	warth	wart	sein	VVFIN	VFIN.Sein.2.Pl.Past.Ind	-	neb	381	-	no	21	indirect.speech.7|direct.speech.8	-	-	-	-
+2134	2134	,	,	--	$,	SYM.Pun.Comma	-	root	388	-	no	21	indirect.speech.7|direct.speech.8	-	-	-	-
+2136	2138	die	die	der	PRELS	PRO.Rel.Subst.-.Nom.Sg.Fem	-	det	390	-	yes	22	indirect.speech.7|direct.speech.8	-	-	-	-
+2140	2150	verschwanth	schwant	schwanen	VVFIN	VFIN.Full.3.Sg.Pres.Ind	-	subj	394	-	no	22	indirect.speech.7|direct.speech.8	-	-	-	-
+2152	2155	beth	Bett	Bett	NN	N.Reg.Acc.Sg.Neut	-	app	390	-	no	22	indirect.speech.7|direct.speech.8	-	-	-	-
+2157	2158	in	in	in	APPR	APPR.In	-	pp	391	-	no	22	indirect.speech.7|direct.speech.8	-	-	-	-
+2160	2162	die	die	der	ART	ART.Def.Acc.Sg.Fem	382|383|384	pn	392	-	no	22	indirect.speech.7|direct.speech.8	-	-	-	-
+2164	2167	erde	Erde	Erde	NN	N.Reg.Acc.Sg.Fem	-	root	394	-	no	22	indirect.speech.7|direct.speech.8	-	-	-	-
+2169	2169	:	:	--	$.	SYM.Pun.Colon	-	root	395	-	no	22	indirect.speech.7|direct.speech.8	-	-	-	-
+2171	2172	so	so	so	ADV	ADV	-	adv	397	-	yes	23	indirect.speech.7|direct.speech.8	-	-	-	-
+2174	2176	muß	muß	müssen	VMFIN	VFIN.Mod.3.Sg.Pres.Ind	-	root	397	-	no	23	indirect.speech.7|direct.speech.8	-	-	-	-
+2178	2180	das	das	der	ART	PRO.Dem.Subst.-.Nom.Sg.Neut	-	subj	399	-	no	23	indirect.speech.7|direct.speech.8	-	-	-	-
+2182	2185	wehe	wehe	wehen	ADJD	ADJD.Pos	-	root	399	-	no	23	indirect.speech.7|direct.speech.8	-	-	-	-
+2187	2195	nimmermer	nimmermehr	nimmermehr	ADV	ADV	-	adv	399	-	no	23	indirect.speech.7|direct.speech.8	-	-	-	-
+2197	2202	wieder	wieder	wieder	ADV	ADV	-	adv	399	-	no	23	indirect.speech.7|direct.speech.8	-	-	-	-
+2204	2209	werden	werden	werden	VAINF	VINF.Aux.-	-	root	402	-	no	23	indirect.speech.7|direct.speech.8	-	-	-	-
+2211	2211	.	.	--	$.	SYM.Pun.Sent	-	root	403	-	no	23	indirect.speech.7|direct.speech.8	-	-	-	-
+2213	2214	In	In	in	APPR	APPR.In	-	root	404	-	yes	24	indirect.speech.7|direct.speech.8	-	-	-	-
+2216	2218	dem	dem	der	ART	PRO.Dem.Subst.-.Dat.Sg.Neut	-	det	406	-	no	24	indirect.speech.7|direct.speech.8	-	-	-	-
+2220	2225	nahmen	nahmen	nehmen	VVFIN	VFIN.Full.3.Pl.Past.Ind	-	pn	404	-	no	24	indirect.speech.7|direct.speech.8	-	-	-	-
+2227	2229	des	des	der	ART	ART.Def.Gen.Sg.Masc	421	det	408	-	no	24	indirect.speech.7|direct.speech.8	-	-	-	-
+2231	2237	vatters	Vaters	Vater	NN	N.Reg.Gen.Sg.Masc	421	gmod	406	-	no	24	indirect.speech.7|direct.speech.8	-	-	-	-
+2239	2241	und	und	und	KON	CONJ.Coord.-	-	kon	408	-	no	24	indirect.speech.7|direct.speech.8	-	-	-	-
+2243	2245	des	des	der	ART	ART.Def.Gen.Sg.Masc	-	det	411	-	no	24	indirect.speech.7|direct.speech.8	-	-	-	-
+2247	2250	sons	sons	son	NE	N.Reg.Gen.Sg.Masc	-	cj	409	-	no	24	indirect.speech.7|direct.speech.8	-	-	-	-
+2252	2254	und	und	und	KON	CONJ.Coord.-	-	kon	411	-	no	24	indirect.speech.7|direct.speech.8	-	-	-	-
+2256	2258	des	des	der	ART	ART.Def.Gen.Sg.Masc	-	det	416	-	no	24	indirect.speech.7|direct.speech.8	-	-	-	-
+2260	2267	heiligen	heiligen	heilig	ADJA	ADJA.Pos.Gen.Sg.Masc	-	attr	416	-	no	24	indirect.speech.7|direct.speech.8	-	-	-	-
+2269	2275	geistes	Geistes	Geist	NN	N.Reg.Gen.Sg.Masc	-	attr	416	-	no	24	indirect.speech.7|direct.speech.8	-	-	-	-
+2277	2280	Amen	Amen	Amen	NN	ADV	-	cj	412	-	no	24	indirect.speech.7|direct.speech.8	-	-	-	-
+2282	2282	.	.	--	$.	SYM.Pun.Sent	-	root	417	-	no	24	indirect.speech.7|direct.speech.8	-	-	-	-
+2284	2287	Noch	Noch	Noch	ADV	ADV	-	adv	419	-	yes	25	-	frame.6	-	-	-
+2289	2294	ferner	ferner	ferner	ADV	ADV	-	adv	420	-	no	25	-	frame.6	-	-	-
+2296	2302	pluchte	pluchte	pluchen	NN	VFIN.Full.3.Sg.Past.Ind	-	root	420	-	no	25	-	frame.6	-	-	-
+2304	2306	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	407|408	subj	420	-	no	25	-	frame.6	speaker.6_10	-	-
+2308	2309	zu	zu	zu	PTKZU	PART.Zu	-	part	423	-	no	25	-	frame.6	-	-	-
+2311	2315	sagen	sagen	sagen	VVINF	VINF.Full.-	-	obji	420	-	no	25	-	frame.6	-	intexpr.6	-
+2317	2317	:	:	--	$.	SYM.Pun.Colon	-	root	424	-	no	25	-	frame.6	-	-	-
+2319	2320	So	So	so	ADV	ADV	-	adv	426	-	yes	26	direct.speech.6	-	-	-	-
+2322	2325	wahr	wahr	wahr	ADJD	ADJD.Pos	-	root	426	-	no	26	direct.speech.6	-	-	-	-
+2327	2329	als	als	als	KOKOM	CONJ.Comp.-	-	kom	433	-	no	26	direct.speech.6	-	-	-	-
+2331	2333	die	die	der	ART	ART.Def.Nom.Sg.Fem	-	det	429	-	no	26	direct.speech.6	-	-	-	-
+2335	2337	her	her	her	ADV	ADV	-	cj	427	-	no	26	direct.speech.6	-	-	-	-
+2339	2344	christ	Christ	Christ	NN	N.Name.Nom.Sg.*	-	app	429	-	no	26	direct.speech.6	-	-	-	-
+2346	2348	vun	von	von	APPR	APPR.Dat	-	app	430	-	no	26	direct.speech.6	-	-	-	-
+2350	2352	dem	dem	der	ART	ART.Def.Dat.Sg.Masc	-	det	433	-	no	26	direct.speech.6	-	-	-	-
+2354	2361	hilligen	helligen	hellig	ADJA	ADJA.Pos.Dat.Sg.Masc	-	objd	435	-	no	26	direct.speech.6	-	-	-	-
+2363	2367	geist	Geist	Geist	NN	N.Reg.Dat.Sg.Masc	-	app	433	-	no	26	direct.speech.6	-	-	-	-
+2369	2377	empfangen	empfangen	empfangen	VVINF	VINF.Full.-	-	root	435	-	no	26	direct.speech.6	-	-	-	-
+2379	2383	wurth	wurd	wurd	VVFIN	VFIN.Full.3.Sg.Past.Ind	457	subj	443	-	no	26	direct.speech.6	-	-	-	-
+2385	2385	,	,	--	$,	SYM.Pun.Comma	-	root	437	-	no	26	direct.speech.6	-	-	-	-
+2387	2389	von	von	von	APPR	APPR.Dat	-	pp	443	-	no	26	direct.speech.6	-	-	-	-
+2391	2396	Marien	Marie	Marie	NE	N.Name.Nom.Sg.Fem	-	pn	438	yes	no	26	direct.speech.6	-	-	-	-
+2398	2400	der	der	der	ART	ART.Def.Nom.Sg.Masc	-	det	441	yes	no	26	direct.speech.6	-	-	-	-
+2402	2406	Moder	Moder	Moder	NN	N.Reg.Nom.Sg.Masc	-	gmod	439	yes	no	26	direct.speech.6	-	-	-	-
+2408	2412	Godes	Godes	Godes	NE	N.Name.Nom.Sg.*	-	app	441	yes	no	26	direct.speech.6	-	-	-	-
+2414	2420	geboren	geboren	gebären	VVPP	VPP.Full.Psp	-	neb	435	-	no	26	direct.speech.6	-	-	-	-
+2422	2426	wurth	wurd	wurd	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	root	444	yes	no	26	direct.speech.6	-	-	-	-
+2428	2428	,	,	--	$,	SYM.Pun.Comma	-	root	445	-	no	26	direct.speech.6	-	-	-	-
+2430	2432	und	und	und	KON	CONJ.Coord.-	-	root	446	-	no	26	direct.speech.6	-	-	-	-
+2434	2438	leidt	leid	leid	ADJD	ADJD.Pos	-	root	447	-	no	26	direct.speech.6	-	-	-	-
+2440	2442	vor	vor	vor	APPR	APPR.Vor	-	pp	470	-	no	26	direct.speech.6	-	-	-	-
+2444	2446	uns	uns	uns	PPER	PRO.Pers.Subst.1.Dat.Pl.*	459	pn	448	-	no	26	direct.speech.6	-	-	-	-
+2448	2450	den	den	der	ART	ART.Def.Acc.Sg.Masc	-	det	451	-	no	26	direct.speech.6	-	-	-	-
+2452	2458	bittern	bitteren	bitter	ADJA	ADJA.Pos.Acc.Sg.Masc	-	objd	470	-	no	26	direct.speech.6	-	-	-	-
+2460	2463	todt	tot	tot	ADJD	ADJD.Pos	-	app	451	-	no	26	direct.speech.6	-	-	-	-
+2465	2465	,	,	--	$,	SYM.Pun.Comma	-	root	453	-	no	26	direct.speech.6	-	-	-	-
+2467	2468	so	so	so	ADV	ADV	-	adv	455	-	no	26	direct.speech.6	-	-	-	-
+2470	2479	warhafftig	wahrhaftig	wahrhaftig	ADJD	ADJD.Pos	-	adv	458	-	no	26	direct.speech.6	-	-	-	-
+2481	2483	als	als	als	KOKOM	CONJ.Comp.-	-	kom	455	-	no	26	direct.speech.6	-	-	-	-
+2485	2486	er	er	er	PPER	PRO.Pers.Subst.3.Nom.Sg.Masc	436	cj	456	-	no	26	direct.speech.6	-	-	-	-
+2488	2490	vor	vor	vor	APPR	APPR.Vor	-	pp	461	-	no	26	direct.speech.6	-	-	-	-
+2492	2494	uns	uns	uns	PPER	PRO.Pers.Subst.1.Dat.Pl.*	449	pn	458	-	no	26	direct.speech.6	-	-	-	-
+2496	2498	den	den	der	ART	ART.Def.Acc.Sg.Masc	-	det	461	-	no	26	direct.speech.6	-	-	-	-
+2500	2503	todt	tot	tot	ADJD	ADJD.Pos	-	app	452	-	no	26	direct.speech.6	-	-	-	-
+2505	2509	leith	Leid	Leid	NN	N.Reg.Acc.Sg.Neut	-	app	461	-	no	26	direct.speech.6	-	-	-	-
+2511	2512	an	an	an	APPR	APPR.An	-	pp	462	-	no	26	direct.speech.6	-	-	-	-
+2514	2516	dem	dem	der	ART	ART.Def.Dat.Sg.Neut	-	det	465	-	no	26	direct.speech.6	-	-	-	-
+2518	2521	fron	fron	fron	NN	FM	-	pn	463	-	no	26	direct.speech.6	-	-	-	-
+2523	2525	des	des	der	ART	ART.Def.Gen.Sg.Neut	-	det	467	-	no	26	direct.speech.6	-	-	-	-
+2527	2534	creutzes	Kreuzes	Kreuz	NN	N.Reg.Gen.Sg.Neut	-	gmod	465	-	no	26	direct.speech.6	-	-	-	-
+2536	2536	,	,	--	$,	SYM.Pun.Comma	-	root	468	-	no	26	direct.speech.6	-	-	-	-
+2538	2539	so	so	so	ADV	ADV	-	adv	470	-	no	26	direct.speech.6	-	-	-	-
+2541	2543	war	war	sein	VAFIN	VFIN.Sein.3.Sg.Past.Ind	-	root	470	-	no	26	direct.speech.6	-	-	-	-
+2545	2551	schaltu	schalst	schalst	ADJD	ADJD.Pos	479|508|543|563|567|568|578|584	subj	470	-	no	26	direct.speech.6	-	-	-	-
+2553	2559	ablaßen	ablaßen	ablaßen	VVINF	VPP.Full.Psp	-	root	472	-	no	26	direct.speech.6	-	-	-	-
+2561	2563	von	von	von	APPR	APPR.Dat	-	pp	472	-	no	26	direct.speech.6	-	-	-	-
+2565	2570	dießem	diesem	dieser	PDAT	PRO.Dem.Attr.-.Dat.Sg.Masc	-	pn	473	-	no	26	direct.speech.6	-	-	-	-
+2572	2579	menschen	Menschen	Mensch	NN	N.Reg.Dat.Sg.Masc	-	app	474	-	no	26	direct.speech.6	-	-	-	-
+2581	2581	.	.	--	$.	SYM.Pun.Sent	-	root	476	-	no	26	direct.speech.6	-	-	-	-
+2583	2586	Noch	Noch	noch	ADV	ADV	-	adv	478	-	yes	27	indirect freeIndirect.speech.10	-	-	-	-
+2588	2595	bruckede	bruckede	bruckeden	VVFIN	VFIN.Full.3.Sg.Pres.Subj	-	root	478	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2597	2599	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	471|508|543|563|567|568|578|584	subj	478	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2601	2603	tho	Too	Too	NE	N.Name.*.*.*	-	pp	478	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2605	2610	diesem	diesem	dieser	PDAT	PRO.Dem.Attr.-.Dat.Sg.Neut	-	det	482	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2612	2616	water	water	water	NE	N.Name.Nom.Sg.*	-	pn	480	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2618	2628	negenderlei	negenderlei	negenderlei	NE	CARD	-	app	482	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2630	2635	krüder	kruder	kruder	ADJD	ADJA.Pos.Nom.Sg.Masc	-	app	483	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2637	2637	,	,	--	$,	SYM.Pun.Comma	-	root	485	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2639	2646	erstlich	erstlich	erstlich	ADJD	ADJD.Pos	-	adv	487	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2648	2654	wormüde	wormüde	wormüde	FM	ADJA.Pos.Nom.Sg.Fem	-	root	487	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2656	2656	,	,	--	$,	SYM.Pun.Comma	-	root	488	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2658	2663	poppel	poppel	poppel	FM	FM	-	root	489	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2665	2665	,	,	--	$,	SYM.Pun.Comma	-	root	490	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2667	2677	unvortreden	unvortreden	unvortreden	FM	FM	-	kon	489	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2679	2679	,	,	--	$,	SYM.Pun.Comma	-	root	492	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2681	2685	Mater	Mater	--	FM	FM	-	kon	491	yes	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2687	2687	,	,	--	$,	SYM.Pun.Comma	-	root	494	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2689	2697	Adermonie	Adermonie	Adermonie	NE	FM	-	kon	493	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2699	2699	,	,	--	$,	SYM.Pun.Comma	-	root	496	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2701	2707	Glatthe	glatte	glatt	ADJA	ADJA.Pos.Nom.Sg.Fem	-	kon	495	yes	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2709	2716	Hinrichk	Hinrichk	Hinrichk	NN	N.Reg.Nom.Sg.Fem	-	app	497	yes	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2718	2718	,	,	--	$,	SYM.Pun.Comma	-	root	499	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2720	2730	Spicknarden	Spicknarden	Spicknarde	NN	N.Reg.Nom.Pl.Fem	-	kon	497	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2732	2732	,	,	--	$,	SYM.Pun.Comma	-	root	501	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2734	2740	Eueruth	Eueruth	Eueruth	XY	N.Name.Nom.Sg.Fem	-	kon	500	yes	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2742	2742	,	,	--	$,	SYM.Pun.Comma	-	root	503	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2744	2754	Negenkrafft	Negenkrafft	Negenkrafft	XY	N.Name.Nom.Sg.*	-	kon	502	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2756	2756	,	,	--	$,	SYM.Pun.Comma	-	root	505	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2758	2760	ock	ock	ock	NE	N.Name.Nom.Sg.*	-	root	506	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2762	2766	nehme	nehme	nehmen	VVFIN	VFIN.Full.3.Sg.Pres.Subj	-	root	507	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2768	2770	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	471|479|543|563|567|568|578|584	subj	507	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2772	2777	dartho	dartho	dartho	FM	ADJD.Pos	-	obja	507	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2779	2789	negenderlei	negenderlei	negenderlei	FM	CARD	-	objd	507	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2791	2795	holtz	Holz	Holz	NN	N.Reg.Dat.Sg.Neut	-	app	510	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2797	2797	,	,	--	$,	SYM.Pun.Comma	-	root	512	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2799	2804	Eicken	Eicken	Eicken	NE	N.Reg.Dat.Pl.Neut	-	kon	511	yes	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2806	2806	,	,	--	$,	SYM.Pun.Comma	-	root	514	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2808	2814	Boicken	Boicken	Boicken	NE	N.Reg.Dat.Pl.Fem	-	kon	513	yes	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2816	2816	,	,	--	$,	SYM.Pun.Comma	-	root	516	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2818	2823	Ellern	Ellen	Ellen	NE	N.Reg.Dat.Pl.Fem	-	kon	515	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2825	2825	,	,	--	$,	SYM.Pun.Comma	-	root	518	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2827	2831	Dorne	Dornen	Dorne	NN	N.Reg.Dat.Pl.Masc	-	kon	517	yes	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2833	2833	,	,	--	$,	SYM.Pun.Comma	-	root	520	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2835	2841	Quitzen	Quitzen	Quitze	XY	N.Reg.Dat.Pl.Masc	-	kon	519	yes	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2843	2843	,	,	--	$,	SYM.Pun.Comma	-	root	522	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2845	2850	Alhorn	Alhorn	Alhorn	XY	N.Reg.Dat.Pl.Masc	-	app	521	yes	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2852	2852	,	,	--	$,	SYM.Pun.Comma	-	root	524	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2854	2856	und	und	und	KON	CONJ.Coord.-	-	kon	521	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2858	2864	sonsten	sonsten	son	ADV	ADJA.Sup.Acc.Sg.Masc	-	cj	525	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2866	2875	Fürenholtz	Fürenholtz	Fürenholtz	NE	N.Reg.Acc.Sg.Masc	-	app	526	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2877	2879	und	und	und	KON	CONJ.Coord.-	-	kon	527	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2881	2889	tweierlei	tweierlei	tweierlei	NE	CARD	-	attr	530	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2891	2895	Dorne	Dornen	Dornen	NN	N.Reg.Acc.Pl.Masc	-	cj	528	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2897	2897	.	.	--	$.	SYM.Pun.Sent	-	root	531	-	no	27	indirect freeIndirect.speech.10	-	-	-	-
+2899	2902	Noch	Noch	noch	ADV	ADV	-	adv	533	-	yes	28	indirect freeIndirect.speech.10	-	-	-	-
+2904	2908	müste	müsste	müssen	VMFIN	VFIN.Mod.3.Sg.Past.Subj	-	root	533	-	no	28	indirect freeIndirect.speech.10	-	-	-	-
+2910	2912	man	man	man	PIS	PRO.Indef.Subst.-.Nom.Sg.*	-	subj	533	-	no	28	indirect freeIndirect.speech.10	-	-	-	-
+2914	2918	holen	holen	holen	VVINF	VINF.Full.-	-	root	535	-	no	28	indirect freeIndirect.speech.10	-	-	-	-
+2920	2920	9	9	9	CARD	CARD	-	attr	537	-	no	28	indirect freeIndirect.speech.10	-	-	-	-
+2922	2927	Steine	Steine	Stein	NN	N.Reg.Acc.Pl.Masc	-	subj	535	-	no	28	indirect freeIndirect.speech.10	-	-	-	-
+2929	2931	uth	uth	--	XY	SYM.Other.Auth	-	app	537	-	no	28	indirect freeIndirect.speech.10	-	-	-	-
+2933	2936	dren	drei	drei	CARD	CARD	-	app	538	-	no	28	indirect freeIndirect.speech.10	-	-	-	-
+2938	2950	velthscheiden	velthscheiden	velthscheiden	NN	VINF.Full.-	-	app	539	-	no	28	indirect freeIndirect.speech.10	-	-	-	-
+2952	2964	stilschweigen	Stillschweigen	Stillschweigen	NN	VINF.Full.-	-	app	540	-	no	28	indirect freeIndirect.speech.10	-	-	-	-
+2966	2966	.	.	--	$.	SYM.Pun.Sent	-	root	542	-	no	28	indirect freeIndirect.speech.10	-	-	-	-
+2968	2970	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	471|479|508|563|567|568|578|584	subj	544	-	yes	29	indirect freeIndirect.speech.10	-	-	-	-
+2972	2975	habe	habe	haben	VAFIN	VFIN.Haben.3.Sg.Pres.Subj	-	root	544	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+2977	2979	von	von	von	APPR	APPR.Dat	-	pp	549	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+2981	2985	einem	einem	ein	ART	ART.Indef.Dat.Sg.Neut	-	det	547	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+2987	2991	Weibe	Weibe	Weibe	NN	N.Reg.Dat.Sg.Neut	-	pn	545	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+2993	2999	zaubern	zaubern	zaubern	VVINF	VINF.Full.-	-	obji	549	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3001	3007	gelernt	gelernt	lernen	VVPP	VPP.Full.Psp	-	aux	544	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3009	3009	,	,	--	$,	SYM.Pun.Comma	-	root	550	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3011	3013	sei	sei	sein	VAFIN	VFIN.Sein.3.Sg.Pres.Subj	-	kon	544	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3015	3021	viermal	viermal	viermal	ADV	ADV	-	adv	555	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3023	3025	auf	auf	auf	APPR	APPR.Auf	-	pp	555	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3027	3036	Blocksberg	Blocksberg	Blocksberg	NN	N.Name.Nom.Sg.Masc	-	pn	553	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3038	3044	gewesen	gewesen	sein	VAPP	VPP.Sein.Psp	-	aux	551	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3046	3046	,	,	--	$,	SYM.Pun.Comma	-	root	556	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3048	3050	der	der	der	ART	ART.Def.Nom.Sg.Masc	47|627	det	558	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3052	3057	Teufel	Teufel	Teufel	NN	N.Reg.Nom.Sg.Masc	47|627	subj	559	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3059	3061	sei	sei	sein	VAFIN	VFIN.Sein.3.Sg.Pres.Subj	-	kon	551	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3063	3065	als	als	als	KOUS	APPR.Als	-	kom	564	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3067	3076	Ziegenbock	Ziegenbock	Ziegenbock	NN	N.Reg.Nom.Sg.Masc	-	cj	560	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3078	3079	zu	zu	zu	APPR	APPR.Dat	-	objp	564	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3081	3083	ihr	ihr	ihr	PPER	PRO.Pers.Subst.3.Dat.Sg.Fem	471|479|508|543|567|568|578|584	pn	562	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3085	3092	gekommen	gekommen	kommen	VVPP	VPP.Full.Psp	-	aux	559	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3094	3094	,	,	--	$,	SYM.Pun.Comma	-	root	565	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3096	3098	auf	auf	auf	APPR	APPR.Auf	-	root	566	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3100	3102	dem	dem	der	PRELS	PRO.Rel.Subst.-.Dat.Sg.Neut	471|479|508|543|563|578|584	pn	566	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3104	3106	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Pl.*	471|479|508|543|563|578|584	subj	569	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3108	3115	gesessen	gesessen	sitzen	VVPP	VPP.Full.Psp	-	root	569	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3117	3117	.	.	--	$.	SYM.Pun.Sent	-	root	570	-	no	29	indirect freeIndirect.speech.10	-	-	-	-
+3119	3120	In	In	in	APPR	APPR.In	-	pp	577	-	yes	30	indirect freeIndirect.speech.10	-	-	-	-
+3122	3126	einen	einen	ein	ART	ART.Indef.Acc.Sg.Masc	-	det	573	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3128	3133	Grapen	Graben	Graben	NN	N.Reg.Acc.Sg.Masc	-	pn	571	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3135	3140	hinter	hinter	hinter	APPR	APPR.Hinter	-	pp	573	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3142	3144	dem	dem	der	ART	ART.Def.Dat.Sg.Neut	583	det	576	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3146	3150	Feuer	Feuer	Feuer	NN	N.Reg.Dat.Sg.Neut	583	pn	574	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3152	3156	hätte	hätte	haben	VAFIN	VFIN.Haben.3.Sg.Past.Subj	-	root	577	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3158	3160	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	471|479|508|543|563|567|568|584	subj	577	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3162	3165	eine	eine	ein	ART	ART.Indef.Acc.Sg.Fem	-	det	580	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3167	3171	quade	Quade	Quade	NN	N.Reg.Acc.Sg.Fem	-	obja	577	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3173	3177	pogge	Pogge	Pogge	NE	ADJD.Pos	-	app	580	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3179	3179	,	,	--	$,	SYM.Pun.Comma	-	root	582	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3181	3183	die	die	der	PRELS	PRO.Rel.Subst.-.Acc.Sg.Fem	575|576	root	583	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3185	3187	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Pl.*	471|479|508|543|563|567|568|578	subj	588	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3189	3191	aus	aus	aus	APPR	APPR.Dat	-	pp	588	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3193	3195	dem	dem	der	ART	ART.Def.Dat.Sg.Neut	-	det	587	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3197	3201	Felde	Felde	Feld	NN	N.Reg.Dat.Sg.Neut	-	pn	585	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3203	3208	geholt	geholt	holen	VVPP	VPP.Full.Psp	-	root	588	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3210	3210	,	,	--	$,	SYM.Pun.Comma	-	root	589	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3212	3214	und	und	und	KON	CONJ.Coord.-	-	root	590	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3216	3219	eine	eine	ein	ART	ART.Indef.Acc.Sg.Fem	594	det	592	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3221	3228	Schlange	Schlange	Schlange	NN	N.Reg.Acc.Sg.Fem	594	cj	590	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3230	3230	,	,	--	$,	SYM.Pun.Comma	-	root	593	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3232	3234	die	die	der	PRELS	PRO.Rel.Subst.-.Acc.Sg.Fem	591|592	root	594	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3236	3238	der	der	der	ART	ART.Def.Nom.Sg.Masc	-	det	596	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3240	3243	Böse	Böse	Böse	NN	N.Reg.Nom.Sg.Masc	-	root	596	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3245	3251	geholet	geholt	holen	VVPP	ADJD.Pos	-	app	596	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3253	3253	,	,	--	$,	SYM.Pun.Comma	-	root	598	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3255	3257	und	und	und	KON	CONJ.Coord.-	-	root	599	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3259	3264	Wasser	Wasser	Wasser	NN	N.Reg.Nom.Sg.Neut	612	subj	607	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3266	3270	gegen	gegen	gegen	APPR	APPR.Acc	-	pp	607	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3272	3274	den	den	der	ART	ART.Def.Acc.Sg.Masc	207|208|310|311|603	det	603	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3276	3280	Strom	Strom	Strom	NN	N.Reg.Acc.Sg.Masc	207|208|310|311|602	pn	601	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3282	3283	in	in	in	APPR	APPR.In	-	pp	607	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3285	3289	aller	aller	aller	PIAT	PRO.Indef.Attr.-.Dat.Sg.Masc	-	det	606	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3291	3295	Dufel	Dusel	Dusel	NN	N.Reg.Dat.Sg.Masc	-	pn	604	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3297	3302	nahmen	nahmen	nehmen	VVFIN	VFIN.Full.3.Pl.Past.Ind	-	cj	599	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3304	3311	gefüllet	gefüllt	füllen	ADJD	ADJD.Pos	-	obja	607	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3313	3318	gethan	getan	tun	VVPP	VPP.Full.Psp	-	app	608	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3320	3320	,	,	--	$,	SYM.Pun.Comma	-	root	610	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3322	3327	darmit	damit	damit	KOUS	CONJ.SubFin.-	-	root	611	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3329	3331	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Pl.*	600	subj	620	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3333	3335	den	den	der	ART	ART.Def.Acc.Sg.Masc	-	det	614	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3337	3341	Düfel	Düffel	Düffel	NN	N.Reg.Acc.Sg.Masc	-	obja	620	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3343	3347	9male	9male	9mal	CARD	N.Reg.Nom.Sg.Fem	-	app	614	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3349	3351	auf	auf	auf	APPR	APPR.Auf	-	pp	620	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3353	3355	den	den	der	ART	ART.Def.Acc.Sg.Masc	-	det	618	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3357	3366	Donnerstag	Donnerstag	Donnerstag	NN	N.Reg.Acc.Sg.Masc	-	pn	616	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3368	3373	Abendt	Abend	Abend	NN	ADV	-	app	618	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3375	3381	gebadet	gebadet	baden	VVPP	ADJD.Pos	-	neb	611	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3383	3385	als	als	als	KOKOM	CONJ.Comp.-	-	root	621	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3387	3389	ein	ein	ein	ART	ART.Indef.Nom.Sg.Neut	-	root	622	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3391	3395	klein	klein	klein	ADJD	ADJD.Pos	-	adv	624	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3397	3401	kindt	Kind	Kind	NN	N.Reg.Nom.Sg.Neut	-	neb	626	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3403	3403	,	,	--	$,	SYM.Pun.Comma	-	root	625	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3405	3409	hette	hätte	haben	VAFIN	VFIN.Haben.3.Sg.Past.Subj	-	root	626	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3411	3413	ihn	ihn	ihn	PPER	PRO.Pers.Subst.3.Acc.Sg.Masc	47|557|558	obja	635	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3415	3417	bei	bei	bei	APPR	APPR.Dat	-	pp	635	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3419	3421	dem	dem	der	ART	ART.Def.Dat.Sg.Masc	-	det	630	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3423	3426	fure	fure	fuer	FM	FM	-	pn	628	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3428	3435	gedroget	gedroget	drogen	FM	FM	-	app	630	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3437	3439	und	und	und	KON	CONJ.Coord.-	-	kon	628	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3441	3442	zu	zu	zu	APPR	APPR.Dat	-	cj	632	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3444	3448	bedde	bedde	bedde	NE	FM	-	pn	633	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3450	3455	gelegt	gelegt	legen	VVPP	VPP.Full.Psp	-	neb	626	-	no	30	indirect freeIndirect.speech.10	-	-	-	-
+3457	3457	.	.	--	$.	SYM.Pun.Sent	-	root	636	-	no	30	indirect freeIndirect.speech.10	-	-	-	-

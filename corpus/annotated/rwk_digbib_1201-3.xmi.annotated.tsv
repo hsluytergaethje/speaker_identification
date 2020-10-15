@@ -1,0 +1,628 @@
+start	end	tok	normtok	lemma	pos	rfpos	coreference	dependency	parentID	NER	sentstart	senID	stwr	frame	speaker	intexpr	note
+0	7	Obgleich	Obgleich	obgleich	KOUS	CONJ.SubFin.-	-	konj	12	-	yes	0	direct.speech.8	-	-	-	-
+9	11	ich	ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	15|23|29|43|48|55|66|84|94|119|132|138|141|149|151	subj	12	-	no	0	direct.speech.8	-	speaker.8	-	-
+13	16	mich	mich	mich	PRF	PRO.Refl.Subst.1.Acc.Sg.*	-	obja	11	-	no	0	direct.speech.8	-	-	-	-
+18	20	für	für	für	APPR	APPR.Acc	-	pp	11	-	no	0	direct.speech.8	-	-	-	-
+22	24	den	den	d	ART	ART.Def.Acc.Sg.Masc	-	det	5	-	no	0	direct.speech.8	-	-	-	-
+26	31	Verein	Verein	Verein	NN	N.Reg.Acc.Sg.Masc	-	pn	3	-	no	0	direct.speech.8	-	-	-	-
+33	35	für	für	für	APPR	APPR.Acc	-	pp	11	-	no	0	direct.speech.8	-	-	-	-
+37	42	Innere	Innere	inner	ADJA	ADJA.Pos.Acc.Sg.Fem	80|81|81|624|625|625	attr	8	-	no	0	direct.speech.8	-	-	-	-
+44	50	Mission	Mission	Mission	NN	N.Reg.Acc.Sg.Fem	80|81|81|624|625|625	pn	6	-	no	0	direct.speech.8	-	-	-	-
+52	56	stets	stets	stets	ADV	ADV	-	adv	11	-	no	0	direct.speech.8	-	-	-	-
+58	64	lebhaft	lebhaft	lebhaft	ADJD	ADJD.Pos	-	adv	11	-	no	0	direct.speech.8	-	-	-	-
+66	77	interessiert	interessiert	interessieren	VVPP	VPP.Full.Psp	-	aux	12	-	no	0	direct.speech.8	-	-	-	-
+79	82	habe	habe	haben	VAFIN	VFIN.Haben.1.Sg.Pres.Ind	-	neb	14	-	no	0	direct.speech.8	-	-	-	-
+84	84	,	,	,	$,	SYM.Pun.Comma	-	root	13	-	no	0	direct.speech.8	-	-	-	-
+86	89	höre	höre	zuhören	VVFIN	VFIN.Full.1.Sg.Pres.Ind	-	root	14	-	no	0	direct.speech.8	-	-	-	-
+91	93	ich	ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	1|23|29|43|48|55|66|84|94|119|132|138|141|149|151	subj	14	-	no	0	direct.speech.8	-	-	-	-
+95	97	nur	nur	nur	ADV	ADV	-	adv	14	-	no	0	direct.speech.8	-	-	-	-
+99	101	mit	mit	mit	APPR	APPR.Dat	-	pp	14	-	no	0	direct.speech.8	-	-	-	-
+103	108	halbem	halbem	halb	ADJA	ADJA.Pos.Dat.Sg.Neut	-	attr	19	-	no	0	direct.speech.8	-	-	-	-
+110	112	Ohr	Ohr	Ohr	NN	N.Reg.Dat.Sg.Neut	-	pn	17	-	no	0	direct.speech.8	-	-	-	-
+114	115	zu	zu	zu	PTKVZ	PART.Verb	-	avz	14	-	no	0	direct.speech.8	-	-	-	-
+117	117	,	,	,	$,	SYM.Pun.Comma	-	root	21	-	no	0	direct.speech.8	-	-	-	-
+119	122	denn	denn	denn	KON	CONJ.Coord.Denn	-	kon	14	-	no	0	direct.speech.8	-	-	-	-
+124	126	ich	ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	1|15|29|43|48|55|66|84|94|119|132|138|141|149|151	subj	24	-	no	0	direct.speech.8	-	-	-	-
+128	130	bin	bin	sein	VAFIN	VFIN.Sein.1.Sg.Pres.Ind	-	cj	22	-	no	0	direct.speech.8	-	-	-	-
+132	135	viel	viel	viel	ADV	ADV	-	adv	27	-	no	0	direct.speech.8	-	-	-	-
+137	138	zu	zu	zu	PTKA	PART.Deg	-	adv	27	-	no	0	direct.speech.8	-	-	-	-
+140	143	sehr	sehr	sehr	ADV	ADV	-	adv	31	-	no	0	direct.speech.8	-	-	-	-
+145	147	mit	mit	mit	APPR	APPR.Dat	-	pp	31	-	no	0	direct.speech.8	-	-	-	-
+149	151	mir	mir	ich	PPER	PRO.Pers.Subst.1.Dat.Sg.*	1|15|23|43|48|55|66|84|94|119|132|138|141|149|151	pn	28	-	no	0	direct.speech.8	-	-	-	-
+153	158	selber	selber	selber	ADV	ADV	-	adv	29	-	no	0	direct.speech.8	-	-	-	-
+160	170	beschäftigt	beschäftigt	beschäftigen	VVPP	VPP.Full.Psp	-	aux	24	-	no	0	direct.speech.8	-	-	-	-
+172	172	.	.	.	$.	SYM.Pun.Sent	-	root	32	-	no	0	direct.speech.8	-	-	-	-
+174	176	Als	Als	als	KOUS	CONJ.SubFin.-	-	konj	40	-	yes	1	direct.speech.8	-	-	-	-
+178	181	dann	dann	dann	ADV	ADV	-	adv	40	-	no	1	direct.speech.8	-	-	-	-
+183	189	endlich	endlich	endlich	ADV	ADV	-	adv	40	-	no	1	direct.speech.8	-	-	-	-
+191	193	die	die	d	ART	ART.Def.Nom.Sg.Fem	91|92|247|248|312|313	det	37	-	no	1	direct.speech.8	-	-	-	-
+195	199	Sache	Sache	Sache	NN	N.Reg.Nom.Sg.Fem	91|92|247|248|312|313	subj	40	-	no	1	direct.speech.8	-	-	-	-
+201	202	zu	zu	zu	APPR	APPR.Dat	-	pp	40	-	no	1	direct.speech.8	-	-	-	-
+204	207	Ende	Ende	Ende	NN	N.Reg.Dat.Sg.Neut	-	pn	38	-	no	1	direct.speech.8	-	-	-	-
+209	211	ist	ist	sein	VAFIN	VFIN.Sein.3.Sg.Pres.Ind	-	neb	47	-	no	1	direct.speech.8	-	-	-	-
+213	213	,	,	,	$,	SYM.Pun.Comma	-	root	41	-	no	1	direct.speech.8	-	-	-	-
+215	217	und	und	und	KON	CONJ.Coord.-	-	kon	40	-	no	1	direct.speech.8	-	-	-	-
+219	221	ich	ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	1|15|23|29|48|55|66|84|94|119|132|138|141|149|151	subj	45	-	no	1	direct.speech.8	-	-	-	-
+223	227	gehen	gehen	gehen	VVINF	VINF.Full.-	-	aux	45	-	no	1	direct.speech.8	-	-	-	-
+229	232	will	will	wollen	VMFIN	VFIN.Mod.1.Sg.Pres.Ind	-	cj	42	-	no	1	direct.speech.8	-	-	-	-
+234	234	,	,	,	$,	SYM.Pun.Comma	-	root	46	-	no	1	direct.speech.8	-	-	-	-
+236	240	werde	werde	werden	VAFIN	VFIN.Aux.1.Sg.Pres.Ind	-	root	47	-	no	1	direct.speech.8|reported.speech.3	-	-	-	-
+242	244	ich	ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	1|15|23|29|43|55|66|84|94|119|132|138|141|149|151	subj	47	-	no	1	direct.speech.8|reported.speech.3	-	-	-	-
+246	248	zum	zum	zum	APPRART	APPRART.Dat.Sg.Masc	-	pp	53	-	no	1	direct.speech.8|reported.speech.3	-	-	-	-
+250	260	Präsidenten	Präsidenten	Präsident	NN	N.Reg.Dat.Sg.Masc	-	pn	49	-	no	1	direct.speech.8|reported.speech.3	-	speaker.4	-	-
+262	264	des	des	d	ART	ART.Def.Gen.Sg.Neut	-	det	52	-	no	1	direct.speech.8|reported.speech.3	-	-	-	-
+266	284	Landeskonsistoriums	Landeskonsistoriums	Landeskonsistorium	NN	N.Reg.Gen.Sg.Neut	-	gmod	50	-	no	1	direct.speech.8|reported.speech.3	-	-	-	-
+286	292	gerufen	gerufen	rufen	VVPP	VPP.Full.Psp	-	aux	47	-	no	1	direct.speech.8|reported.speech.3	-	-	intexpr.3	-
+294	294	.	.	.	$.	SYM.Pun.Sent	-	root	54	-	no	1	direct.speech.8|reported.speech.3	-	-	-	-
+296	298	Ich	Ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	1|15|23|29|43|48|66|84|94|119|132|138|141|149|151	subj	56	-	yes	2	direct.speech.8	-	-	-	-
+300	304	komme	komme	hinkommen	VVFIN	VFIN.Full.1.Sg.Pres.Ind	-	root	56	-	no	2	direct.speech.8	-	-	-	-
+306	308	hin	hin	hin	PTKVZ	PART.Verb	-	avz	56	-	no	2	direct.speech.8	-	-	-	-
+310	310	:	:	:	$.	SYM.Pun.Colon	-	root	58	-	no	2	direct.speech.8	-	-	-	-
+312	312	»	&quot;	&quot;	$(	ADJA.Pos.Nom.Sg.Masc	-	root	59	-	yes	3	direct.speech.8|direct.speech.4	-	-	-	-
+314	317	Herr	Herr	Herr	NN	N.Reg.Nom.Sg.Masc	-	root	60	-	no	3	direct.speech.8|direct.speech.4	-	-	-	-
+319	324	Pastor	Pastor	Pastor	NN	N.Reg.Nom.Sg.Masc	-	app	60	yes	no	3	direct.speech.8|direct.speech.4	-	-	-	-
+326	333	Viemeyer	Viemeyer	Viemeyer	NE	N.Name.Nom.Sg.Masc	-	app	61	yes	no	3	direct.speech.8|direct.speech.4	-	-	-	-
+335	335	!	!	!	$.	SYM.Pun.Sent	-	root	63	-	no	3	direct.speech.8|direct.speech.4	-	-	-	-
+337	338	Es	Es	es	PPER	PRO.Pers.Subst.3.Nom.Sg.Neut	-	expl	82	-	yes	4	direct.speech.8|direct.speech.4	frame.5	-	-	-
+340	346	scheint	scheint	scheinen	VVFIN	VFIN.Full.3.Sg.Pres.Ind	-	root	65	-	no	4	direct.speech.8|direct.speech.4	frame.5	-	intexpr.5	-
+348	350	mir	mir	ich	PPER	PRO.Pers.Subst.1.Dat.Sg.*	1|15|23|29|43|48|55|84|94|119|132|138|141|149|151	objd	65	-	no	4	direct.speech.8|direct.speech.4	frame.5	speaker.5	-	-
+352	355	doch	doch	doch	ADV	ADV	-	adv	65	-	no	4	direct.speech.8|direct.speech.4	frame.5	-	-	-
+357	357	,	,	,	$,	SYM.Pun.Comma	-	root	68	-	no	4	direct.speech.8|direct.speech.4	frame.5	-	-	-
+359	361	daß	daß	daß	KOUS	CONJ.SubFin.-	-	konj	82	-	no	4	direct.speech.8|direct.speech.4|indirect.thought.5	-	-	-	-
+363	367	Ihnen	Ihnen	sie	PPER	PRO.Pers.Subst.3.Dat.Pl.*	-	objd	82	-	no	4	direct.speech.8|direct.speech.4|indirect.thought.5	-	-	-	-
+369	372	eine	eine	eine	ART	ART.Indef.Nom.Sg.Fem	-	det	73	-	no	4	direct.speech.8|direct.speech.4|indirect.thought.5	-	-	-	-
+374	380	würdige	würdige	würdig	ADJA	ADJA.Pos.Nom.Sg.Fem	-	attr	73	-	no	4	direct.speech.8|direct.speech.4|indirect.thought.5	-	-	-	-
+382	391	Auffassung	Auffassung	Auffaßung	NN	N.Reg.Nom.Sg.Fem	-	subj	82	-	no	4	direct.speech.8|direct.speech.4|indirect.thought.5	-	-	-	-
+393	395	der	der	d	ART	ART.Def.Gen.Pl.Fem	-	det	76	-	no	4	direct.speech.8|direct.speech.4|indirect.thought.5	-	-	-	-
+397	403	ernsten	ernsten	ernst	ADJA	ADJA.Pos.Gen.Pl.Fem	-	attr	76	-	no	4	direct.speech.8|direct.speech.4|indirect.thought.5	-	-	-	-
+405	412	Aufgaben	Aufgaben	Aufgabe	NN	N.Reg.Gen.Pl.Fem	-	gmod	73	-	no	4	direct.speech.8|direct.speech.4|indirect.thought.5	-	-	-	-
+414	416	des	des	d	ART	ART.Def.Gen.Sg.Masc	621|622|623|624|625|625	det	78	-	no	4	direct.speech.8|direct.speech.4|indirect.thought.5	-	-	-	-
+418	424	Vereins	Vereins	Verein	NN	N.Reg.Gen.Sg.Masc	621|622|623|624|625|625	gmod	76	-	no	4	direct.speech.8|direct.speech.4|indirect.thought.5	-	-	-	-
+426	428	für	für	für	APPR	APPR.Acc	621|622|623|624|625|625	pp	78	-	no	4	direct.speech.8|direct.speech.4|indirect.thought.5	-	-	-	-
+430	435	Innere	Innere	inner	ADJA	ADJA.Pos.Acc.Sg.Fem	7|8|624|625|625|621|622|623|624|625|625	attr	81	-	no	4	direct.speech.8|direct.speech.4|indirect.thought.5	-	-	-	-
+437	443	Mission	Mission	Mission	NN	N.Reg.Acc.Sg.Fem	7|8|624|625|625|621|622|623|624|625|625	pn	79	-	no	4	direct.speech.8|direct.speech.4|indirect.thought.5	-	-	-	-
+445	450	abgeht	abgeht	abgehen	VVFIN	VFIN.Full.3.Sg.Pres.Ind	-	subjc	65	-	no	4	direct.speech.8|direct.speech.4|indirect.thought.5	-	-	-	-
+452	452	.	.	.	$.	SYM.Pun.Sent	-	root	83	-	no	4	direct.speech.8|direct.speech.4|indirect.thought.5	-	-	-	-
+454	456	Ich	Ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	1|15|23|29|43|48|55|66|94|119|132|138|141|149|151	subj	85	-	yes	5	direct.speech.8|direct.speech.4|reported.speech.6	-	speaker.6	-	-
+458	461	will	will	wollen	VMFIN	VFIN.Mod.1.Sg.Pres.Ind	-	root	85	-	no	5	direct.speech.8|direct.speech.4|reported.speech.6	-	-	-	-
+463	467	keine	keine	keine	PIAT	PRO.Indef.Attr.-.Acc.Pl.Neut	-	det	88	-	no	5	direct.speech.8|direct.speech.4|reported.speech.6	-	-	-	-
+469	474	langen	langen	lang	ADJA	ADJA.Pos.Acc.Pl.Neut	-	attr	88	-	no	5	direct.speech.8|direct.speech.4|reported.speech.6	-	-	-	-
+476	480	Worte	Worte	Wort	NN	N.Reg.Acc.Pl.Neut	-	obja	89	-	no	5	direct.speech.8|direct.speech.4|reported.speech.6	-	-	intexpr.6	-
+482	487	machen	machen	machen	VVINF	VINF.Full.-	-	aux	85	-	no	5	direct.speech.8|direct.speech.4|reported.speech.6	-	-	intexpr.6	-
+489	489	.	.	.	$.	SYM.Pun.Sent	-	root	90	-	no	5	direct.speech.8|direct.speech.4|reported.speech.6	-	-	-	-
+491	493	Die	Die	d	ART	ART.Def.Nom.Sg.Fem	36|37|247|248|312|313	det	92	-	yes	6	direct.speech.8|direct.speech.4	-	-	-	-
+495	499	Sache	Sache	Sache	NN	N.Reg.Nom.Sg.Fem	36|37|247|248|312|313	subj	93	-	no	6	direct.speech.8|direct.speech.4	-	-	-	-
+501	506	widert	widert	anwidern	VVFIN	VFIN.Full.3.Sg.Pres.Ind	-	root	93	-	no	6	direct.speech.8|direct.speech.4	-	-	-	-
+508	511	mich	mich	ich	PPER	PRO.Pers.Subst.1.Acc.Sg.*	1|15|23|29|43|48|55|66|84|119|132|138|141|149|151	obja	93	-	no	6	direct.speech.8|direct.speech.4	-	speaker.7	-	-
+513	514	an	an	an	PTKVZ	PART.Verb	-	avz	93	-	no	6	direct.speech.8|direct.speech.4	-	-	-	-
+516	516	.	.	.	$.	SYM.Pun.Sent	-	root	96	-	no	6	direct.speech.8|direct.speech.4	-	-	-	-
+518	520	Was	Was	was	PWS	PRO.Inter.Subst.-.Nom.Sg.Neut	-	subj	99	-	yes	7	direct.speech.8|direct.speech.4	-	-	-	-
+522	527	zuviel	zuviel	zuviel	PIS	ADV	-	pred	99	-	no	7	direct.speech.8|direct.speech.4	-	-	-	-
+529	531	ist	,	,	$,	SYM.Pun.Comma	-	objc	101	-	no	7	direct.speech.8|direct.speech.4	-	-	-	-
+533	533	,	,	,	$,	SYM.Pun.Comma	-	root	100	-	no	7	direct.speech.8|direct.speech.4	-	-	-	-
+535	537	ist	ist	sein	VAFIN	VFIN.Sein.3.Sg.Pres.Ind	-	root	101	-	no	7	direct.speech.8|direct.speech.4	-	-	-	-
+539	544	zuviel	zuviel	zuviel	PIS	PRO.Indef.Subst.-.*.*.*	-	adv	101	-	no	7	direct.speech.8|direct.speech.4	-	-	-	-
+546	546	.	.	.	$.	SYM.Pun.Sent	-	root	103	-	no	7	direct.speech.8|direct.speech.4	-	-	-	-
+548	558	Einstweilen	Einstweilen	einstweilen	ADV	ADV	-	adv	105	-	yes	8	direct.speech.8|direct.speech.4	-	-	-	-
+560	565	werden	werden	werden	VAFIN	VFIN.Aux.3.Pl.Pres.Ind	-	root	105	-	no	8	direct.speech.8|direct.speech.4	-	-	-	-
+567	569	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Pl.*	115|139|140|141|142|145|148|153|180	subj	105	-	no	8	direct.speech.8|direct.speech.4	-	-	-	-
+571	574	sich	sich	sich	PRF	PRO.Refl.Subst.3.Acc.Pl.*	-	objd	105	-	no	8	direct.speech.8|direct.speech.4	-	-	-	-
+576	587	unverzüglich	unverzüglich	unverzüglich	ADJD	ADJD.Pos	-	adv	105	-	no	8	direct.speech.8|direct.speech.4	-	-	-	-
+589	592	nach	nach	nach	APPR	APPR.Dat	-	pp	105	-	no	8	direct.speech.8|direct.speech.4	-	-	-	-
+594	601	Stolberg	Stolberg	Stolberg	NN	N.Name.Dat.Sg.Neut	125	pn	109	-	no	8	direct.speech.8|direct.speech.4	-	-	-	-
+603	615	zurückbegeben	zurückbegeben	zurückbegeben	VVPP	VPP.Full.Psp	-	pred	105	-	no	8	direct.speech.8|direct.speech.4	-	-	-	-
+617	617	.	.	.	$.	SYM.Pun.Sent	-	root	112	-	no	8	direct.speech.8|direct.speech.4	-	-	-	-
+619	622	Dort	Dort	dort	ADV	ADV	-	adv	114	-	yes	9	direct.speech.8|direct.speech.4|reported.speech writing.7.nonfact	-	-	-	-
+624	629	werden	werden	werden	VAFIN	VFIN.Aux.3.Pl.Pres.Ind	-	root	114	-	no	9	direct.speech.8|direct.speech.4|reported.speech writing.7.nonfact	-	-	-	-
+631	633	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Pl.*	106|139|140|141|142|145|148|153|180	subj	114	-	no	9	direct.speech.8|direct.speech.4|reported.speech writing.7.nonfact	-	-	-	-
+635	637	das	das	d	ART	ART.Def.Acc.Sg.Neut	-	det	117	-	no	9	direct.speech.8|direct.speech.4|reported.speech writing.7.nonfact	-	-	-	-
+639	645	Weitere	Weitere	weit	ADJA	N.Reg.Acc.Sg.Neut	-	obja	120	-	no	9	direct.speech.8|direct.speech.4|reported.speech writing.7.nonfact	-	-	-	-
+647	649	von	von	von	APPR	APPR.Dat	-	pp	120	-	no	9	direct.speech.8|direct.speech.4|reported.speech writing.7.nonfact	-	-	-	-
+651	653	mir	mir	ich	PPER	PRO.Pers.Subst.1.Dat.Sg.*	1|15|23|29|43|48|55|66|84|94|132|138|141|149|151	pn	118	-	no	9	direct.speech.8|direct.speech.4|reported.speech writing.7.nonfact	-	-	-	-
+655	659	hören	hören	hören	VVINF	VFIN.Full.3.Pl.Pres.Ind	-	aux	114	-	no	9	direct.speech.8|direct.speech.4|reported.speech writing.7.nonfact	-	-	-	-
+661	661	.	.	.	$.	SYM.Pun.Sent	-	root	121	-	no	9	direct.speech.8|direct.speech.4|reported.speech writing.7.nonfact	-	-	-	-
+663	663	«	&quot;	&quot;	$(	N.Reg.Nom.Sg.Masc	-	root	122	-	no	9	direct.speech.8|direct.speech.4	-	-	-	-
+665	669	Damit	Damit	damit	PAV	PROADV.Dem	-	pp	124	-	yes	10	direct.speech.8	-	-	-	-
+671	675	dreht	dreht	drehen	VVFIN	VFIN.Full.3.Sg.Pres.Ind	-	root	124	-	no	10	direct.speech.8	-	-	-	-
+677	678	er	er	er	PPER	PRO.Pers.Subst.3.Nom.Sg.Masc	110	subj	124	-	no	10	direct.speech.8	-	-	-	-
+680	683	sich	sich	sich	PRF	PRO.Refl.Subst.3.Acc.Sg.*	-	obja	124	-	no	10	direct.speech.8	-	-	-	-
+685	686	um	um	um	PTKVZ	PART.Verb	-	root	127	-	no	10	direct.speech.8	-	-	-	-
+688	690	und	und	und	KON	CONJ.Coord.-	-	root	128	-	no	10	direct.speech.8	-	-	-	-
+692	695	ging	ging	gehen	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	cj	128	-	no	10	direct.speech.8	-	-	-	-
+697	699	...	...	...	$(	SYM.Pun.Cont	-	root	130	-	no	10	direct.speech.8	-	-	-	-
+701	704	ließ	ließ	lassen	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	root	131	-	no	10	direct.speech.8	-	-	-	-
+706	709	mich	mich	ich	PPER	PRO.Pers.Subst.1.Acc.Sg.*	1|15|23|29|43|48|55|66|84|94|119|138|141|149|151	obja	131	-	no	10	direct.speech.8	-	-	-	-
+711	715	stehn	stehen	stehen	VVFIN	VINF.Full.-	-	obji	131	-	no	10	direct.speech.8	-	-	-	-
+717	717	.	.	.	$.	SYM.Pun.Sent	-	root	134	-	no	10	direct.speech.8	-	-	-	-
+719	721	Und	Und	und	KON	CONJ.Coord.-	-	root	135	-	yes	11	direct.speech.8|reported.speech.9	-	-	-	-
+723	725	nun	nun	nun	ADV	ADV	-	adv	137	-	no	11	direct.speech.8|reported.speech.9	-	-	-	-
+727	730	frag	frag	fragen	VVFIN	VIMP.Full.2.Sg	-	cj	135	-	no	11	direct.speech.8|reported.speech.9	-	-	intexpr.9	-
+732	734	ich	ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	1|15|23|29|43|48|55|66|84|94|119|132|141|149|151	subj	137	-	no	11	direct.speech.8|reported.speech.9	-	speaker.9	-	-
+736	738	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Acc.Pl.*	106|115|145|148|153|180	obja	137	-	no	11	direct.speech.8|reported.speech.9	-	-	-	-
+740	740	,	,	,	$,	SYM.Pun.Comma	106|115|145|148|153|180	root	140	-	no	11	direct.speech.8|reported.speech.9	-	-	-	-
+742	746	meine	meine	meine	PPOSAT	PRO.Poss.Attr.-.Acc.Pl.Masc	1|15|23|29|43|48|55|66|84|94|119|132|138|149|151|106|115|145|148|153|180	det	142	-	no	11	direct.speech.8|reported.speech.9	-	-	-	-
+748	753	Herren	Herren	Herr	NN	N.Reg.Acc.Pl.Masc	106|115|145|148|153|180	app	139	-	no	11	direct.speech.8|reported.speech.9	-	-	-	-
+755	755	!	!	!	$.	SYM.Pun.Sent	-	root	143	-	no	11	direct.speech.8|reported.speech.9	-	-	-	-
+757	765	Beschwöre	Beschwöre	beschwören	VVFIN	VFIN.Full.3.Sg.Pres.Subj	-	root	144	-	yes	12	direct.speech.8	-	-	-	-
+767	769	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	106|115|139|140|141|142|148|153|180	subj	144	-	no	12	direct.speech.8	-	-	-	-
+771	771	:	:	:	$.	SYM.Pun.Colon	-	root	146	-	no	12	direct.speech.8	-	-	-	-
+773	777	sagen	sagen	sagen	VVFIN	VFIN.Full.3.Pl.Pres.Ind	-	root	147	-	no	12	direct.speech.8|indirect.speech.39|reported.speech.41.nonfact	-	-	intexpr.41	-
+779	781	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Pl.*	106|115|139|140|141|142|145|153|180	subj	147	-	no	12	direct.speech.8|indirect.speech.39|reported.speech.41.nonfact	-	speaker.41	-	-
+783	785	mir	mir	ich	PPER	PRO.Pers.Subst.1.Dat.Sg.*	1|15|23|29|43|48|55|66|84|94|119|132|138|141|151	objd	147	-	no	12	direct.speech.8|indirect.speech.39|reported.speech.41.nonfact	-	-	-	-
+787	787	,	,	,	$,	SYM.Pun.Comma	-	root	150	-	no	12	direct.speech.8	frame.39	-	-	-
+789	791	ich	ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	1|15|23|29|43|48|55|66|84|94|119|132|138|141|149	subj	152	-	no	12	direct.speech.8	frame.39	speaker.39	-	-
+793	797	bitte	bitte	bitten	VVFIN	VFIN.Full.1.Sg.Pres.Ind	-	s	147	-	no	12	direct.speech.8	frame.39	-	intexpr.39	-
+799	801	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Acc.*.*	106|115|139|140|141|142|145|148|180	obja	152	-	no	12	direct.speech.8	frame.39	-	-	-
+803	803	:	:	:	$.	SYM.Pun.Colon	-	root	154	-	no	12	direct.speech.8	frame.39	-	-	-
+805	807	was	was	was	PWS	PRO.Inter.Subst.-.Acc.Sg.Neut	-	pred	158	-	yes	13	direct.speech.8|indirect.speech.39|reported.speech.41.nonfact	-	-	-	-
+809	812	kann	kann	können	VMFIN	VFIN.Mod.3.Sg.Pres.Ind	-	root	156	-	no	13	direct.speech.8|indirect.speech.39|reported.speech.41.nonfact	-	-	-	-
+814	816	das	das	die	PDS	PRO.Dem.Subst.-.Nom.Sg.Neut	-	subj	156	-	no	13	direct.speech.8|indirect.speech.39|reported.speech.41.nonfact	-	-	-	-
+818	821	sein	sein	sein	VAINF	VINF.Sein.-	-	aux	156	-	no	13	direct.speech.8|indirect.speech.39|reported.speech.41.nonfact	-	-	-	-
+823	823	?	?	?	$.	SYM.Pun.Sent	-	root	159	-	no	13	direct.speech.8|indirect.speech.39|reported.speech.41.nonfact	-	-	-	-
+825	827	Was	Was	was	PWS	PRO.Inter.Subst.-.Acc.Sg.Neut	-	subj	161	-	yes	14	direct.speech.8	-	-	-	-
+829	832	kann	kann	können	VMFIN	VFIN.Mod.3.Sg.Pres.Ind	-	root	161	-	no	14	direct.speech.8	-	-	-	-
+834	836	dem	dem	die	PDS	PRO.Dem.Subst.-.Dat.Sg.Neut	-	objd	164	-	no	14	direct.speech.8	-	-	-	-
+838	845	zugrunde	zugrunde	zugrunde	ADV	ADV	-	adv	164	-	no	14	direct.speech.8	-	-	-	-
+847	852	liegen	liegen	liegen	VVFIN	VINF.Full.-	-	aux	161	-	no	14	direct.speech.8	-	-	-	-
+854	854	?	?	?	$.	SYM.Pun.Sent	-	root	165	-	no	14	direct.speech.8	-	-	-	-
+856	858	Daß	Daß	daß	KOUS	CONJ.SubFin.-	-	konj	178	-	yes	15	direct.speech.8	-	-	-	-
+860	862	man	man	man	PIS	PRO.Indef.Subst.-.Nom.Sg.*	-	subj	178	-	no	15	direct.speech.8	-	-	-	-
+864	867	sich	sich	sich	PRF	PRO.Refl.Subst.3.Acc.Sg.*	-	obja	178	-	no	15	direct.speech.8	-	-	-	-
+869	870	am	am	am	APPRART	APPRART.Dat.Sg.Masc	-	pp	178	-	no	15	direct.speech.8	-	-	-	-
+872	877	frühen	frühen	früh	ADJA	ADJA.Pos.Dat.Sg.Masc	-	attr	171	-	no	15	direct.speech.8	-	-	-	-
+879	884	Morgen	Morgen	Morgen	NN	N.Reg.Dat.Sg.Masc	-	pn	169	-	no	15	direct.speech.8	-	-	-	-
+886	888	mit	mit	mit	APPR	APPR.Dat	-	pp	178	-	no	15	direct.speech.8	-	-	-	-
+890	892	der	der	d	ART	ART.Def.Dat.Sg.Fem	-	det	175	-	no	15	direct.speech.8	-	-	-	-
+894	899	langen	langen	lang	ADJA	ADJA.Pos.Dat.Sg.Fem	-	attr	175	-	no	15	direct.speech.8	-	-	-	-
+901	906	Pfeife	Pfeife	Pfeife	NN	N.Reg.Dat.Sg.Fem	-	pn	172	-	no	15	direct.speech.8	-	-	-	-
+908	910	zum	zum	zum	APPRART	APPRART.Dat.Sg.Neut	-	pp	178	-	no	15	direct.speech.8	-	-	-	-
+912	918	Fenster	Fenster	Fenster	NN	N.Reg.Dat.Sg.Neut	-	pn	176	-	no	15	direct.speech.8	-	-	-	-
+920	929	hinauslegt	hinauslegt	hinauslegen	VVFIN	VPP.Full.Psp	-	root	178	-	no	15	direct.speech.8	-	-	-	-
+931	931	,	,	,	$,	SYM.Pun.Comma	-	root	179	-	no	15	direct.speech.8	-	-	-	-
+933	934	du	du	du	PPER	PRO.Pers.Subst.2.Nom.Sg.*	106|115|139|140|141|142|145|148|153	root	180	-	no	15	direct.speech.8	-	-	-	-
+936	941	lieber	lieber	lieber	ADV	ADV	-	adv	182	-	no	15	direct.speech.8	-	-	-	-
+943	946	Gott	Gott	Gott	NN	N.Reg.Nom.Sg.Masc	-	root	182	-	no	15	direct.speech.8	-	-	-	-
+948	948	,	,	,	$,	SYM.Pun.Comma	-	root	183	-	no	15	direct.speech.8	-	-	-	-
+950	952	das	das	die	PDS	PRO.Dem.Subst.-.Nom.Sg.Neut	-	subj	185	-	no	15	direct.speech.8	-	-	-	-
+954	956	mag	mag	mögen	VMFIN	VFIN.Mod.3.Sg.Pres.Ind	-	root	185	-	no	15	direct.speech.8	-	-	-	-
+958	959	ja	ja	ja	ADV	ADV	-	adv	188	-	no	15	direct.speech.8	-	-	-	-
+961	974	kleinstädtisch	kleinstädtisch	kleinstädtisch	ADJD	ADJD.Pos	-	pred	188	-	no	15	direct.speech.8	-	-	-	-
+976	979	sein	sein	sein	VAINF	VINF.Sein.-	-	aux	185	-	no	15	direct.speech.8	-	-	-	-
+981	981	,	,	,	$,	SYM.Pun.Comma	-	root	189	-	no	15	direct.speech.8	-	-	-	-
+983	993	meinetwegen	meinetwegen	meinetwegen	ADV	ADV	-	root	190	-	no	15	direct.speech.8	-	-	-	-
+995	998	auch	auch	auch	ADV	ADV	-	adv	190	-	no	15	direct.speech.8	-	-	-	-
+1000	1008	ungehörig	ungehörig	ungehörig	ADJD	ADJD.Pos	-	root	192	-	no	15	direct.speech.8	-	-	-	-
+1010	1010	,	,	,	$,	SYM.Pun.Comma	-	root	193	-	no	15	direct.speech.8	-	-	-	-
+1012	1021	wenigstens	wenigstens	wenigstens	ADV	ADV	-	adv	195	-	no	15	direct.speech.8	-	-	-	-
+1023	1025	für	für	für	APPR	APPR.Acc	-	root	195	-	no	15	direct.speech.8	-	-	-	-
+1027	1031	einen	einen	eine	ART	ART.Indef.Acc.Sg.Masc	-	det	197	-	no	15	direct.speech.8	-	-	-	-
+1033	1043	Geistlichen	Geistlichen	Geistliche	NN	N.Reg.Acc.Sg.Masc	-	pn	195	-	no	15	direct.speech.8	-	-	-	-
+1045	1045	.	.	.	$.	SYM.Pun.Sent	-	root	198	-	no	15	direct.speech.8	-	-	-	-
+1047	1050	Aber	Aber	aber	KON	CONJ.Coord.Aber	-	root	199	-	yes	16	direct.speech.8	-	-	-	-
+1052	1060	unmöglich	unmöglich	unmöglich	ADJD	ADJD.Pos	-	adv	201	-	no	16	direct.speech.8	-	-	-	-
+1062	1065	kann	kann	können	VMFIN	VFIN.Mod.3.Sg.Pres.Ind	-	cj	199	-	no	16	direct.speech.8	-	-	-	-
+1067	1069	das	das	die	PDS	PRO.Dem.Subst.-.Nom.Sg.Neut	-	subj	201	-	no	16	direct.speech.8	-	-	-	-
+1071	1074	doch	doch	doch	ADV	ADV	-	adv	207	-	no	16	direct.speech.8	-	-	-	-
+1076	1078	ein	ein	eine	ART	ART.Indef.Nom.Sg.Neut	-	det	206	-	no	16	direct.speech.8	-	-	-	-
+1080	1086	solches	solches	solch	PIAT	PRO.Indef.Attr.-.Nom.Sg.Neut	-	attr	206	-	no	16	direct.speech.8	-	-	-	-
+1088	1097	Verbrechen	Verbrechen	Verbrechen	NN	N.Reg.Nom.Sg.Neut	-	pred	207	-	no	16	direct.speech.8	-	-	-	-
+1099	1102	sein	sein	sein	VAINF	VINF.Sein.-	-	aux	201	-	no	16	direct.speech.8	-	-	-	-
+1104	1106	...	...	...	$(	SYM.Pun.Cont	-	root	208	-	no	16	direct.speech.8	-	-	-	-
+1108	1110	Wie	Wie	wie	PWAV	PROADV.Inter	-	root	209	-	no	16	direct.speech.8	-	-	-	-
+1112	1112	?	?	?	$.	SYM.Pun.Sent	-	root	210	-	no	16	direct.speech.8	-	-	-	-
+1114	1114	–	-	-	$(	SYM.Pun.Hyph	-	root	211	-	yes	17	direct.speech.8	-	-	-	-
+1116	1118	Wir	Wir	wir	PPER	PRO.Pers.Subst.1.Nom.Pl.*	-	subj	213	-	yes	18	reported.speech.12.nonfact	-	speaker.12	-	-
+1120	1129	verharrten	verharrten	verharren	VVFIN	VFIN.Full.1.Pl.Past.Ind	-	root	213	-	no	18	reported.speech.12.nonfact	-	-	-	-
+1131	1134	nach	nach	nach	APPR	APPR.Dat	-	pp	219	-	no	18	reported.speech.12.nonfact	-	-	-	-
+1136	1141	Schluß	Schluß	Schluß	NN	N.Reg.Dat.Sg.Masc	-	pn	214	-	no	18	reported.speech.12.nonfact	-	-	-	-
+1143	1148	dieser	dieser	diese	PDAT	PRO.Dem.Attr.-.Gen.Sg.Fem	-	det	217	-	no	18	reported.speech.12.nonfact	-	-	-	-
+1150	1153	Rede	Rede	Rede	NN	N.Reg.Gen.Sg.Fem	-	gmod	215	-	no	18	reported.speech.12.nonfact	-	-	-	-
+1155	1158	eine	eine	eine	ART	ART.Indef.Acc.Sg.Fem	-	det	219	-	no	18	reported.speech.12.nonfact	-	-	-	-
+1160	1167	Zeitlang	Zeitlang	Zeitlang	NN	N.Reg.Acc.Sg.Fem	-	root	219	-	no	18	reported.speech.12.nonfact	-	-	-	-
+1169	1170	in	in	in	APPR	APPR.In	-	pp	219	-	no	18	reported.speech.12.nonfact	-	-	-	-
+1172	1177	tiefem	tiefem	tief	ADJA	ADJA.Pos.Dat.Sg.Neut	-	attr	222	-	no	18	reported.speech.12.nonfact	-	-	-	-
+1179	1187	Schweigen	Schweigen	Schweigen	NN	N.Reg.Dat.Sg.Neut	-	pn	220	-	no	18	reported.speech.12.nonfact	-	-	intexpr.12	-
+1189	1189	.	.	.	$.	SYM.Pun.Sent	-	root	223	-	no	18	reported.speech.12.nonfact	-	-	-	-
+1191	1193	Die	Die	d	ART	ART.Def.Nom.Sg.Fem	-	det	225	-	yes	19	-	-	-	-	-
+1195	1203	Situation	Situation	Situation	NN	N.Reg.Nom.Sg.Fem	-	subj	226	-	no	19	-	-	-	-	-
+1205	1207	war	war	sein	VAFIN	VFIN.Sein.3.Sg.Past.Ind	-	root	226	-	no	19	-	-	-	-	-
+1209	1212	doch	doch	doch	ADV	ADV	-	adv	229	-	no	19	-	-	-	-	-
+1214	1219	prekär	prekär	prekär	ADJD	ADJD.Pos	-	pred	229	-	no	19	-	-	-	-	-
+1221	1228	geworden	geworden	werden	VAPP	VPP.Aux.Psp	-	aux	226	-	no	19	-	-	-	-	-
+1230	1232	...	...	...	$.	SYM.Pun.Cont	-	root	230	-	no	19	-	-	-	-	-
+1234	1244	Schließlich	Schließlich	schließlich	ADV	ADV	-	adv	232	-	yes	20	-	frame.14	-	-	-
+1246	1252	ergriff	ergriff	ergreifen	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	root	232	-	no	20	-	frame.14	-	intexpr.14	-
+1254	1256	der	der	d	ART	ART.Def.Nom.Sg.Masc	594|595	det	234	-	no	20	-	frame.14	-	-	-
+1258	1270	Oberstabsarzt	Oberstabsarzt	Oberstabsarzt	NN	N.Reg.Nom.Sg.Masc	594|595	subj	232	-	no	20	-	frame.14	speaker.14_17_42	-	-
+1272	1274	das	das	d	ART	ART.Def.Acc.Sg.Neut	-	det	236	-	no	20	-	frame.14	-	-	-
+1276	1279	Wort	Wort	Wort	NN	N.Reg.Acc.Sg.Neut	-	obja	232	-	no	20	-	frame.14	-	intexpr.14	-
+1281	1281	:	:	:	$.	SYM.Pun.Colon	-	root	237	-	no	20	-	frame.14	-	-	-
+1283	1283	–	-	-	$(	SYM.Pun.Hyph	-	root	238	-	yes	21	direct.speech.14	-	-	-	-
+1285	1289	Sagen	Sagen	sagen	VVFIN	VFIN.Full.3.Pl.Pres.Ind	-	root	239	-	no	21	direct.speech.14	frame.15	-	intexpr.15	-
+1291	1293	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Pl.*	246	subj	239	-	no	21	direct.speech.14	frame.15	-	-	-
+1295	1295	,	,	,	$,	SYM.Pun.Comma	246	root	241	-	no	21	direct.speech.14	frame.15	-	-	-
+1297	1300	Herr	Herr	Herr	NN	N.Reg.Nom.Sg.Masc	246	app	240	-	no	21	direct.speech.14	frame.15	speaker.15_16_18_44	-	-
+1302	1307	Pastor	Pastor	Pastor	NN	N.Reg.Nom.Sg.Masc	246	app	242	yes	no	21	direct.speech.14	frame.15	speaker.15_16_18_44	-	-
+1309	1309	,	,	,	$,	SYM.Pun.Comma	-	root	244	-	no	21	direct.speech.14	frame.15	-	-	-
+1311	1315	haben	haben	haben	VAFIN	VFIN.Haben.3.Pl.Pres.Ind	-	s	239	-	no	21	direct.speech.14|indirect.speech.15.nonfact	-	-	-	-
+1317	1319	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Pl.*	240|241|242|243	subj	245	-	no	21	direct.speech.14|indirect.speech.15.nonfact	-	-	-	-
+1321	1323	die	die	d	ART	ART.Def.Acc.Sg.Fem	36|37|91|92|312|313	det	248	-	no	21	direct.speech.14|indirect.speech.15.nonfact	-	-	-	-
+1325	1329	Sache	Sache	Sache	NN	N.Reg.Acc.Sg.Fem	36|37|91|92|312|313	obja	245	-	no	21	direct.speech.14|indirect.speech.15.nonfact	-	-	-	-
+1331	1333	mit	mit	mit	APPR	APPR.Dat	-	pp	245	-	no	21	direct.speech.14|indirect.speech.15.nonfact	-	-	-	-
+1335	1337	der	der	d	ART	PRO.Dem.Subst.-.Dat.Sg.Fem	-	pn	249	-	no	21	direct.speech.14|indirect.speech.15.nonfact	-	-	-	-
+1339	1339	.	.	.	$.	SYM.Pun.Sent	-	root	251	-	no	21	direct.speech.14|indirect.speech.15.nonfact	-	-	-	-
+1341	1341	.	.	.	$.	SYM.Pun.Sent	-	root	252	-	no	21	direct.speech.14|indirect.speech.15.nonfact	-	-	-	-
+1343	1345	der	der	d	ART	ART.Def.Dat.Sg.Fem	-	det	254	-	no	21	direct.speech.14|indirect.speech.15.nonfact	-	-	-	-
+1347	1350	Frau	Frau	Frau	NN	N.Reg.Dat.Sg.Fem	-	subj	256	-	no	21	direct.speech.14|indirect.speech.15.nonfact	-	-	-	-
+1352	1362	Oberförster	Oberförster	Oberförster	NN	N.Reg.Nom.Sg.Masc	-	app	254	yes	no	21	direct.speech.14|indirect.speech.15.nonfact	-	-	-	-
+1364	1373	besprochen	besprochen	besprechen	VVPP	VPP.Full.Psp	-	root	256	-	no	21	direct.speech.14|indirect.speech.15.nonfact	-	-	-	-
+1375	1375	?	?	?	$.	SYM.Pun.Sent	-	root	257	-	no	21	direct.speech.14|indirect.speech.15.nonfact	-	-	-	-
+1377	1377	–	-	-	$(	SYM.Pun.Hyph	-	root	258	-	yes	22	direct.speech.16	-	-	-	-
+1379	1379	O	O	o	ITJ	N.Name.Nom.Sg.*	-	root	259	-	no	22	direct.speech.16	-	-	-	-
+1381	1384	doch	doch	doch	ADV	ADV	-	adv	259	-	no	22	direct.speech.16	-	-	-	-
+1386	1386	,	,	,	$,	SYM.Pun.Comma	-	root	261	-	no	22	direct.speech.16	-	-	-	-
+1388	1392	gewiß	gewiß	gewiß	ADV	ADV	-	root	262	-	no	22	direct.speech.16	-	-	-	-
+1394	1394	!	!	!	$.	SYM.Pun.Sent	-	root	263	-	no	22	direct.speech.16	-	-	-	-
+1396	1398	Die	Die	d	ART	ART.Def.Nom.Sg.Fem	275|302|304|310	det	266	-	yes	23	direct.speech.16	-	-	-	-
+1400	1403	gute	gute	gut	ADJA	ADJA.Pos.Nom.Sg.Fem	275|302|304|310	attr	266	-	no	23	direct.speech.16	-	-	-	-
+1405	1408	Frau	Frau	Frau	NN	N.Reg.Nom.Sg.Fem	275|302|304|310	subj	267	-	no	23	direct.speech.16	-	-	-	-
+1410	1412	war	war	sein	VAFIN	VFIN.Sein.3.Sg.Past.Ind	-	root	267	-	no	23	direct.speech.16	-	-	-	-
+1414	1417	ganz	ganz	ganz	ADV	ADV	-	adv	269	-	no	23	direct.speech.16	-	-	-	-
+1419	1429	unglücklich	unglücklich	unglücklich	ADJD	ADJD.Pos	-	pred	267	-	no	23	direct.speech.16	-	-	-	-
+1431	1431	,	,	,	$,	SYM.Pun.Comma	-	root	270	-	no	23	direct.speech.16	-	-	-	-
+1433	1436	ganz	ganz	ganz	ADV	ADV	-	adv	272	-	no	23	direct.speech.16	-	-	-	-
+1438	1448	unglücklich	unglücklich	unglücklich	ADJD	ADJD.Pos	-	kon	269	-	no	23	direct.speech.16	-	-	-	-
+1450	1450	,	,	,	$,	SYM.Pun.Comma	-	root	273	-	no	23	direct.speech.16	-	-	-	-
+1452	1452	–	-	-	$(	SYM.Pun.Hyph	-	root	274	-	no	23	direct.speech.16	-	-	-	-
+1454	1456	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	264|265|266|302|304|310	subj	276	-	no	23	direct.speech.16	-	-	-	-
+1458	1460	hat	hat	haben	VAFIN	VFIN.Haben.3.Sg.Pres.Ind	-	root	276	-	no	23	direct.speech.16	-	-	-	-
+1462	1466	sogar	sogar	sogar	ADV	ADV	-	adv	278	-	no	23	direct.speech.16	-	-	-	-
+1468	1474	geweint	geweint	weinen	VVPP	VPP.Full.Psp	-	aux	276	-	no	23	direct.speech.16	-	-	-	-
+1476	1476	.	.	.	$.	SYM.Pun.Sent	-	root	279	-	no	23	direct.speech.16	-	-	-	-
+1478	1478	–	-	-	$(	SYM.Pun.Hyph	-	root	280	-	yes	24	direct.speech.17	-	-	-	-
+1480	1481	So	So	so	ADV	ADV	-	root	281	-	no	24	direct.speech.17	-	-	-	-
+1483	1483	.	.	.	$.	SYM.Pun.Sent	-	root	282	-	no	24	direct.speech.17	-	-	-	-
+1485	1485	–	-	-	$(	SYM.Pun.Hyph	-	root	283	-	no	24	direct.speech.17	-	-	-	-
+1487	1487	–	-	-	$(	SYM.Pun.Hyph	-	root	284	-	no	24	direct.speech.17	-	-	-	-
+1489	1489	–	-	-	$(	SYM.Pun.Hyph	-	root	285	-	yes	25	direct.speech.18	-	-	-	-
+1491	1492	Ja	Ja	ja	PTKANT	PART.Ans	-	root	286	-	no	25	direct.speech.18	-	-	-	-
+1494	1494	,	,	,	$,	SYM.Pun.Comma	-	root	287	-	no	25	direct.speech.18	-	-	-	-
+1496	1498	und	und	und	KON	CONJ.Coord.-	-	root	288	-	no	25	direct.speech.18	-	-	-	-
+1500	1502	hat	hat	haben	VAFIN	VFIN.Haben.3.Sg.Pres.Ind	-	cj	288	-	no	25	direct.speech.18	-	-	-	-
+1504	1508	immer	immer	immer	ADV	ADV	-	adv	291	-	no	25	direct.speech.18	-	-	-	-
+1510	1517	versucht	versucht	versuchen	VVPP	VPP.Full.Psp	-	aux	289	-	no	25	direct.speech.18	-	-	-	-
+1519	1519	,	,	,	$,	SYM.Pun.Comma	-	root	292	-	no	25	direct.speech.18	-	-	-	-
+1521	1524	mich	mich	ich	PPER	PRO.Pers.Subst.1.Acc.Sg.*	-	obja	295	-	no	25	direct.speech.18	-	-	-	-
+1526	1527	zu	zu	zu	PTKZU	PART.Zu	-	part	295	-	no	25	direct.speech.18	-	-	-	-
+1529	1535	trösten	trösten	trösten	VVINF	VINF.Full.-	-	obji	291	-	no	25	direct.speech.18	-	-	-	-
+1537	1537	.	.	.	$.	SYM.Pun.Sent	-	root	296	-	no	25	direct.speech.18	-	-	-	-
+1539	1541	Und	Und	und	KON	CONJ.Coord.-	-	root	297	-	yes	26	direct.speech.18	frame.19	-	-	-
+1543	1546	ganz	ganz	ganz	ADV	ADV	-	adv	299	-	no	26	direct.speech.18	frame.19	-	-	-
+1548	1550	zum	zum	zum	APPRART	APPRART.Dat.Sg.Masc	-	pp	301	-	no	26	direct.speech.18	frame.19	-	-	-
+1552	1559	Abschied	Abschied	Abschied	NN	N.Reg.Dat.Sg.Masc	-	pn	299	-	no	26	direct.speech.18	frame.19	-	-	-
+1561	1565	sagte	sagte	sagen	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	cj	297	-	no	26	direct.speech.18	frame.19	-	intexpr.19	-
+1567	1569	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	264|265|266|275|304|310	subj	301	-	no	26	direct.speech.18	frame.19	speaker.19	-	-
+1571	1571	:	:	:	$.	SYM.Pun.Colon	-	root	303	-	no	26	direct.speech.18	frame.19	-	-	-
+1573	1575	Ich	Ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	264|265|266|275|302|310	subj	305	-	yes	27	direct.speech.18|indirect.speech.19	-	-	-	-
+1577	1582	möchte	möchte	mögen	VMFIN	VFIN.Mod.1.Sg.Past.Subj	-	root	305	-	no	27	direct.speech.18|indirect.speech.19	-	-	-	-
+1584	1587	mich	mich	mich	PRF	PRO.Pers.Subst.1.Acc.Sg.*	-	obja	308	-	no	27	direct.speech.18|indirect.speech.19	-	-	-	-
+1589	1591	nur	nur	nur	ADV	ADV	-	adv	308	-	no	27	direct.speech.18|indirect.speech.19	-	-	-	-
+1593	1601	beruhigen	beruhigen	beruhigen	VVINF	VINF.Full.-	-	aux	305	-	no	27	direct.speech.18|indirect.speech.19	-	-	-	-
+1603	1603	:	:	:	$.	SYM.Pun.Colon	-	root	309	-	no	27	direct.speech.18|indirect.speech.19	-	-	-	-
+1605	1607	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	264|265|266|275|302|304	subj	311	-	yes	28	direct.speech.18|indirect.speech.19	-	-	-	-
+1609	1613	würde	würde	werden	VAFIN	VFIN.Aux.3.Sg.Past.Subj	-	root	311	-	no	28	direct.speech.18|indirect.speech.19	-	-	-	-
+1615	1617	die	die	d	ART	ART.Def.Acc.Sg.Fem	36|37|91|92|247|248|313	det	313	-	no	28	direct.speech.18|indirect.speech.19	-	-	-	-
+1619	1623	Sache	Sache	Sache	NN	N.Reg.Acc.Sg.Fem	36|37|91|92|247|248|312	obja	317	-	no	28	direct.speech.18|indirect.speech.19	-	-	-	-
+1625	1629	schon	schon	schon	ADV	ADV	-	adv	317	-	no	28	direct.speech.18|indirect.speech.19	-	-	-	-
+1631	1633	ins	ins	ins	APPRART	APPRART.Acc.Sg.Neut	-	objp	317	-	no	28	direct.speech.18|indirect.speech.19	-	-	-	-
+1635	1639	Reine	Reine	Reine	NN	N.Reg.Acc.Sg.Neut	-	pn	315	-	no	28	direct.speech.18|indirect.speech.19	-	-	-	-
+1641	1647	bringen	bringen	bringen	VVINF	VFIN.Full.3.Pl.Pres.Ind	-	aux	311	-	no	28	direct.speech.18|indirect.speech.19	-	-	-	-
+1649	1649	.	.	.	$.	SYM.Pun.Sent	-	root	318	-	no	28	direct.speech.18|indirect.speech.19	-	-	-	-
+1651	1651	–	-	-	$(	SYM.Pun.Hyph	-	root	319	-	yes	29	direct.speech.42	-	-	-	-
+1653	1655	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Pl.*	328	root	320	-	no	29	direct.speech.42	-	-	-	-
+1657	1657	.	.	.	$.	SYM.Pun.Sent	-	root	321	-	no	29	direct.speech.42	-	-	-	-
+1659	1659	–	-	-	$(	SYM.Pun.Hyph	-	root	322	-	yes	30	direct.speech.42	-	-	-	-
+1661	1661	–	-	-	$(	SYM.Pun.Hyph	-	root	323	-	no	30	direct.speech.42	-	-	-	-
+1663	1663	–	-	-	$(	SYM.Pun.Hyph	-	root	324	-	yes	31	direct.speech.44	-	-	-	-
+1665	1666	Ja	Ja	ja	PTKANT	PART.Ans	-	root	325	-	no	31	direct.speech.44	-	-	-	-
+1668	1668	.	.	.	$.	SYM.Pun.Sent	-	root	326	-	no	31	direct.speech.44	-	-	-	-
+1670	1670	–	-	-	$(	SYM.Pun.Hyph	-	root	327	-	yes	32	direct.speech.44	-	-	-	-
+1672	1674	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	320	subj	329	-	no	32	direct.speech.44	-	-	-	-
+1676	1678	war	war	sein	VAFIN	VFIN.Sein.3.Sg.Past.Ind	-	root	329	-	no	32	direct.speech.44	-	-	-	-
+1680	1683	ganz	ganz	ganz	ADV	ADV	-	adv	331	-	no	32	direct.speech.44	-	-	-	-
+1685	1690	erregt	erregt	erregen	VVPP	ADJD.Pos	-	aux	329	-	no	32	direct.speech.44	-	-	-	-
+1692	1692	.	.	.	$.	SYM.Pun.Sent	-	root	332	-	no	32	direct.speech.44	-	-	-	-
+1694	1696	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	335|337|346|359	subj	334	-	yes	33	direct.speech.44	frame.22	speaker.22	-	-
+1698	1706	versprach	versprach	versprechen	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	root	334	-	no	33	direct.speech.44	frame.22	-	intexpr.22	-
+1708	1710	mir	mir	ich	PPER	PRO.Pers.Subst.1.Dat.Sg.*	333|337|346|359	objd	334	-	no	33	direct.speech.44	frame.22	-	-	-
+1712	1712	,	,	,	$,	SYM.Pun.Comma	-	root	336	-	no	33	direct.speech.44	frame.22	-	-	-
+1714	1716	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	333|335|346|359	subj	338	-	no	33	direct.speech.44|indirect.speech.22	-	-	-	-
+1718	1722	würde	würde	werden	VAFIN	VFIN.Aux.3.Sg.Past.Subj	-	kon	334	-	no	33	direct.speech.44|indirect.speech.22	-	-	-	-
+1724	1733	persönlich	persönlich	persönlich	ADJD	ADJD.Pos	-	adv	344	-	no	33	direct.speech.44|indirect.speech.22	-	-	-	-
+1735	1736	zu	zu	zu	APPR	APPR.Dat	-	objp	344	-	no	33	direct.speech.44|indirect.speech.22	-	-	-	-
+1738	1740	dem	dem	d	ART	ART.Def.Dat.Sg.Masc	348|376|377|378|378|380|396|397|398|399	det	342	-	no	33	direct.speech.44|indirect.speech.22	-	-	-	-
+1742	1746	Herrn	Herrn	Herr	NN	N.Reg.Dat.Sg.Masc	348|376|377|378|378|380|396|397|398|399	pn	340	-	no	33	direct.speech.44|indirect.speech.22	-	-	-	-
+1748	1758	Präsidenten	Präsidenten	Präsident	NN	N.Reg.Acc.Sg.Masc	348|376|377|378|378|380|396|397|398|399	app	342	-	no	33	direct.speech.44|indirect.speech.22	-	-	-	-
+1760	1764	gehen	gehen	gehen	VVINF	VINF.Full.-	-	aux	338	-	no	33	direct.speech.44|indirect.speech.22	-	-	-	-
+1766	1766	.	.	.	$.	SYM.Pun.Sent	-	root	345	-	no	33	direct.speech.44|indirect.speech.22	-	-	-	-
+1768	1770	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	333|335|337|359	subj	347	-	yes	34	direct.speech.44	frame.23	speaker.23_43	-	-
+1772	1776	würde	würde	werden	VAFIN	VFIN.Aux.3.Sg.Past.Subj	-	root	347	-	no	34	direct.speech.44	frame.23	-	-	-
+1778	1780	ihm	ihm	er	PPER	PRO.Pers.Subst.3.Dat.Sg.Masc	341|342|343|376|377|378|378|380|396|397|398|399	objd	349	-	no	34	direct.speech.44	frame.23	-	-	-
+1782	1789	bezeugen	bezeugen	bezeugen	VVFIN	VINF.Full.-	-	aux	347	-	no	34	direct.speech.44	frame.23	-	intexpr.23	-
+1791	1791	,	,	,	$,	SYM.Pun.Comma	-	root	350	-	no	34	direct.speech.44	frame.23	-	-	-
+1793	1795	daß	daß	daß	KOUS	CONJ.SubFin.-	-	konj	357	-	no	34	direct.speech.44|indirect.speech.23.nonfact	-	-	-	-
+1797	1799	wir	wir	wir	PPER	PRO.Pers.Subst.1.Nom.Pl.*	-	subj	357	-	no	34	direct.speech.44|indirect.speech.23.nonfact	-	-	-	-
+1801	1803	das	das	die	PDS	PRO.Dem.Subst.-.Acc.Sg.Neut	-	obja	357	-	no	34	direct.speech.44|indirect.speech.23.nonfact	-	-	-	-
+1805	1808	hier	hier	hier	ADV	ADV	-	adv	357	-	no	34	direct.speech.44|indirect.speech.23.nonfact	-	-	-	-
+1810	1813	alle	alle	alle	PIS	PRO.Indef.Subst.-.Acc.Pl.*	-	adv	357	-	no	34	direct.speech.44|indirect.speech.23.nonfact	-	-	-	-
+1815	1816	so	so	so	ADV	ADV	-	adv	357	-	no	34	direct.speech.44|indirect.speech.23.nonfact	-	-	-	-
+1818	1823	machen	machen	machen	VVINF	VFIN.Full.1.Pl.Pres.Ind	-	objc	349	-	no	34	direct.speech.44|indirect.speech.23.nonfact	-	-	-	-
+1825	1825	.	.	.	$.	SYM.Pun.Sent	-	root	358	-	no	34	direct.speech.44|indirect.speech.23.nonfact	-	-	-	-
+1827	1829	Ich	Ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	333|335|337|346	subj	360	-	yes	35	direct.speech.44	-	-	-	-
+1831	1835	meine	meine	meinen	VVFIN	VFIN.Full.1.Sg.Pres.Ind	-	root	360	-	no	35	direct.speech.44	-	-	-	-
+1837	1839	mit	mit	mit	APPR	APPR.Dat	-	pp	360	-	no	35	direct.speech.44	-	-	-	-
+1841	1843	der	der	d	ART	ART.Def.Dat.Sg.Fem	-	det	363	-	no	35	direct.speech.44	-	-	-	-
+1845	1850	Pfeife	Pfeife	Pfeife	NN	N.Reg.Dat.Sg.Fem	-	pn	361	-	no	35	direct.speech.44	-	-	-	-
+1852	1858	morgens	morgens	morgens	ADV	ADV	-	adv	363	-	no	35	direct.speech.44	-	-	-	-
+1860	1860	.	.	.	$.	SYM.Pun.Sent	-	root	365	-	no	35	direct.speech.44	-	-	-	-
+1862	1863	So	So	so	ADV	ADV	-	adv	367	-	yes	36	direct.speech.44	-	-	-	-
+1865	1867	zum	zum	zum	APPRART	APPRART.Dat.Sg.Neut	-	root	367	-	no	36	direct.speech.44	-	-	-	-
+1869	1875	Fenster	Fenster	Fenster	NN	N.Reg.Dat.Sg.Neut	-	pn	367	-	no	36	direct.speech.44	-	-	-	-
+1877	1882	hinaus	hinaus	hinaus	APZR	APZR	-	root	369	-	no	36	direct.speech.44	-	-	-	-
+1884	1884	.	.	.	$.	SYM.Pun.Sent	-	root	370	-	no	36	direct.speech.44	-	-	-	-
+1886	1886	–	-	-	$(	SYM.Pun.Hyph	-	root	371	-	yes	37	direct.speech.44	-	-	-	-
+1888	1890	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	-	subj	373	-	no	37	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1892	1896	hätte	hätte	haben	VAFIN	VFIN.Haben.3.Sg.Past.Subj	-	root	373	-	no	37	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1898	1908	Beziehungen	Beziehungen	Beziehung	NN	N.Reg.Acc.Pl.Fem	389|407|413|422	obja	373	-	no	37	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1910	1911	zu	zu	zu	APPR	APPR.Dat	389|407|413|422	pp	374	-	no	37	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1913	1915	dem	dem	d	ART	ART.Def.Dat.Sg.Masc	341|342|343|348|380|396|397|398|399|389|407|413|422	det	377	-	no	37	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1917	1921	Herrn	Herrn	Herr	NN	N.Reg.Dat.Sg.Masc	341|342|343|348|380|396|397|398|399|389|407|413|422	pn	375	-	no	37	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1923	1933	Präsidenten	Präsidenten	Präsident	NN	N.Reg.Acc.Sg.Masc	341|342|343|348|380|396|397|398|399|389|407|413|422	app	377	-	no	37	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1935	1935	.	.	.	$.	SYM.Pun.Sent	-	root	379	-	no	37	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1937	1940	Sein	Sein	sein	PPOSAT	PRO.Poss.Attr.-.Nom.Sg.Masc	341|342|343|348|376|377|378|378|396|397|398|399	det	381	-	yes	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1942	1945	Sohn	Sohn	Sohn	NN	N.Reg.Nom.Sg.Masc	-	subj	386	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1947	1947	,	,	,	$,	SYM.Pun.Comma	-	root	382	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1949	1951	der	der	d	ART	ART.Def.Nom.Sg.Masc	-	det	384	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1953	1959	Landrat	Landrat	Landrat	NN	N.Reg.Nom.Sg.Masc	-	app	381	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1961	1961	,	,	,	$,	SYM.Pun.Comma	-	root	385	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1963	1966	wäre	wäre	sein	VAFIN	VFIN.Sein.3.Sg.Past.Subj	-	root	386	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1968	1972	öfter	öfter	öfter	ADV	ADV	-	pred	390	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1974	1976	bei	bei	bei	APPR	APPR.Dat	-	pp	390	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1978	1980	ihr	ihr	ihr	PPOSAT	PRO.Pers.Subst.3.Dat.Sg.Fem	374|375|376|377|378|378|407|413|422	pn	388	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1982	1988	gewesen	gewesen	sein	VAPP	VPP.Sein.Psp	-	aux	386	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1990	1990	,	,	,	$,	SYM.Pun.Comma	-	root	391	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1992	1994	und	und	und	KON	CONJ.Coord.-	-	kon	386	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+1996	1998	ein	ein	eine	ART	ART.Indef.Nom.Sg.Masc	-	det	394	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2000	2005	Bruder	Bruder	Bruder	NN	N.Reg.Nom.Sg.Masc	-	subj	401	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2007	2009	von	von	von	APPR	APPR.Dat	-	pp	394	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2011	2013	ihm	ihm	er	PPER	PRO.Pers.Subst.3.Dat.Sg.Masc	341|342|343|348|376|377|378|378|380|397|398|399	pn	395	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2015	2015	,	,	,	$,	SYM.Pun.Comma	341|342|343|348|376|377|378|378|380|396|398|399	root	397	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2017	2019	dem	dem	d	ART	ART.Def.Dat.Sg.Masc	341|342|343|348|376|377|378|378|380|396|397|399	det	399	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2021	2031	Präsidenten	Präsidenten	Präsident	NN	N.Reg.Dat.Sg.Masc	341|342|343|348|376|377|378|378|380|396|397|398	app	396	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2033	2033	,	,	,	$,	SYM.Pun.Comma	-	root	400	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2035	2039	hätte	hätte	haben	VAFIN	VFIN.Haben.3.Sg.Past.Subj	-	cj	392	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2041	2045	sogar	sogar	sogar	ADV	ADV	-	adv	408	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2047	2049	mal	Mal	mal	ADV	ADV	-	adv	408	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2051	2053	ein	ein	eine	ART	ART.Indef.Nom.Sg.Neut	-	det	405	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2055	2061	Mädchen	Mädchen	Mädchen	NN	N.Reg.Nom.Sg.Neut	-	obja	408	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2063	2065	bei	bei	bei	APPR	APPR.Dat	-	pp	408	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2067	2069	ihr	ihr	ihr	PPOSAT	PRO.Pers.Subst.3.Dat.Sg.Fem	374|375|376|377|378|378|389|413|422	pn	406	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2071	2076	gehabt	gehabt	haben	VAPP	VPP.Haben.Psp	-	aux	401	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2078	2078	.	.	.	$.	SYM.Pun.Sent	-	root	409	-	no	38	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2080	2080	–	-	-	$(	SYM.Pun.Hyph	-	root	410	-	yes	39	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2082	2085	Auch	Auch	auch	ADV	ADV	-	adv	412	-	yes	40	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2087	2091	kenne	kenne	kennen	VVFIN	VFIN.Full.3.Sg.Pres.Subj	-	root	412	-	no	40	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2093	2095	sie	sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	374|375|376|377|378|378|389|407|422	subj	412	-	no	40	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2097	2100	eine	eine	eine	ART	ART.Indef.Acc.Sg.Fem	-	det	416	-	no	40	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2102	2106	ganze	ganze	ganz	ADJA	ADJA.Pos.Acc.Sg.Fem	-	attr	416	-	no	40	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2108	2113	Anzahl	Anzahl	Anzahl	NN	N.Reg.Acc.Sg.Fem	-	obja	412	-	no	40	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2115	2117	von	von	von	APPR	APPR.Dat	-	pp	416	-	no	40	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2119	2124	meinen	meinen	meine	PPOSAT	PRO.Poss.Attr.-.Dat.Pl.Neut	-	det	419	-	no	40	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2126	2136	Amtsbrüdern	Amtsbrüdern	Amtsbruder	NN	N.Reg.Dat.Pl.Neut	-	pn	417	-	no	40	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2138	2147	persönlich	persönlich	persönlich	ADJD	ADJD.Pos	-	adv	412	-	no	40	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2149	2149	.	.	.	$.	SYM.Pun.Sent	-	root	421	-	no	40	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2151	2153	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Sg.Fem	374|375|376|377|378|378|389|407|413	root	422	-	yes	41	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2155	2158	würd	würde	werden	VAFIN	VFIN.Aux.3.Sg.Past.Subj	-	root	423	-	yes	42	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2160	2161	es	es	es	PPER	PRO.Pers.Subst.3.Acc.Sg.Neut	-	subj	423	-	no	42	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2163	2167	schon	schon	schon	ADV	ADV	-	adv	423	-	no	42	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2169	2174	machen	machen	machen	VVINF	VINF.Full.-	-	root	426	-	no	42	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2176	2176	!	!	!	$.	SYM.Pun.Sent	-	root	427	-	yes	43	direct.speech.44|indirect freeIndirect.speech.43	-	-	-	-
+2178	2178	–	-	-	$(	SYM.Pun.Hyph	-	root	428	-	yes	44	direct.speech.44	-	-	-	-
+2180	2180	–	-	-	$(	SYM.Pun.Hyph	-	root	429	-	no	44	direct.speech.44	-	-	-	-
+2182	2184	Wir	Wir	wir	PPER	PRO.Pers.Subst.1.Nom.Pl.*	-	subj	431	-	yes	45	-	-	-	-	-
+2186	2192	atmeten	atmeten	aufatmen	VVFIN	VFIN.Full.1.Pl.Past.Ind	-	root	431	-	no	45	-	-	-	-	-
+2194	2204	erleichtert	erleichtert	erleichtert	ADJD	ADJD.Pos	-	adv	431	-	no	45	-	-	-	-	-
+2206	2208	auf	auf	auf	PTKVZ	PART.Verb	-	avz	431	-	no	45	-	-	-	-	-
+2210	2210	.	.	.	$.	SYM.Pun.Sent	-	root	434	-	no	45	-	-	-	-	-
+2212	2223	Nachdenklich	Nachdenklich	nachdenklich	ADJD	ADJD.Pos	-	adv	436	-	yes	46	-	frame.27	-	-	-
+2225	2230	sprach	sprach	sprechen	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	root	436	-	no	46	-	frame.27	-	intexpr.27	-
+2232	2234	der	der	d	ART	ART.Def.Nom.Sg.Masc	448|457|470|510|512|513|573	det	438	-	no	46	-	frame.27	-	-	-
+2236	2245	Amtsanwalt	Amtsanwalt	Amtsanwalt	NN	N.Reg.Nom.Sg.Masc	448|457|470|510|512|513|573	subj	436	-	no	46	-	frame.27	speaker.27	-	-
+2247	2247	:	:	:	$.	SYM.Pun.Colon	-	root	439	-	no	46	-	frame.27	-	-	-
+2249	2249	–	-	-	$(	SYM.Pun.Hyph	-	root	440	-	yes	47	direct.speech.27	-	-	-	-
+2251	2256	Wissen	Wissen	wissen	VVFIN	VFIN.Full.3.Pl.Pres.Ind	-	root	441	-	no	47	direct.speech.27	frame.28	-	intexpr.28	-
+2258	2260	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Pl.*	454|473|502	subj	441	-	no	47	direct.speech.27	frame.28	-	-	-
+2262	2262	,	,	,	$,	SYM.Pun.Comma	454|473|502	root	443	-	no	47	direct.speech.27	frame.28	-	-	-
+2264	2267	Herr	Herr	Herr	NN	N.Reg.Nom.Sg.Masc	454|473|502	app	442	-	no	47	direct.speech.27	frame.28	speaker.28	-	-
+2269	2274	Pastor	Pastor	Pastor	NN	N.Reg.Nom.Sg.Masc	454|473|502	app	444	yes	no	47	direct.speech.27	frame.28	speaker.28	-	-
+2276	2276	,	,	,	$,	SYM.Pun.Comma	-	root	446	-	no	47	direct.speech.27	frame.28	-	-	-
+2278	2280	wie	wie	wie	PWAV	PROADV.Inter	-	root	447	-	no	47	direct.speech.27|indirect.thought.28.nonfact.border=state	-	-	-	-
+2282	2284	ich	ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	437|438|457|470|510|512|513|573	root	448	-	no	47	direct.speech.27|indirect.thought.28.nonfact.border=state	-	-	-	-
+2286	2293	hiernach	hiernach	hiernach	PAV	PROADV.Dem	-	root	449	-	yes	48	direct.speech.27|indirect.thought.28.nonfact.border=state	-	-	-	-
+2295	2297	die	die	d	ART	ART.Def.Acc.Pl.Neut	-	det	451	-	yes	49	direct.speech.27|indirect.thought.28.nonfact.border=state	-	-	-	-
+2299	2310	Verhältnisse	Verhältnisse	Verhältnis	NN	N.Reg.Acc.Pl.Neut	-	obja	452	-	no	49	direct.speech.27|indirect.thought.28.nonfact.border=state	-	-	-	-
+2312	2320	beurteile	beurteile	beurteilen	VVFIN	VFIN.Full.1.Sg.Pres.Ind	-	root	452	-	no	49	direct.speech.27|indirect.thought.28.nonfact.border=state	-	-	-	-
+2322	2322	–	-	-	$(	SYM.Pun.Hyph	-	root	453	-	no	49	direct.speech.27	-	-	-	-
+2324	2326	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Pl.*	442|443|444|445|473|502	obja	455	-	no	49	direct.speech.27	frame.45	speaker.45	-	-
+2328	2333	wissen	wissen	wissen	VVFIN	VFIN.Full.3.Pl.Pres.Ind	-	root	455	-	no	49	direct.speech.27	frame.45	-	intexpr.45	-
+2335	2335	:	:	:	$.	SYM.Pun.Colon	-	root	456	-	no	49	direct.speech.27	frame.45	-	-	-
+2337	2339	ich	ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	437|438|448|470|510|512|513|573	subj	458	-	yes	50	direct.speech.27|indirect.thought.45.border=state	-	speaker.30	-	-
+2341	2343	war	war	sein	VAFIN	VFIN.Sein.1.Sg.Past.Ind	-	root	458	-	no	50	direct.speech.27|indirect.thought.45.border=state	-	-	-	-
+2345	2350	früher	früher	früh	ADJD	ADJA.Pos.Nom.Sg.Masc	-	adv	458	-	no	50	direct.speech.27|indirect.thought.45.border=state	-	-	-	-
+2352	2368	Lazarettinspektor	Lazarettinspektor	Lazarettinspektor	NN	N.Reg.Nom.Sg.Masc	-	pred	458	-	no	50	direct.speech.27|indirect.thought.45.border=state	-	-	-	-
+2370	2371	in	in	in	APPR	APPR.In	-	pp	460	-	no	50	direct.speech.27|indirect.thought.45.border=state	-	-	-	-
+2373	2381	Magdeburg	Magdeburg	Magdeburg	NE	N.Name.Dat.Sg.Neut	488|497|604	pn	461	-	no	50	direct.speech.27|indirect.thought.45.border=state	-	-	-	-
+2383	2385	und	und	und	KON	CONJ.Coord.-	-	kon	458	-	no	50	direct.speech.27|indirect.thought.45.border=state	-	-	-	-
+2387	2390	weiß	weiß	wissen	VVFIN	VFIN.Full.3.Sg.Pres.Ind	-	cj	463	-	no	50	direct.speech.27|indirect.thought.45.border=state|reported.thought.30.border=state	-	-	intexpr.30	-
+2392	2395	also	also	also	ADV	ADV	-	adv	467	-	no	50	direct.speech.27|indirect.thought.45.border=state|reported.thought.30.border=state	-	-	-	-
+2397	2400	dort	dort	dort	ADV	ADV	-	adv	467	-	no	50	direct.speech.27|indirect.thought.45.border=state|reported.thought.30.border=state	-	-	-	-
+2402	2409	Bescheid	Bescheid	Bescheid	NN	N.Reg.Acc.Sg.Masc	-	obja	464	-	no	50	direct.speech.27|indirect.thought.45.border=state|reported.thought.30.border=state	-	-	intexpr.30	-
+2411	2411	–	-	-	$(	SYM.Pun.Hyph	-	root	468	-	no	50	direct.speech.27	-	-	-	-
+2413	2416	nach	nach	nach	APPR	APPR.Dat	-	pp	472	-	no	50	direct.speech.27	-	-	-	-
+2418	2423	meiner	meiner	meine	PPOSAT	PRO.Poss.Attr.-.Dat.Sg.Fem	437|438|448|457|510|512|513|573	det	471	-	no	50	direct.speech.27	-	-	-	-
+2425	2435	Überzeugung	Überzeugung	Überzeugung	NN	N.Reg.Dat.Sg.Fem	-	pn	469	-	no	50	direct.speech.27	-	-	-	-
+2437	2442	können	können	können	VMFIN	VFIN.Mod.3.Pl.Pres.Ind	-	kon	458	-	no	50	direct.speech.27	-	-	-	-
+2444	2446	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Pl.*	442|443|444|445|454|502	subj	472	-	no	50	direct.speech.27	-	-	-	-
+2448	2455	hiernach	hiernach	hiernach	PAV	PROADV.Dem	-	adv	472	-	no	50	direct.speech.27	-	-	-	-
+2457	2457	–	-	-	$(	SYM.Pun.Hyph	-	root	475	-	no	50	direct.speech.27	-	-	-	-
+2459	2462	voll	voll	voll	ADJD	ADJD.Pos	-	root	476	-	no	50	direct.speech.27	-	-	-	-
+2464	2466	und	und	und	KON	CONJ.Coord.-	-	kon	476	-	no	50	direct.speech.27	-	-	-	-
+2468	2471	ganz	ganz	ganz	ADJD	ADV	-	cj	477	-	no	50	direct.speech.27	-	-	-	-
+2473	2480	beruhigt	beruhigt	beruhigen	VVPP	ADJD.Pos	-	root	479	-	no	50	direct.speech.27	-	-	-	-
+2482	2485	sein	sein	sein	VAINF	VINF.Sein.-	-	root	480	-	no	50	direct.speech.27	-	-	-	-
+2487	2487	.	.	.	$.	SYM.Pun.Sent	-	root	481	-	no	50	direct.speech.27	-	-	-	-
+2489	2492	Wenn	Wenn	wenn	KOUS	CONJ.SubFin.-	-	root	482	-	yes	51	direct.speech.27	-	-	-	-
+2494	2497	sich	sich	sich	PRF	PRO.Refl.Subst.3.Acc.Sg.*	-	root	483	-	no	51	direct.speech.27	-	-	-	-
+2499	2501	die	die	d	ART	ART.Def.Nom.Sg.Fem	-	det	485	-	no	51	direct.speech.27	-	-	-	-
+2503	2506	Frau	Frau	Frau	NN	N.Reg.Nom.Sg.Fem	-	root	485	-	no	51	direct.speech.27	-	-	-	-
+2508	2518	Oberförster	Oberförster	Oberförster	NN	N.Reg.Nom.Sg.Masc	-	app	485	yes	no	51	direct.speech.27	-	-	-	-
+2520	2522	bei	bei	bei	APPR	APPR.Dat	-	pp	486	-	no	51	direct.speech.27	-	-	-	-
+2524	2528	ihren	ihren	ihr	PPOSAT	PRO.Poss.Attr.-.Dat.Pl.Fem	462|497|604	det	492	-	no	51	direct.speech.27	-	-	-	-
+2530	2539	sicherlich	sicherlich	sicherlich	ADV	ADV	-	adv	491	-	no	51	direct.speech.27	-	-	-	-
+2541	2544	sehr	sehr	sehr	ADV	ADV	-	adv	491	-	no	51	direct.speech.27	-	-	-	-
+2546	2557	weitgehenden	weitgehenden	weitgehend	ADJA	ADJA.Pos.Dat.Pl.Fem	-	attr	492	-	no	51	direct.speech.27	-	-	-	-
+2559	2570	Verbindungen	Verbindungen	Verbindung	NN	N.Reg.Dat.Pl.Fem	-	pn	487	-	no	51	direct.speech.27	-	-	-	-
+2572	2573	in	in	in	APPR	APPR.In	-	pp	492	-	no	51	direct.speech.27	-	-	-	-
+2575	2580	dieser	dieser	diese	PDAT	PRO.Dem.Attr.-.Dat.Sg.Fem	-	det	496	-	no	51	direct.speech.27	-	-	-	-
+2582	2592	energischen	energischen	energisch	ADJA	ADJA.Pos.Dat.Sg.Fem	-	attr	496	-	no	51	direct.speech.27	-	-	-	-
+2594	2598	Weise	Weise	Weise	NN	N.Reg.Dat.Sg.Fem	-	pn	493	-	no	51	direct.speech.27	-	-	-	-
+2600	2604	Ihrer	Ihrer	ihr	PPOSAT	PRO.Poss.Attr.-.Gen.Sg.Fem	462|488|604	root	497	-	no	51	direct.speech.27	-	-	-	-
+2606	2612	annimmt	annimmt	annehmen	VVFIN	VFIN.Full.3.Sg.Pres.Ind	-	root	498	-	no	51	direct.speech.27	-	-	-	-
+2614	2614	–	-	-	$(	SYM.Pun.Hyph	-	root	499	-	no	51	direct.speech.27	-	-	-	-
+2616	2619	dann	dann	dann	ADV	ADV	-	adv	501	-	no	51	direct.speech.27	-	-	-	-
+2621	2624	kann	kann	können	VMFIN	VFIN.Mod.3.Sg.Pres.Ind	-	root	501	-	no	51	direct.speech.27	-	-	-	-
+2626	2630	Ihnen	Ihnen	sie	PPER	PRO.Pers.Subst.3.Dat.Pl.*	442|443|444|445|454|473	objd	507	-	no	51	direct.speech.27	-	-	-	-
+2632	2634	nie	nie	nie	ADV	ADV	-	adv	507	-	no	51	direct.speech.27	-	-	-	-
+2636	2638	und	und	und	KON	CONJ.Coord.-	-	kon	503	-	no	51	direct.speech.27	-	-	-	-
+2640	2645	nimmer	nimmer	nimmer	ADV	ADV	-	cj	504	-	no	51	direct.speech.27	-	-	-	-
+2647	2649	was	was	was	PWS	PRO.Indef.Subst.-.*.*.Neut	-	subj	501	-	no	51	direct.speech.27	-	-	-	-
+2651	2658	geschehn	geschehen	geschehen	VVINF	VINF.Full.-	-	aux	501	-	no	51	direct.speech.27	-	-	-	-
+2660	2660	.	.	.	$.	SYM.Pun.Sent	-	root	508	-	no	51	direct.speech.27	-	-	-	-
+2662	2662	–	-	-	$(	SYM.Pun.Hyph	-	root	509	-	yes	52	direct.speech.27	-	-	-	-
+2664	2666	Ich	Ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	437|438|448|457|470|512|513|573	subj	511	-	yes	53	reported.speech.46	frame.32	speaker.32_46	-	-
+2668	2677	pflichtete	pflichtete	beipflichten	VVFIN	VFIN.Full.1.Sg.Past.Ind	-	root	511	-	no	53	reported.speech.46	frame.32	-	intexpr.46	-
+2679	2681	dem	dem	d	ART	ART.Def.Dat.Sg.Masc	437|438|448|457|470|510|573	det	513	-	no	53	reported.speech.46	frame.32	-	-	-
+2683	2692	Amtsanwalt	Amtsanwalt	Amtsanwalt	NN	N.Reg.Dat.Sg.Masc	437|438|448|457|470|510|573	objd	511	-	no	53	reported.speech.46	frame.32	-	-	-
+2694	2699	eifrig	eifrig	eifrig	ADJD	ADJD.Pos	-	adv	511	-	no	53	reported.speech.46	frame.32	-	-	-
+2701	2703	bei	bei	bei	PTKVZ	PART.Verb	-	avz	511	-	no	53	reported.speech.46	frame.32	-	intexpr.46	-
+2705	2707	und	und	und	KON	CONJ.Coord.-	-	kon	511	-	no	53	-	frame.32	-	-	-
+2709	2713	fügte	fügte	hinzufügen	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	cj	516	-	no	53	-	frame.32	-	intexpr.32	-
+2715	2719	hinzu	hinzu	hinzu	PTKVZ	PART.Verb	-	avz	517	-	no	53	-	frame.32	-	intexpr.32	-
+2721	2721	:	:	:	$.	SYM.Pun.Colon	-	root	519	-	no	53	-	frame.32	-	-	-
+2723	2723	–	-	-	$(	SYM.Pun.Hyph	-	root	520	-	yes	54	direct.speech.32	-	-	-	-
+2725	2728	Aber	Aber	aber	KON	CONJ.Coord.Aber	-	root	521	-	no	54	direct.speech.32	-	-	-	-
+2730	2731	da	da	da	ADV	ADV	-	adv	523	-	no	54	direct.speech.32	-	-	-	-
+2733	2737	sehen	sehen	sehen	VVFIN	VFIN.Full.3.Pl.Pres.Ind	-	cj	521	-	no	54	direct.speech.32	-	-	-	-
+2739	2742	Sies	Sie_es	sie_es	PIS	N.Name.Nom.Sg.*	-	subj	523	-	no	54	direct.speech.32	-	-	-	-
+2744	2746	nun	nun	nun	ADV	ADV	-	adv	523	-	no	54	direct.speech.32	-	-	-	-
+2748	2750	mal	Mal	mal	ADV	ADV	-	adv	523	-	no	54	direct.speech.32	-	-	-	-
+2752	2757	wieder	wieder	wieder	ADV	ADV	-	adv	523	-	no	54	direct.speech.32	-	-	-	-
+2759	2759	,	,	,	$,	SYM.Pun.Comma	-	root	528	-	no	54	direct.speech.32	-	-	-	-
+2761	2764	Herr	Herr	Herr	NN	N.Reg.Nom.Sg.Masc	-	vok	523	-	no	54	direct.speech.32	-	speaker.34	-	-
+2766	2771	Pastor	Pastor	Pastor	NN	N.Reg.Nom.Sg.Masc	-	app	529	yes	no	54	direct.speech.32	-	speaker.34	-	-
+2773	2773	:	:	:	$.	SYM.Pun.Colon	-	root	531	-	no	54	direct.speech.32	-	-	-	-
+2775	2777	die	die	d	ART	ART.Def.Nom.Pl.Masc	-	det	534	-	no	54	direct.speech.32	-	-	-	-
+2779	2790	eigentlichen	eigentlichen	eigentlich	ADJA	ADJA.Pos.Nom.Pl.Masc	-	attr	534	-	no	54	direct.speech.32	-	-	-	-
+2792	2803	Kleinstädter	Kleinstädter	Kleinstädter	NN	N.Reg.Nom.Pl.Masc	-	subj	535	-	no	54	direct.speech.32	-	-	-	-
+2805	2809	leben	leben	leben	VVFIN	VFIN.Full.3.Pl.Pres.Ind	-	root	535	-	no	54	direct.speech.32	-	-	-	-
+2811	2814	doch	doch	doch	ADV	ADV	-	adv	535	-	no	54	direct.speech.32	-	-	-	-
+2816	2818	nur	nur	nur	ADV	ADV	-	adv	535	-	no	54	direct.speech.32	-	-	-	-
+2820	2821	in	in	in	APPR	APPR.In	-	pp	535	-	no	54	direct.speech.32	-	-	-	-
+2823	2825	der	der	d	ART	ART.Def.Dat.Sg.Fem	-	det	540	-	no	54	direct.speech.32	-	-	-	-
+2827	2835	Großstadt	Großstadt	Großstadt	NN	N.Reg.Dat.Sg.Fem	-	pn	538	-	no	54	direct.speech.32	-	-	-	-
+2837	2837	.	.	.	$.	SYM.Pun.Sent	-	root	541	-	no	54	direct.speech.32	-	-	-	-
+2839	2842	Denn	Denn	denn	KON	CONJ.Coord.Denn	-	root	542	-	yes	55	direct.speech.32	frame.33	-	-	-
+2844	2848	sagen	sagen	sagen	VVFIN	VFIN.Full.3.Pl.Pres.Ind	-	cj	542	-	no	55	direct.speech.32	frame.33	-	intexpr.33	-
+2850	2852	Sie	Sie	sie	PPER	PRO.Pers.Subst.3.Nom.Pl.*	-	subj	543	-	no	55	direct.speech.32	frame.33	speaker.33	-	-
+2854	2859	selbst	selbst	selbst	ADV	ADV	-	adv	543	-	no	55	direct.speech.32	frame.33	-	-	-
+2861	2861	:	:	:	$.	SYM.Pun.Colon	-	root	546	-	no	55	direct.speech.32	frame.33	-	-	-
+2863	2866	gibt	gibt	geben	VVFIN	VFIN.Full.3.Sg.Pres.Ind	-	root	547	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2868	2869	es	es	es	PPER	PRO.Pers.Subst.3.Nom.Sg.Neut	-	subj	547	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2871	2875	etwas	etwas	etwas	ADV	PRO.Indef.Attr.-.*.*.*	-	det	550	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2877	2889	Kleinlicheres	Kleinlicheres	kleinlich	ADJA	N.Reg.Acc.Sg.Neut	-	obja	547	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2891	2891	,	,	,	$,	SYM.Pun.Comma	-	root	551	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2893	2895	als	als	als	KOKOM	CONJ.Comp.-	-	root	552	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2897	2900	sich	sich	sich	PRF	PRO.Refl.Subst.3.Acc.Sg.*	-	root	553	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2902	2903	an	an	an	APPR	APPR.An	-	root	554	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2905	2908	eine	eine	eine	ART	ART.Indef.Acc.Sg.Fem	-	det	557	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2910	2915	solche	solche	solch	PIAT	PRO.Indef.Attr.-.Acc.Sg.Fem	-	attr	557	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2917	2929	Äußerlichkeit	Äußerlichkeit	Äußerlichkeit	NN	N.Reg.Acc.Sg.Fem	-	pn	554	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2931	2931	,	,	,	$,	SYM.Pun.Comma	-	root	558	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2933	2935	wie	wie	wie	PWAV	CONJ.Comp.-	-	root	559	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2937	2942	dieses	dieses	diese	PDAT	PRO.Dem.Subst.-.Nom.Sg.Neut	-	root	560	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2944	2946	zum	zum	zum	APPRART	APPRART.Dat.Sg.Neut	-	pp	560	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2948	2954	Fenster	Fenster	Fenster	NN	N.Reg.Dat.Sg.Neut	-	pn	561	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2956	2968	Hinausrauchen	Hinausrauchen	hinausrauchen	VVINF	VINF.Full.-	-	app	562	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2970	2970	,	,	,	$,	SYM.Pun.Comma	-	root	564	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2972	2973	zu	zu	zu	PTKZU	PART.Zu	-	part	566	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2975	2980	stoßen	stoßen	stoßen	VVINF	VINF.Full.-	-	obji	563	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2982	2982	?	?	?	$.	SYM.Pun.Sent	-	root	567	-	no	55	direct.speech.32|indirect.speech.33.nonfact	-	-	-	-
+2984	2984	–	-	-	$(	SYM.Pun.Hyph	-	root	568	-	yes	56	direct.speech.34	-	-	-	-
+2986	2989	Nein	Nein	nein	PTKANT	PART.Ans	-	root	569	-	no	56	direct.speech.34	-	-	-	-
+2991	2991	,	,	,	$,	SYM.Pun.Comma	-	root	570	-	no	56	direct.speech.34	-	-	-	-
+2993	2995	das	das	die	PDS	PRO.Dem.Subst.-.Acc.Sg.Neut	-	obja	575	-	no	56	direct.speech.34	frame.35	-	-	-
+2997	2999	muß	muß	müssen	VMFIN	VFIN.Mod.1.Sg.Pres.Ind	-	root	572	-	no	56	direct.speech.34	frame.35	-	-	-
+3001	3003	ich	ich	ich	PPER	PRO.Pers.Subst.1.Nom.Sg.*	437|438|448|457|470|510|512|513	subj	572	-	no	56	direct.speech.34	frame.35	speaker.35	-	-
+3005	3008	auch	auch	auch	ADV	ADV	-	adv	575	-	no	56	direct.speech.34	frame.35	-	-	-
+3010	3014	sagen	sagen	sagen	VVINF	VINF.Full.-	-	aux	572	-	no	56	direct.speech.34	frame.35	-	intexpr.35	-
+3016	3016	:	:	:	$.	SYM.Pun.Colon	-	root	576	-	no	56	direct.speech.34	frame.35	-	-	-
+3018	3020	das	das	die	PDS	PRO.Dem.Subst.-.Nom.Sg.Neut	-	obja	587	-	yes	57	direct.speech.34|indirect.speech.35	-	-	-	-
+3022	3026	haben	haben	haben	VAFIN	VFIN.Haben.3.Pl.Pres.Ind	-	root	578	-	no	57	direct.speech.34|indirect.speech.35	-	-	-	-
+3028	3030	wir	wir	wir	PPER	PRO.Pers.Subst.1.Nom.Pl.*	-	subj	578	-	no	57	direct.speech.34|indirect.speech.35	-	-	-	-
+3032	3035	doch	doch	doch	ADV	ADV	-	adv	587	-	no	57	direct.speech.34|indirect.speech.35	-	-	-	-
+3037	3039	als	als	als	KOKOM	APPR.Als	-	kom	587	-	no	57	direct.speech.34|indirect.speech.35	-	-	-	-
+3041	3049	Studenten	Studenten	Student	NN	N.Reg.Nom.Pl.Masc	-	cj	581	-	no	57	direct.speech.34|indirect.speech.35	-	-	-	-
+3051	3052	in	in	in	APPR	APPR.In	-	pp	587	-	no	57	direct.speech.34|indirect.speech.35	-	-	-	-
+3054	3062	Göttingen	Göttingen	Göttingen	NE	N.Name.Dat.Sg.Neut	590|591|597	pn	583	-	no	57	direct.speech.34|indirect.speech.35	-	-	-	-
+3064	3067	ganz	ganz	ganz	ADV	ADV	-	adv	586	-	no	57	direct.speech.34|indirect.speech.35	-	-	-	-
+3069	3073	ruhig	ruhig	ruhig	ADJD	ADJD.Pos	-	adv	587	-	no	57	direct.speech.34|indirect.speech.35	-	-	-	-
+3075	3079	getan	getan	tun	VVPP	VPP.Full.Psp	-	aux	578	-	no	57	direct.speech.34|indirect.speech.35	-	-	-	-
+3081	3081	.	.	.	$.	SYM.Pun.Sent	-	root	588	-	no	57	direct.speech.34|indirect.speech.35	-	-	-	-
+3083	3083	–	-	-	$(	SYM.Pun.Hyph	-	root	589	-	yes	58	direct.speech.36	-	-	-	-
+3085	3086	Ja	Ja	ja	PTKANT	N.Reg.Nom.Sg.Neut	584|597	obja	593	-	no	58	direct.speech.36	-	-	-	-
+3088	3096	Göttingen	Göttingen	Göttingen	NE	N.Name.Nom.Sg.Neut	584|597	app	590	-	no	58	direct.speech.36	-	-	-	-
+3098	3098	–	-	-	$(	SYM.Pun.Hyph	-	root	592	-	no	58	direct.speech.36	-	-	-	-
+3100	3103	rief	rief	rufen	VVFIN	VFIN.Full.3.Sg.Past.Ind	-	root	593	-	no	58	-	frame.36	-	intexpr.36	-
+3105	3107	der	der	d	ART	ART.Def.Nom.Sg.Masc	233|234|595	det	595	-	no	58	-	frame.36	-	-	-
+3109	3121	Oberstabsarzt	Oberstabsarzt	Oberstabsarzt	NN	N.Reg.Nom.Sg.Masc	233|234|594	subj	593	-	no	58	-	frame.36	speaker.36	-	-
+3123	3123	–	-	-	$(	SYM.Pun.Hyph	-	root	596	-	no	58	direct.speech.36	-	-	-	-
+3125	3133	Göttingen	Göttingen	Göttingen	NE	N.Name.Nom.Sg.Neut	584|590|591	subj	598	-	no	58	direct.speech.36	-	-	-	-
+3135	3137	ist	ist	sein	VAFIN	VFIN.Sein.3.Sg.Pres.Ind	-	kon	593	-	no	58	direct.speech.36	-	-	-	-
+3139	3142	eine	eine	eine	ART	ART.Indef.Nom.Sg.Fem	-	det	600	-	no	58	direct.speech.36	-	-	-	-
+3144	3152	Weltstadt	Weltstadt	Weltstadt	NN	N.Reg.Nom.Sg.Fem	-	pred	598	-	no	58	direct.speech.36	-	-	-	-
+3154	3155	im	im	im	APPRART	APPRART.Dat.Sg.Masc	-	pp	600	-	no	58	direct.speech.36	-	-	-	-
+3157	3165	Vergleich	Vergleich	Vergleich	NN	N.Reg.Dat.Sg.Masc	-	pn	601	-	no	58	direct.speech.36	-	-	-	-
+3167	3169	mit	mit	mit	APPR	APPR.Dat	-	pp	602	-	no	58	direct.speech.36	-	-	-	-
+3171	3179	Magdeburg	Magdeburg	Magdeburg	NE	N.Name.Dat.Sg.Neut	462|488|497	pn	603	-	no	58	direct.speech.36	-	-	-	-
+3181	3181	!	!	!	$.	SYM.Pun.Sent	-	root	605	-	no	58	direct.speech.36	-	-	-	-
+3183	3183	–	-	-	$(	SYM.Pun.Hyph	-	root	606	-	yes	59	direct.speech.36	-	-	-	-
+3185	3185	–	-	-	$(	SYM.Pun.Hyph	-	root	607	-	no	59	direct.speech.36	-	-	-	-
+3187	3187	–	-	-	$(	SYM.Pun.Hyph	-	root	608	-	no	59	-	-	-	-	-
+3189	3189	–	-	-	$(	SYM.Pun.Hyph	-	root	609	-	no	59	-	-	-	-	-
+3191	3193	Nun	Nun	nun	ADV	ADV	-	adv	611	-	yes	60	-	-	-	-	-
+3195	3199	wurde	wurde	werden	VAFIN	VFIN.Aux.3.Sg.Past.Ind	-	root	611	-	no	60	-	-	-	-	-
+3201	3202	es	es	es	PPER	PRO.Pers.Subst.3.Nom.Sg.Neut	-	subj	611	-	no	60	-	-	-	-	-
+3204	3207	sehr	sehr	sehr	ADV	ADV	-	adv	614	-	no	60	-	-	-	-	-
+3209	3213	fidel	fidel	fidel	ADJD	ADJD.Pos	-	pred	611	-	no	60	-	-	-	-	-
+3215	3215	.	.	.	$.	SYM.Pun.Sent	-	root	615	-	no	60	-	-	-	-	-
+3217	3219	Wir	Wir	wir	PPER	PRO.Pers.Subst.1.Nom.Pl.*	-	subj	617	-	yes	61	-	-	-	-	-
+3221	3227	tranken	tranken	trinken	VVFIN	VFIN.Full.1.Pl.Past.Ind	-	root	617	-	no	61	-	-	-	-	-
+3229	3231	auf	auf	auf	APPR	APPR.Auf	-	pp	617	-	no	61	-	-	-	-	-
+3233	3235	das	das	d	ART	ART.Def.Acc.Sg.Neut	-	det	620	-	no	61	-	-	-	-	-
+3237	3240	Wohl	Wohl	Wohl	NN	N.Reg.Acc.Sg.Neut	-	pn	618	-	no	61	-	-	-	-	-
+3242	3244	des	des	d	ART	ART.Def.Gen.Sg.Masc	77|78|79|80|81|81	det	622	-	no	61	-	-	-	-	-
+3246	3252	Vereins	Vereins	Verein	NN	N.Reg.Gen.Sg.Masc	77|78|79|80|81|81	gmod	620	-	no	61	-	-	-	-	-
+3254	3256	für	für	für	APPR	APPR.Acc	77|78|79|80|81|81	pp	622	-	no	61	-	-	-	-	-
+3258	3263	Innere	Innere	inner	ADJA	ADJA.Pos.Acc.Sg.Fem	7|8|80|81|81|77|78|79|80|81|81	attr	625	-	no	61	-	-	-	-	-
+3265	3271	Mission	Mission	Mission	NN	N.Reg.Acc.Sg.Fem	7|8|80|81|81|77|78|79|80|81|81	pn	623	-	no	61	-	-	-	-	-
+3273	3273	.	.	.	$.	SYM.Pun.Sent	-	root	626	-	no	61	-	-	-	-	-
