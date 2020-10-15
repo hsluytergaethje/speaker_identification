@@ -24,7 +24,7 @@ The pipeline has four different modes:
 In all modes, the annotations are written to a tsv-file. The default mode is __annotate__. 
 For the options __speaker annotate__ and __evaluate gold__ no preprocessing is performed, therefore the additional tools do not need to be installed. 
 
-To be able to use all available modes, the packages indicated in the file requirements_preprocessing.txt need to be installed. If speakers should only be identified for already annotated files, it is enough to install the packages indicated in the file requirements_annotated.txt. 
+To be able to use all available modes, the packages indicated in the file requirements_preprocessing.txt need to be installed and the paths in the config file need to be changed to absolote paths. If speakers should only be identified for already annotated files, it is enough to install the packages indicated in the file requirements_annotated.txt. 
 
 In the config file in pipeline/, the sieves that should be applied can be selected, parameters for the stw recognition tool can be set and the paths to the additional tools, the resources files and the binary classifiers can be set. 
 
