@@ -63,6 +63,7 @@ SIEVE_TRANSLATION = {
 	"closest_candidate_sieve": closest_candidate_sieve,
 	"speech_verb_fall_back_sieve": speech_verb_fall_back_sieve,
 	"trigram_sieve_indirect": trigram_sieve_indirect,
+	"single_verb_sieve": single_verb_sieve,
 
 	"passive_sieve": passive_sieve,
 	"stw_dependency_sieve": stw_dependency_sieve,
@@ -76,6 +77,7 @@ SIEVE_TRANSLATION = {
 	"loose_depencency_sieve_reported": depencency_sieve_loose_reported,
 	"closest_subject_sieve": closest_subj_sieve,
 	"speech_noun_genitive_object_sieve": speech_noun_genitive_object_sieve,
+	"dependency_sieve_reported": dependency_sieve_reported,
 
 	"loose_closest_candidate_sieve": loose_closest_candidate_sieve,
 	"question_sieve": question_sieve,
