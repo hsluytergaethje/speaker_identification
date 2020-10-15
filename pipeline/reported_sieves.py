@@ -191,7 +191,7 @@ STW dependency sieve
 If single verb cue exists in stw unit, attribute speaker 
 to the subject of the verb, if subject is a candidate. 
 """
-def stw_depedency_sieve(text, annotation, contexts):
+def stw_dependency_sieve(text, annotation, contexts):
 	speech_verbs = get_speech_verbs(contexts)
 	functional_verbs = get_functional_verb_cues(text, contexts)
 
