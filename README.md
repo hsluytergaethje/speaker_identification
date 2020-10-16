@@ -2,8 +2,8 @@
 
 This repository contains a pipeline to annotate German raw text with speech, thought and writing instances (STW units) and their respective speakers. Four representations of STW units are annotated: direct, indirect, reported and free indirect. For the annotation of the STW units, the STW recognition tool developed by Schricker et al., 2019 [1] is used. For the identification of the speakers, four sieve systems are used (based on Muzny et al, 2017 [2]), one system for each type of representation. The sieve systems are provided in this repository. 
 
-The systems were developed with the help of a subset of the corpus Redewiedergabe (https://github.com/redewiedergabe/corpus). Preprocessed files can be found in ´corpus/annotated/´. Tokenized texts can be found in corpus/sentences.
-The sieve systems rely on precompiled lists, stored in ´resources/´. In three of the four systems, binary classifiers are applied, the models are stored in ´models/´.  
+The systems were developed with the help of a subset of the corpus Redewiedergabe (https://github.com/redewiedergabe/corpus). Preprocessed files can be found in `corpus/annotated/`. Tokenized texts can be found in corpus/sentences.
+The sieve systems rely on precompiled lists, stored in `resources/`. In three of the four systems, binary classifiers are applied, the models are stored in `models/`.  
 
 The pipeline includes the following preprocessing steps: sentence splitting, tokenization,  lemmatization, PoS-tagging, Dependency Parsing and Named Entity Recognition.  
 
@@ -17,16 +17,16 @@ For the preprocessing of raw text two external tools need to be installed:
 ### Pipeline
 The pipeline has four different modes:
 1. __annotate__: Input is raw text, prepocessing is applied, STW units are predicted and speaker are identified on the basis of the predicted STW units.  
-2. __speaker annotate__: Input is annotated text (examples in ´corpus/annotated/´), the speaker identificatino is performed on the basis of gold STW annotations. 
+2. __speaker annotate__: Input is annotated text (examples in `corpus/annotated/`), the speaker identificatino is performed on the basis of gold STW annotations. 
 3. __evaluate__: Input is annotated text. Speakers are identified on the basis of predicted STW units. The annotation of STW units and speakers is evaluated. The evaluation is printed to the console. 
 4. __evaluate gold__: Input is annotated text. Speakers are identified on the basis of gold STW units. The speaker annotations are evaluated. The evaluation is printed to the console.
 
 In all modes, the annotations are written to a tsv-file. The default mode is __annotate__. 
 For the options __speaker annotate__ and __evaluate gold__ no preprocessing is performed, therefore the additional tools do not need to be installed. 
 
-To be able to use all available modes, the packages indicated in the file ´requirements_preprocessing.txt´ need to be installed and the paths in the config file need to be changed to absolute paths. If speakers should only be identified for already annotated files, it is enough to install the packages indicated in the file ´requirements_annotated.txt´. 
+To be able to use all available modes, the packages indicated in the file `requirements_preprocessing.txt` need to be installed and the paths in the config file need to be changed to absolute paths. If speakers should only be identified for already annotated files, it is enough to install the packages indicated in the file `requirements_annotated.txt`. 
 
-In the config file in ´pipeline/´, the sieves that should be applied can be selected, parameters for the STW recognition tool can be set and the paths to the additional tools, the resources files and the binary classifiers can be set. 
+In the config file in `pipeline/`, the sieves that should be applied can be selected, parameters for the STW recognition tool can be set and the paths to the additional tools, the resources files and the binary classifiers can be set. 
 
 ### Example usages:
 
@@ -34,13 +34,13 @@ In the config file in ´pipeline/´, the sieves that should be applied can be se
 ```
 python stwr_speaker_annotation.py -c config.ini ../corpus/sentences/rwk_mkhz_6360-1.xmi.sentences.txt
 ```
-Since no output directory is specified, the output file will be written to the directory ´corpus/sentence´. It will not overwrite the input file, the suffix of the output file is ´_annotated.tsv´.
+Since no output directory is specified, the output file will be written to the directory `corpus/sentence`. It will not overwrite the input file, the suffix of the output file is `_annotated.tsv`.
 
 2. Speaker annotation of annotated text with evaluation
 ```
 python stwr_speaker_annotation.py -c config.ini -m evaluate_gold ../corpus/annotated/* -o ../speaker_annotations/
 ```
-For all files in the directory ´corpus/annotated/´ the speakers are predicted. The output files are written to the folder ´speaker_annotations´ in the root directory of this repository (needs to be created first). The overall evaluation is printed to the console. If the evaluation should be printed per file, the option ´-p´ (or ´--print_eval´) can be added. 
+For all files in the directory `corpus/annotated/` the speakers are predicted. The output files are written to the folder `speaker_annotations` in the root directory of this repository (needs to be created first). The overall evaluation is printed to the console. If the evaluation should be printed per file, the option `-p` (or `--print_eval`) can be added. 
 
 
 [1] Luise Schricker, Manfred Stede, and Peer Trilcke. Extraction and classification of speech, thought, and writing in german narrative texts. In Proceedings of the 15th Conference on Natural Language Processing (KONVENS 2019), pages 183–192, Erlangen, Germany, October 2019.
