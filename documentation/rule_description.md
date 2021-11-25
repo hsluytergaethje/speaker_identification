@@ -1,10 +1,11 @@
 # Speaker identification sieves 
 
 __Definitions__:
-* candidate:
-* introductory expression:
+* Candidate: personal pronouns, proper nouns tagged as 'Person' by the Named Entity Recognizer, nouns if present in animate noun list.
+* Introductory Expressions: Verbs if present in list of verb cues, nouns if in list of speech nouns, noun-verb-constructions if in list of functional verb constructions 
 
-The sieves are presented by category and not by the STW type specific systems, since some sieves are applied throughout all systems.
+
+The sieves available for speaker identification are presented by category and not by the STW type specific systems, since some sieves are applied throughout all systems.
 For some sieves, a strict, more precise and a loose, less precise but also less restrictive variant exists.
 In total, the sieves are divided into four categories:
 
@@ -43,8 +44,7 @@ Table 01: Trigram-Matching-Sieve patterns and examples of an STW unit for which 
 The number of tokens to take into account is limited to three, the
 presence of punctuation is optional. Candidates are limited to subjects
 to ensure that the candidate actually is the producer of the
-STW unit. Consider
-example 1 which would follow the second pattern in table 01.
+STW unit. Consider example 1 which would follow the second pattern in table 01.
 The correct speaker, marked in bold, which is the subject of the sentence, would not have been identified. On
 the contrary, the personal pronoun marked in blue would have been
 mistakenly identified.
@@ -59,26 +59,26 @@ evaluation. This sieve was first applied in the direct and in the
 indirect system. For the indirect system, it was very precise but could
 only attribute a small number of STW units to a speaker. As these units could
 also be successfully attributed to a speaker by the dependency-sieve,
-the trigram-matching-sieve is only applied in the direct system.
+the `trigram-matching-sieve` is only applied in the direct system.
 
-The colon-sieve is a pattern and proximity based sieve. If an
-STW unit is
-commenced with a colon, the context before the colon is searched for
-subjects. The speaker is attributed to the closest subject. The subject
+### Colon-Sieve
+The `colon-sieve` is a pattern and proximity based sieve. If an
+STW unit is commenced with a colon, the context before the colon is searched for
+subjects.
+The speaker is attributed to the closest subject. The subject
 is not checked for any additional information. This way we can overcome
-the limitations of the word lists used and of potential
-[pos]{acronym-label="pos" acronym-form="singular+abbrv"}-tagging- and
+the limitations of the word lists used and of potential POS-tagging- and
 lemmatisation errors. Furthermore, it enables the annotation of
 non-human entities as speakers as shown in example 2.
 
 > (2) So zog sie weiter, aber die **Drachen** sagten sogleich: *»Du bist mit nichten ein König, sondern ein Mädchen, und mit Weibern kämpfen wir
 nicht.«*[^5]
 
+### Continuous-STW-Sieve
 In direct speech, an alternating pattern between speech units does not
 always indicate consecutive turn-taking. In some cases two consecutive
-speech units are produced by the same speaker, as shown in example
-3. The first and the second speech unit
-are both produced by the speaker **José**. Even for human readers, this
+speech units are produced by the same speaker, as shown in example 3.
+The first and the second speech unit are both produced by the speaker **José**. Even for human readers, this
 only becomes apparent, when taking into account the third speech unit,
 spoken by another speaker, **Martinez**.
 
@@ -99,9 +99,9 @@ STW unit. If all conditions from the second part of the pattern are met and if t
 speaker of the first unit was already identified, the speaker of the
 first STW unit is attributed to the second unit as well. Example 3 follows this pattern.
 
-In addition to the continuous-STW-sieve, this sieve applies a simpler
-pattern to detect consecutive [stw]{acronym-label="stw"
-acronym-form="singular+abbrv"} units produced by the same speaker, also
+### Adjacent-STW-Sieve
+In addition to the `continuous-STW-sieve`, this sieve applies a simpler
+pattern to detect consecutive STW units produced by the same speaker, also
 applied by Krug et al. (2016). If an STW unit starts with a lower case letter, it
 is assumed to be the continuation of the STW unit before, and gets attributed to the
 same speaker. Since these cases are annotated as one unit in the
@@ -109,6 +109,7 @@ same speaker. Since these cases are annotated as one unit in the
 not used in the final system, but could be useful when other annotation
 patterns are in place.
 
+### Question-Sieve
 This sieve was created to attribute free indirect and mixed
 STW. It is based on the assumption that a question posed within a free indirect or mixed STW unit is often
 concerned with the speaker itself, as shown in example 4. Therefore this sieve identifies the
@@ -122,7 +123,8 @@ part of the question as in example 5.
 
 ## Singularity
 
-The STW-dependency-sieve is a version of the
+### STW-dependency-sieve
+The `STW-dependency-sieve` is a version of the
 dependency-sieve applied when the STW unit itself is considered as context. In
 that case no proximity based measures can be taken into account to
 identify the verb cue that commences the STW unit, therefore this sieve relies on the
@@ -134,7 +136,8 @@ STW unit is shown.
 
 > (6) Hier sieht man ihn als Mitglied des deutschen Sprachvereins , *dort erklärt **er** sich gegen den Eifer der Puristen.*[^9]
 
-The single-candidate-sieve, based on Muzny et al. (2017), works on the
+### Single-Candidate-Sieve
+The `single-candidate-sieve`, based on Muzny et al. (2017), works on the
 assumption that the context before or after the
 STW unit describes or introduces the speaker. If the context only includes one candidate,
 this will most likely be the speaker. Muzny et al. (2017) take one paragraph
@@ -154,6 +157,7 @@ the same speaker, as shown in example 8.
 
 > (8) »Mein Gott , wie Sie mich erschreckt haben!« sagte **sie**, um Atem ringend, noch immer blaß und bestürzt. *»Wie Sie mich erschreckt haben! Ich bin halbtot. Warum sind Sie hergekommen? Warum?«*[^11]
 
+### STW-I-Sieve
 In reported STW, the occurrence of a first person pronoun within the
 STW unit often is the speaker of the unit. This sieve is used to detect these types of
 STW unit, an example is shown in 9. The automatic evaluation revealed that the sieve
@@ -164,14 +168,14 @@ STW unit. The sieve is therefore restricted in this manner.
 > (9) *Wie oft hat dieser kleine , **mich** so bedeutsam dünkende Vorgang*
 sich wiederholt! [^12] 
 
+# Single-Speech-Noun-Sieve
 For the cases in which no candidates and no verb cues could be extracted
 from a given context, the context is searched for speech nouns as
 commencing factors for an STW unit. If a single speech noun occurs in a
 given context and a possessive pronoun depends on it, the speaker is
 attributed to the possessive pronoun. An example is shown in 10.
 
-#TODO bold and italics
-> (10) Das Pferdchen scheint  **seinen** Gedanken erraten zu haben und läuft Trab. [^13] 
+> (10) Das Pferdchen scheint _ **seinen** Gedanken_ erraten zu haben und läuft Trab. [^13] 
 
 We also implemented a variant of this sieve with which none-speakers in reported STW units
 should be predicted. If a reported STW unit is reduced to five tokens and one of
@@ -179,11 +183,12 @@ them is a speech noun without any depending possessive pronoun, no
 speaker was attributed to the STW unit. Since this variant was imprecise,
 it was not applied in the final system.
 
-The single-subject-sieve is not restricted to the notion of candidates
+### Single-Subject-Sieve
+The `single-subject-sieve` is not restricted to the notion of candidates
 and only relies on the concept of the speaker being an acting entity.
 For simplicity, we assume all subjects to be acting entities. In this
 way, the sieve helps to overcome the limitations of the precompiled word
-lists and the automatically generated [pos]{acronym-label="pos" acronym-form="singular+abbrv"}-tags. If there is only one subject in the
+lists and the automatically generated POS-tags. If there is only one subject in the
 given context, the speaker is attributed to the subject, as shown in
 example 11.
 
@@ -196,8 +201,8 @@ annotated inanimate common nouns as speakers. The strict version
 identifies an acting candidate as the speaker, if it is the only one in
 a given context.
 
-In reported STW,
-some units do not have a speaker due to impersonal wording. To handle
+### Passieve-Sieve
+In reported STW, some units do not have a speaker due to impersonal wording. To handle
 these cases, we built a simple, straight forward detector for verb cues
 in a passive voice. If there is only one verb cue in a given context and
 this verb is in the past participle and it depends on the verb
@@ -216,7 +221,6 @@ example 14.
 However, this approach was imprecise and also
 wrongly attributed none-speakers to STW units for which other sieves can
 successfully identify a speaker, as shown in example 15. 
-
 The approach is therefore not applied in the final system.
 
 > (14) *Uebrigens will ich mir nicht in meine Befugnisse hineinschwatzen lassen.*[^17]
@@ -224,8 +228,8 @@ The approach is therefore not applied in the final system.
 Leben, *sich ausfragen lassen*[^18]
 
 ## Proximity
-
-The dependency-sieve, adapted from Muzny et al. (2017), applies the same
+### Dependency-Sieve
+The `dependency-sieve`, adapted from Muzny et al. (2017), applies the same
 procedure as the baseline system. Its success depends on the presence of
 a verb cue in a predefined context, it is therefore not applicable to
 free indirect and mixed STW units. If several verb cues are found,
@@ -245,9 +249,10 @@ this sieve applies is shown in 17.
 
 > (17) **Andere** <ins>erzählen</ins>, *das Schauteufelskreuz habe ein Schuster gestiftet, der vor vielen Jahren an der Ecke des alten Marktes wohnte.*[^20] 
 
-The closest-verb-sieve is based on the assumption that the speaker is
+### Closesgt-Verb-Sieve
+The `closest-verb-sieve` is based on the assumption that the speaker is
 the closest acting entity of an STW unit. This sieve is therefore formulated
-as a variation of the loose-dependency-sieve in which the search for the
+as a variation of the `loose-dependency-sieve` in which the search for the
 closest verb cue is replaced with the search for the closest verb,
 without any restrictions. The subject of the verb is considered the
 corresponding actor. In example 18 a reported
@@ -255,17 +260,17 @@ STW unit can be seen that can be attributed to a speaker with this sieve.
 
 > (18) So verblaßt, wie jene ferne Stunde, da seine **Gattin** sich in die Arme eines nichtigen Menschen <ins>geworfen</ins>, *ohne Überlegung*, ohne Besinnung vielleicht;\[\...\][^21]
 
-As shown for the baseline system, objects that depend on a verb can also
-be the actors. Therefore, a variant of this sieve in which not only the
+Objects that depend on a verb can also be the actors. Therefore, a variant of this sieve in which not only the
 subject but also the objects of the closest verb are considered was also
 tested. If any object is a candidate and the subject is not, the
 candidate object is identified as the speaker. Since this variant could
 not improve over the original sieve, it is not applied in the final
 system.
 
-The closest-candidate-sieve is a less restrictive, backup version of the
-closest-verb-sieve and for most cases both identify the same speaker.
-While the closest-verb-sieve is based on the assumption that the closest
+### Closest-Candidate-Sieve
+The `closest-candidate-sieve` is a less restrictive, backup version of the
+`closest-verb-sieve` and for most cases both identify the same speaker.
+While the `closest-verb-sieve` is based on the assumption that the closest
 verb indicates the acting entity that is associated with the
 STW unit, this
 sieve is verb independent and solely based on the distance between
@@ -273,22 +278,21 @@ acting candidates and the STW unit. Cases for which no dependent
 subject is annotated to the closest verb, as in example 19 (sometimes due to errors produced by
 the dependency parser), the closest candidate sieve helps to find the
 closest acting entity. For the free indirect and mixed system, we omit
-the closest-verb-sieve and rely only on this sieve, as it proved to work
+the `closest-verb-sieve` and rely only on this sieve, as it proved to work
 better even though it is less restrictive. In 20, an example of a free indirect
 STW unit is shown.
 
 > (19) Suppius und Klarinett hielten sie von innen fest, **er** konnte sie mühsam nur ein wenig öffnen, wunderte sich, *daß es so schwer ging*, und tappte sogleich mit der Hand hinein.[^22]
 > (20) »Ich trau nicht, ob's auch halten wird«, zagte **er** den Heerführer an. *Warum mußte der auch kommen! er konnte nicht einmal mehr ruhig prüfen.*[^23]
 
-The closest-speaking-candidate-sieve is only applied in the free
+### Closest-Speaking-Candidate-Sieve
+The `closest-speaking-candidate-sieve` is only applied in the free
 indirect and mixed system. Its assumption is yet again similar to the
 one formulated for the closest-verb-sieve, but here it is more
 restrictive: only entities that act as speakers are taken into account.
-The functionality is therefore equivalent to the dependency-sieve, but
+The functionality is therefore equivalent to the `dependency-sieve`, but
 in this case the closest verb cue is not assumed to commence the
-STW unit. The free
-indirect STW unit
-in example 21 can be attributed by means of this
+STW unit. The free indirect STW unit in example 21 can be attributed by means of this
 sieve.
 
 > (21) Als nun die drei Jahre beinahe um waren, kam **sie** eines Abends zu ihm und <ins>sprach</ins>, jetzt habe er noch drei Tage auszuhalten, die seien schlimmer als die drei Jahre. *Was aber auch in den drei Nächten geschehe, er solle fest bleiben und sich durch Nichts irre machen lassen, denn wenn er ein Wort spreche, so sei Alles verloren.*[^24]
@@ -298,20 +302,20 @@ sieve.
 The sieves based on conversational indications are only applied in the
 direct system.
 
-The conversational sieve Muzny et al. (2017) is based on the assumption of
+### Conversational-Sieve
+The `conversational-sieve` Muzny et al. (2017) is based on the assumption of
 turn-taking in direct STW, i.e. if several STW units appear in
 short distance to each other, we assume the speakers to alternate. The
 strict variant of this sieve only assumes this conversational pattern if
 there are no tokens in between the direct STW units. A looser variant allows an
 arbitrary number of tokens to be in between the
-STW units. If such
-a pattern is found, the speaker of two [stw]{acronym-label="stw"acronym-form="singular+abbrv"} units before or after is attributed to
-the current STW
-unit as shown in example 22. Example 23 shows the loose variant.
+STW units. If such a pattern is found, the speaker of two STW units before or after is attributed to
+the current STW unit as shown in example 22. Example 23 shows the loose variant.
 
 > (22) ›Fraget mich, Herr Fagon‹, sagte **er**, ›ich antworte Euch die Wahrheit.‹›Du hast Mühe zu leben?‹ *›Ja, Herr Fagon.‹*[^25]
 > (23) »Das will ich nicht«, flüsterte das junge **Weib**. »Und willst du's auch nicht, wenn ich dir sage, daß du doch in einer Stunde sterben müßtest?« *»In einer Stunde?«*[^26]
 
+### Vocative-Detection-Sieve
 In conversations, participants sometimes address each other by names for
 example, called vocatives. To determine whether a mention of a name
 within a direct STW unit is actually used to address a conversational partner, we apply a
@@ -399,7 +403,7 @@ Krug et al. (2016), we leave to potential future work.
 
 ## Full Pipeline
 
-![Pipeline for annotating raw text with STW units and speakers](images/final_system_pipeline_cut.png)
+![Pipeline for annotating raw text with STW units and speakers](images/speaker_identification_pipeline.png)
 
 To make the speaker identification systems applicable to raw text, we
 compiled a pipeline, shown in figure (1) which includes the automatic annotation
