@@ -1,10 +1,10 @@
 # Speaker Identification for Speech, Thought and Writing in the Literary Domain
 
-This repository contains a pipeline to annotate German raw text with speech, thought and writing instances (STW units) and their respective speakers. Four representations of STW units are annotated: direct, indirect, reported and free indirect. For the annotation of the STW units, the [STW recognition tool](https://github.com/redewiedergabe/tagger) developed by [Brunner et al. 2020a](http://ceur-ws.org/Vol-2624/paper5.pdf)[^1] is used.
+This repository contains a pipeline to annotate German raw text with speech, thought and writing instances (STW units) and their respective speakers. Four representations of STW units are annotated: direct, indirect, reported and free indirect. For the annotation of the STW units, the [STW recognition tool](https://github.com/redewiedergabe/tagger) developed by [Brunner et al. 2020a](http://ceur-ws.org/Vol-2624/paper5.pdf) [^1] is used.
 
-For the identification of the speakers, four sieve systems are used (based on [Krug et al. (2016)](https://dhd2016.de/abstracts/vortr%C3%A4ge-040.html)[^2] and [Muzny et al. (2017)](https://aclanthology.org/E17-1044.pdf)[^3]), one system for each type of representation. The sieve systems are provided in this repository. 
+For the identification of the speakers, four sieve systems are used (based on [Krug et al. (2016)](https://dhd2016.de/abstracts/vortr%C3%A4ge-040.html) [^2] and [Muzny et al. (2017)](https://aclanthology.org/E17-1044.pdf) [^3]), one system for each type of representation. The sieve systems are provided in this repository. 
 
-The systems were developed with the help of a subset of the [Corpus Redewiedergabe] (https://github.com/redewiedergabe/corpus)([Brunner et al. 2020b](https://aclanthology.org/2020.lrec-1.100.pdf)[^4]). Preprocessed files can be found in `corpus/annotated/`. Tokenized texts can be found in corpus/sentences.
+The systems were developed with the help of a subset of the [Corpus Redewiedergabe](https://github.com/redewiedergabe/corpus) ([Brunner et al. 2020b](https://aclanthology.org/2020.lrec-1.100.pdf) [^4]). Preprocessed files can be found in `corpus/annotated/`. Tokenized texts can be found in corpus/sentences.
 A subset of the corpus which was used as a held-out testset to evaluate the speaker identification systems can be found in `corpus/test_set`. 
 The sieve systems rely on precompiled lists, stored in `resources/`. In three of the four systems, binary classifiers are applied, the models are stored in `models/`.  
 
@@ -12,7 +12,7 @@ The pipeline includes the following preprocessing steps: sentence splitting, tok
 
 
 ### Additional Tool
-For the preprocessing of raw text [ParZu](https://github.com/rsennrich/ParZu)([Sennrich et al. 2013](https://aclanthology.org/R13-1079.pdf)[^5]) needs to be installed. The STW recognition tool and the Named Entity Recognizer are available in the [flair](https://github.com/flairNLP/flair)([Akbik et al. 2018](http://aclanthology.lst.uni-saarland.de/C18-1139.pdf)[^6]) library. 
+For the preprocessing of raw text [ParZu](https://github.com/rsennrich/ParZu)([Sennrich et al. 2013](https://aclanthology.org/R13-1079.pdf) [^5]) needs to be installed. The STW recognition tool and the Named Entity Recognizer are available in the [flair](https://github.com/flairNLP/flair) ([Akbik et al. 2018](http://aclanthology.lst.uni-saarland.de/C18-1139.pdf) [^6]) library. 
 
 
 ### Pipeline
