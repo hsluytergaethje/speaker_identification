@@ -168,7 +168,7 @@ STW unit. The sieve is therefore restricted in this manner.
 > (9) *Wie oft hat dieser kleine , **mich** so bedeutsam dünkende Vorgang*
 sich wiederholt! [^12] 
 
-# Single-Speech-Noun-Sieve
+### Single-Speech-Noun-Sieve
 For the cases in which no candidates and no verb cues could be extracted
 from a given context, the context is searched for speech nouns as
 commencing factors for an STW unit. If a single speech noun occurs in a
@@ -249,7 +249,7 @@ this sieve applies is shown in 17.
 
 > (17) **Andere** <ins>erzählen</ins>, *das Schauteufelskreuz habe ein Schuster gestiftet, der vor vielen Jahren an der Ecke des alten Marktes wohnte.*[^20] 
 
-### Closesgt-Verb-Sieve
+### Closest-Verb-Sieve
 The `closest-verb-sieve` is based on the assumption that the speaker is
 the closest acting entity of an STW unit. This sieve is therefore formulated
 as a variation of the `loose-dependency-sieve` in which the search for the
@@ -433,6 +433,20 @@ speakers. The second assumes the STW units to be gold annotations and only
 evaluates the speaker annotations. Both evaluation options expect an
 *Corpus Redewiedergabe* -like file
 structure.
+
+## References
+* Alan Akbik, Duncan Blythe, and Roland Vollgraf. Contextual string embeddings for sequence labeling. In COLING 2018, 27th International Conference on Computational Linguistics, pages 1638–1649, Santa Fe, New Mexico, USA, August 2018. Association for Computational Linguistics. 
+
+* Annelen Brunner, Stefan Engelberg, Fotis Jannidis, Ngoc Duyen Tanja Tu and Lukas Weimer. Corpus REDEWIEDERGABE. In Proceedings of the 12th International Conference on Language Resources and Evaluation (LREC’20), pages 803–812, Marseille, France, May 2020a. European Language Resources Association. 
+
+* Annelen Brunner, Ngoc Duyen Tanja Tu, Lukas Weimer and Fotis Jannidis. To bert or not to bert–comparing contextual embeddings in a deep learning architecture for the automatic recognition of four types of speech, thought and writing representation. In Proceedings of the 16th Conference on Natural Language Processing (KONVENS 2020), Zurich, Switzerland, June 2020b. 
+
+* Markus Krug, Fotis Jannidis, Isabella Reger, Luisa Macharowsky, Lukas Weimer and Frank Puppe. Attribuierung direkter Reden in deutschen Romanen des 18.-20. Jahrhunderts. Methoden zur Bestimmung des Sprechers und des Angesprochenen. In DHd 2016, Modellierung - Vernetzung - Visualisierung, Die Digital Humanities als fächerübergreifendes Forschungsparadigma, Konferenzabstracts, pages 124–130, Leipzig, Germany, March 2016. 
+
+* Grace Muzny, Michael Fang, Angel Chang, and Dan Jurafsky. A two-stage sieve approach for quote attribution. In Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 1, Long Papers, pages 460–470, Valencia, Spain, April 2017. Association for Computational Linguistics.
+
+* Rico Sennrich, Martin Volk, and Gerold Schneider. Exploiting synergies between open resources for german dependency parsing, pos-tagging, and morphological analysis. In Proceedings of the International Conference Recent Advances in Natural Language Processing RANLP 2013, pages 601–609, Hissar, Bulgaria, September 2013. INCOMA Ltd. Shoumen, Bulgaria.  
+
 
 [^1]: rwk_digbib_1179-1.xmi
 
