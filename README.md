@@ -10,6 +10,7 @@ The sieve systems rely on precompiled lists, stored in `resources/`. In three of
 
 The pipeline includes the following preprocessing steps: sentence splitting, tokenization,  lemmatization, PoS-tagging, Dependency Parsing and Named Entity Recognition. It is depicted in `documents/images`. 
 
+An extensive description of the rules applied in the speaker identification systems can be found in `documentation/rule_description.md`. The pipline's performance is described in `documentation/performance.md`.
 
 ### Additional Tool
 For the preprocessing of raw text [ParZu](https://github.com/rsennrich/ParZu) ([Sennrich et al. 2013](https://aclanthology.org/R13-1079.pdf) [^5]) needs to be installed. The STW recognition tool and the Named Entity Recognizer are available in the [flair](https://github.com/flairNLP/flair) ([Akbik et al. 2018](http://aclanthology.lst.uni-saarland.de/C18-1139.pdf) [^6]) library. 
@@ -49,7 +50,7 @@ For all files in the directory `corpus/annotated/` the speakers are predicted. T
  
 [^2]: Markus Krug, Fotis Jannidis, Isabella Reger, Luisa Macharowsky, Lukas Weimer and Frank Puppe. Attribuierung direkter Reden in deutschen Romanen des 18.-20. Jahrhunderts. Methoden zur Bestimmung des Sprechers und des Angesprochenen. In DHd 2016, Modellierung - Vernetzung - Visualisierung, Die Digital Humanities als fächerübergreifendes Forschungsparadigma, Konferenzabstracts, pages 124–130, Leipzig, Germany, March 2016.
  
-[^3]: Grace Muzny, Michael Fang, Angel Chang, and Dan Jurafsky. A two-stage sieve approach for quote attribution. In Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 1, Long Papers, pages 460–470, Valencia, Spain, April 2017. Association for Computational Linguistics.
+[^3]: Felix Muzny, Michael Fang, Angel Chang, and Dan Jurafsky. A two-stage sieve approach for quote attribution. In Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 1, Long Papers, pages 460–470, Valencia, Spain, April 2017. Association for Computational Linguistics.
 
 [^4]: Annelen Brunner, Stefan Engelberg, Fotis Jannidis, Ngoc Duyen Tanja Tu and Lukas Weimer. Corpus REDEWIEDERGABE. In Proceedings of the 12th International Conference on Language Resources and Evaluation (LREC’20), pages 803–812, Marseille, France, May 2020a. European Language Resources Association. 
 
