@@ -2,468 +2,432 @@
 # -*- coding: utf-8 -*-
 
 """
-This script includes functions to score 
-stw unit and speaker annotations. 
+This script includes functions to score
+stw unit and speaker annotations.
 """
 
-from collections import Counter
-import pandas as pd
+from dataclasses import dataclass, asdict
+from typing import Union
+
+STW_INDEX_KEY = "stwr_indice"
+
+TRUE = "true"
+PARTIAL = "partial"
+NOT_FOUND = "not found"
+
+SPEAKER = "speaker_indice"
+SPEAKER_BACKUP = "speaker_backup_indice"
 
 
-def score_matching_indice(predicted, true):
-	predicted = set(predicted)
-	true = set(true)
-	coinciding = len(true.intersection(predicted))
-	percentage_pred = int((coinciding / len(predicted)) * 100)
-	percentage_true = int((coinciding / len(true)) * 100)
-	return coinciding, percentage_pred, percentage_true
+@dataclass
+class stw_eval_info:
+    true: int = 0
+    partial: int = 0
+    not_found: int = 0
+    total: int = 0
+
+@dataclass
+class stw_metric:
+    precision: float = 0.0
+    recall: float = 0.0
+    precision_loose: float = 0.0
+    recall_loose: float = 0.0
+    f1: float = 0.0
+    f1_loose: float = 0.0
+
+@dataclass
+class speaker_eval_info:
+    correct: int = 0
+    partially_correct: int = 0
+    coref_correct: int = 0
+    coref_partially_correct: int = 0
+    not_found: int = 0
+    total: int = 0
+    accuracy: float = 0.0
+    accuracy_loose : float = 0.0
+
+@dataclass
+class speaker_eval_info_gold:
+    correct: int = 0
+    partially_correct: int = 0
+    coref_correct: int = 0
+    coref_partially_correct: int = 0
+    not_found: int = 0
+    total: int = 0
+    with_speaker_gold: int = 0
+    with_speaker_predicted: int = 0
+    accuracy: float = 0.0
+    accuracy_loose : float = 0.0
 
 
-def several_max(max_ids):
-	return len(max_ids) > 1
-
-
-def get_max_id(scores):
-	max_ids = []
-	max_score = max(scores)
-	for i, score in enumerate(scores):
-		if score == max_score:
-			max_ids.append(i)
-	return max_ids
-
-# extract matching annotations
-def get_matching_rwk_annos(kalli_annos, rwk_annos):
-	matching_annos = []
-	percentages_trues = []
-	percentages_preds = []
-	for i, anno in enumerate(kalli_annos):
-		
-		indice = anno["stwr_indice"]
-		perc_preds = []
-		perc_trues = []
-		
-		for rwk_anno in rwk_annos:
-			rwk_indice = rwk_anno["stwr_indice"]
-			coinc, percentage_pred, percentage_true = score_matching_indice(indice, rwk_indice)
-			perc_preds.append(percentage_pred)
-			perc_trues.append(percentage_true)            
-		
-		pred_ids_max = get_max_id(perc_preds)
-		true_ids_max = get_max_id(perc_trues)
-		
-			
-		if several_max(pred_ids_max):
-			if several_max(true_ids_max):
-				uniques = list(set(perc_preds))
-				if len(uniques) == 1:
-					if uniques[0] == 0:
-						corresponding_annos = None
-						percentages_preds.append(-1)
-						percentages_trues.append(-1)
-					else:
-						print("all same values but not 0")
-						print(perc_preds)
-				else:
-					if pred_ids_max == true_ids_max:
-						corresponding_annos = pred_ids_max
-						percentages_preds.append([perc_preds[j] for j in pred_ids_max])
-						percentages_trues.append([perc_trues[j] for j in pred_ids_max])
-					else:
-						# TODO: find better solution - other way ot match these annotations? 
-						corresponding_annos = None
-						percentages_preds.append(-1)
-						percentages_trues.append(-1)
-						print("several maxima .. ")
-						print(perc_preds)
-						print(i)
-						print(perc_trues)
-			else:
-				true_id_max = true_ids_max[0]
-				if true_id_max in pred_ids_max:
-					corresponding_annos = true_ids_max
-					percentages_preds.append([perc_preds[true_id_max]])
-					percentages_trues.append([perc_trues[true_id_max]])
-				else:
-					corresponding_annos = None
-					percentages_preds.append(-1)
-					percentages_trues.append(-1)
-					print("best true not in pred")
-					print(perc_preds)
-					print(i)
-					print(perc_trues)
-		else:
-			corresponding_annos = pred_ids_max
-			percentages_preds.append([perc_preds[pred_ids_max[0]]])
-			percentages_trues.append([perc_trues[pred_ids_max[0]]])
-		
-		matching_annos.append(corresponding_annos)
-				
-
-	return matching_annos, percentages_preds, percentages_trues
-
+@dataclass
+class stw_speaker_summary:
+    pred_to_true: stw_eval_info
+    true_to_pred: stw_eval_info
+    speaker_eval: Union[speaker_eval_info, speaker_eval_info_gold]
 
 def get_char_indice_per_annotation_and_speaker(text, predicted=False):
-	annotations = text.annotations
-	all_anno_infos = []
-	for annotation in annotations:
-		anno_char_info = {}
-		anno_indice = []
-		speaker_indice = []
-		speaker_backup = []
-		for token in annotation.tokens:
-			char_indice = [i for i in range(token.start, token.end +1)]
-			anno_indice.extend(char_indice)
+    annotations = text.annotations
+    all_anno_infos = []
+    for annotation in annotations:
+        anno_char_info = {}
+        anno_indice = []
+        speaker_indice = []
+        speaker_backup = []
+        for token in annotation.tokens:
+            char_indice = [i for i in range(token.start, token.end +1)]
+            anno_indice.extend(char_indice)
 
-		if predicted:
-			if annotation.has_speaker_prediction():
-				speaker_tokens = text.get_tokens_by_id(annotation.predicted_speaker)
-			else:
-				speaker_tokens = []
-		else:
-			if annotation.has_speaker():
-				speaker_tokens = text.get_tokens_by_id(annotation.true_speaker_ids)
-			else:
-				speaker_tokens = []
-			
-		for token in speaker_tokens:
-			char_indice = [i for i in range(token.start, token.end +1)]
-			speaker_indice.extend(char_indice)
-			if token.has_coreferents():
-				coreferent_tokens = text.get_tokens_by_id(token.coreferent_ids)
-				for coref_token in coreferent_tokens:
-					coref_char_indice = [i for i in range(coref_token.start, coref_token.end +1)]
-					speaker_backup.append(coref_char_indice)
+        if predicted:
+            if annotation.has_speaker_prediction():
+                speaker_tokens = text.get_tokens_by_id(annotation.predicted_speaker)
+            else:
+                speaker_tokens = []
+        else:
+            if annotation.has_speaker():
+                speaker_tokens = text.get_tokens_by_id(annotation.true_speaker_ids)
+            else:
+                speaker_tokens = []
 
-		anno_char_info["stwr_indice"] = anno_indice
-		anno_char_info["speaker_indice"] = speaker_indice
-		anno_char_info["speaker_backup_indice"] = speaker_backup
-		all_anno_infos.append(anno_char_info)
-	return all_anno_infos
+        for token in speaker_tokens:
+            char_indice = [i for i in range(token.start, token.end +1)]
+            speaker_indice.extend(char_indice)
+            if token.has_coreferents():
+                coreferent_tokens = text.get_tokens_by_id(token.coreferent_ids)
+                for coref_token in coreferent_tokens:
+                    coref_char_indice = [i for i in range(coref_token.start, coref_token.end +1)]
+                    speaker_backup.append(coref_char_indice)
 
-def evaluate_speakers(kalli_anno, rwk_annos):
-	kalli_speaker = set(kalli_anno["speaker_indice"])
-	kalli_backups = []
-	if "speaker_backup_indice" in kalli_anno:
-		for speaker_backup in kalli_anno["speaker_backup_indice"]:
-			kalli_backups.append(set(speaker_backup))
+        anno_char_info[STW_INDEX_KEY] = anno_indice
+        anno_char_info[SPEAKER] = speaker_indice
+        anno_char_info[SPEAKER_BACKUP] = speaker_backup
+        all_anno_infos.append(anno_char_info)
+    return all_anno_infos
 
-	rwk_speakers = [rwk_anno["speaker_indice"] for rwk_anno in rwk_annos]
-	
-	correct = 0
-	partial = 0
-	
-	for speaker in rwk_speakers:
-		speaker = set(speaker)
-		if len(speaker.intersection(kalli_speaker)) == len(speaker) or \
-		any(len(speaker.intersection(kalli_backup)) == len(speaker) for kalli_backup in kalli_backups):
-			correct += 1
-		elif len(speaker.intersection(kalli_speaker)) > 0 or \
-		any(len(speaker.intersection(kalli_backup)) > 0 for kalli_backup in kalli_backups):
-			partial += 1
-	
-	if correct == len(rwk_speakers):
-		return "correct"
-	elif partial > 0:
-		return "partial"
-	else:
-		return "wrong"
+def get_true_partial(idx_list_a: list[int], idx_list_b: list[int]):
+    len_intersect = len(set(idx_list_a).intersection(set(idx_list_b)))
+    if len_intersect == len(idx_list_a):
+        return TRUE
+    elif len_intersect > 0:
+        return PARTIAL
+    return NOT_FOUND
 
 
-def get_rwk_matches(mappings):
-	all_numbers = []
-	for mapping in mappings:
-		if mapping is not None:
-			for element in mapping:
-				if element is not None:
-					all_numbers.append(element)
-	return all_numbers
+def compare(a: list[dict], b: list[dict], idx_key):
+    evaluation = stw_eval_info()
 
-def rwk_double_annotated(rwk_matches):
-	return len(rwk_matches) != len(set(rwk_matches))
+    for a_unit in a:
+        found = False
+        found_true = False
+        for b_unit in b:
+            match_info = get_true_partial(a_unit[idx_key], b_unit[idx_key])
+            if match_info == TRUE:
+                evaluation.true += 1
+                found_true = True
+                break
+            elif match_info == PARTIAL:
+                found = True
+        if found:
+            evaluation.partial += 1
+        elif not found_true:
+            evaluation.not_found += 1
+    evaluation.total = len(a)
+    return evaluation
+
+def f1(precision, recall):
+    return 2 * ((precision * recall) / (precision + recall))
+
+def get_metrics_stw(true_to_pred: stw_eval_info, pred_to_true:stw_eval_info):
+    evaluation = stw_metric()
+    if pred_to_true.total > 0:
+        evaluation.precision = round((pred_to_true.true / pred_to_true.total) * 100, 2)
+        evaluation.precision_loose = round(((pred_to_true.true + pred_to_true.partial) / pred_to_true.total) * 100, 2)
+    if true_to_pred.total > 0:
+        evaluation.recall = round((true_to_pred.true / true_to_pred.total) * 100, 2)
+        evaluation.recall_loose = round(((true_to_pred.true + true_to_pred.partial) / true_to_pred.total) * 100, 2)
+    if not (evaluation.recall == 0 and evaluation.precision == 0):
+        evaluation.f1 = round(f1(evaluation.precision, evaluation.recall), 2)
+    if not (evaluation.recall_loose == 0 and evaluation.precision_loose == 9):
+        evaluation.f1_loose = round(f1(evaluation.precision_loose, evaluation.recall_loose))
+    return evaluation
+
+def add_dataclasses(list_of_dataclasses, speaker=False, speaker_gold=False):
+    final = {key: 0 for key in asdict(list_of_dataclasses[0]).keys()}
+    for eval_dict in list_of_dataclasses:
+        for key, val in asdict(eval_dict).items():
+            final[key] += val
+    if speaker:
+        summed = speaker_eval_info(**final)
+    elif speaker_gold:
+        summed = speaker_eval_info_gold(**final)
+    else:
+        summed = stw_eval_info(**final)
+    return summed
+
+# SPEAKER 
+def map_annotations(a, b):
+    mapping = []
+    for a_unit in a:
+        matching_annos = []
+        for b_unit in b:
+            len_intersect = len(set(a_unit[STW_INDEX_KEY]).intersection(set(b_unit[STW_INDEX_KEY])))
+            if len_intersect > 0: # take all stw unit that have some overlap as possible stw units for speaker eval
+                matching_annos.append(b_unit)
+        mapping.append((a_unit, matching_annos))
+    return mapping
+
+def compare_speaker(a: dict, b: list[dict], eval_info:speaker_eval_info):
+    pred_speaker = a[SPEAKER]
+
+    found = False
+    found_coref = False
+    found_coref_partial = False
+
+    for entry in b:
+        # without coref info
+        match_info = get_true_partial(pred_speaker, entry[SPEAKER])
+
+        if match_info == TRUE:
+            eval_info.correct += 1
+            return
+        elif match_info == PARTIAL:
+            found = True
+            continue
+
+        # with coref info
+        for pred_entry in a[SPEAKER_BACKUP]:
+            for true_entry in entry[SPEAKER]:
+                match_info_coref = get_true_partial(pred_entry, true_entry)
+                if match_info_coref == TRUE:
+                    found_coref = True
+                elif match_info_coref == PARTIAL:
+                    found_coref_partial = True
+    if found_coref:
+        eval_info.coref_correct += 1
+        return
+    if found:
+        eval_info.partially_correct += 1
+        return
+    if found_coref_partial:
+        eval_info.coref_partially_correct += 1
+        return
+    eval_info.not_found += 1
+    return
 
 
-def get_double_values(rwk_matches):
-	counted = Counter(rwk_matches)
-	doubles = []
-	for val, count in counted.most_common():
-		if count > 1:
-			doubles.append(val)
-	return doubles
+def get_speaker_eval(annotation_mapping):
+    eval_info = speaker_eval_info()
 
-def get_anno_id_by_value(mappings, rwk_values):
-	kalli_ids = {}
-	for rwk_val in rwk_values:
-		kalli_ids[rwk_val] = []
-	
-	for i, rwk_id_list in enumerate(mappings):
-		if rwk_id_list is not None:
-			for rwk_value in rwk_values:
-				if rwk_value in rwk_id_list:
-					kalli_ids[rwk_value].append(i)
-	return kalli_ids
+    for (predicted, true_annotations) in annotation_mapping:
+        if len(true_annotations) > 0:
+            eval_info. total += 1
+            compare_speaker(predicted, true_annotations, eval_info)
+    return eval_info
 
+def get_accuracy_speaker(eval_count: Union[speaker_eval_info, speaker_eval_info_gold]):
+    sum_true = eval_count.correct + eval_count.coref_correct
+    sum_partial = eval_count.partially_correct + eval_count.coref_partially_correct
+    if eval_count.total > 0:
+        eval_count.accuracy = round((sum_true / eval_count.total) * 100, 2)
+        eval_count.accuracy_loose = round(((sum_true + sum_partial) / eval_count.total) * 100, 2)
+    return
 
-def handle_double_annotation(preds, trues):
-	true_100 = []
-	to_keep = []
-	for i, perc_true in enumerate(trues):
-		if 100 in perc_true:
-			true_100.append(i)
-	if len(true_100) < 1:
-		for i, perc_pred in enumerate(preds):
-			if perc_pred == 100 or 100 in perc_pred: # changed to "100 in" for pipeline eval 
-				to_keep.append(i)
-	else:
-		to_keep.extend(true_100)
-	return to_keep
-
-
-# evaluate per file 
-def evaluate_stwrs(kalli_annos, rwk_annos, mappings, perc_pred, perc_true):
-	eval_values = {"not_found":0, "invented":0, "stwr_correct":0, "stwr_partial": 0, "contracted":0, \
-				  "speaker_correct":0, "speaker_partial":0, "speaker_wrong":0}
-	
-	rwk_instances = len(rwk_annos)
-	rwk_matches = get_rwk_matches(mappings)
-	number_rwk_matched = len(set(rwk_matches))
-	
-	eval_values["not_found"] = rwk_instances - number_rwk_matched
-	
-	try:
-		if rwk_double_annotated(rwk_matches):
-			double_rwk_ids = get_double_values(rwk_matches)
-			rwk_to_kalli_ids = get_anno_id_by_value(mappings, double_rwk_ids)
-			for rwk_id, kalli_values in rwk_to_kalli_ids.items():
-				preds = [perc_pred[i] for i in kalli_values]
-				trues = [perc_true[i] for i in kalli_values]
-
-				to_keep = handle_double_annotation(preds, trues)
-
-				for i in range(len(kalli_values)):
-					if i not in to_keep:
-						mappings[kalli_values[i]] = None
-				rwk_matches = get_rwk_matches(mappings)
-	except:
-		print(rwk_matches)
-		print(rwk_to_kalli_ids)
-		print(perc_pred)
-		print(perc_true)
-		return None
-	
-	for i, (mapping, pred, true) in enumerate(zip(mappings, perc_pred, perc_true)):
-		if mapping is None:
-			eval_values["invented"] += 1
-		else:
-			if len(mapping) > 1:
-				eval_values["contracted"] += 1
-			for mapping_index in range(len(mapping)):
-				if true[mapping_index] == 100 and pred[mapping_index] == 100:
-					eval_values["stwr_correct"] += 1
-				else:
-					# we can assume this, since the annotations coincided 
-					eval_values["stwr_partial"] += 1
-	
-	speaker_correct = 0
-	speaker_partial = 0
-	speaker_wrong = 0
-	for i in range(len(mappings)):
-		if mappings[i] is not None:
-			current_kalli = kalli_annos[i]
-			current_rwks = [rwk_annos[rwk_index] for rwk_index in mappings[i]]
-			speaker_eval = evaluate_speakers(current_kalli, current_rwks)
-			if speaker_eval == "correct":
-				eval_values["speaker_correct"] += 1
-			elif speaker_eval == "partial":
-				eval_values["speaker_partial"] += 1
-			else:
-				eval_values["speaker_wrong"] += 1
-
-	accuracies = calculate_metrics(eval_values, rwk_annos)
-	eval_values.update(accuracies)
-	
-	return eval_values
-
-def calculate_metrics(evaluation, true_text):
-	accuracies = {"stwr_accuracy_loose":0, "stwr_accuracy_strict":0, "speaker_accuracy_loose":0, \
-				   "speaker_accuracy_strict":0}
-	
-	all_rwk_instances = len(true_text)
-	
-	rwk_predicted_total = evaluation['stwr_correct'] + evaluation['stwr_partial']
-	
-
-	if all_rwk_instances > 0 and rwk_predicted_total > 0:
-		accuracies["stwr_accuracy_loose"] = round(((evaluation['stwr_correct'] + evaluation['stwr_partial']) / all_rwk_instances) *100, 2)
-		accuracies["stwr_accuracy_strict"] = round((evaluation['stwr_correct'] / all_rwk_instances)*100, 2)
-		
-		accuracies["speaker_accuracy_loose"] = round(((evaluation["speaker_correct"] + evaluation["speaker_partial"]) / rwk_predicted_total) *100, 2)
-		accuracies["speaker_accuracy_strict"] = round((evaluation["speaker_correct"] / rwk_predicted_total)*100, 2)
-	
-	return accuracies
-	
 
 def evaluate(predicted_object, true_object, eval_pred_speaker=True):
-	if eval_pred_speaker:
-		predicted_text = get_char_indice_per_annotation_and_speaker(predicted_object, predicted=True)
-	else:
-		predicted_text = get_char_indice_per_annotation_and_speaker(predicted_object) 
-	true_text = get_char_indice_per_annotation_and_speaker(true_object)
+    if eval_pred_speaker:
+        predicted_text = get_char_indice_per_annotation_and_speaker(predicted_object, predicted=True)
+    else:
+        predicted_text = get_char_indice_per_annotation_and_speaker(predicted_object) 
+    true_text = get_char_indice_per_annotation_and_speaker(true_object)
 
-	if len(true_text) > 1:
-		matching_annos, perc_pred, perc_true = get_matching_rwk_annos(predicted_text, true_text)
-	else:
-		matching_annos = [None]* len(predicted_text)
-		perc_pred = [None]* len(predicted_text)
-		perc_true = [None]* len(predicted_text)
-	return evaluate_stwrs(predicted_text, true_text, matching_annos, perc_pred, perc_true)
+
+    # evaluate stw
+    pred_to_true = compare(predicted_text, true_text, STW_INDEX_KEY)
+    true_to_pred = compare(true_text, predicted_text, STW_INDEX_KEY)
+
+
+    # speaker
+    mapping = map_annotations(predicted_text, true_text)
+    eval_count = get_speaker_eval(mapping)
+
+    eval_summary = stw_speaker_summary(
+            pred_to_true = pred_to_true,
+            true_to_pred = true_to_pred,
+            speaker_eval = eval_count)
+
+    return eval_summary
+
+
+
+
+def get_eval_per_class(stw_text_per_type_pred, stw_text_per_type_true, write=True, eval_pred_speaker=True):
+    eval_per_type = {}
+    for stw_type, true_text in stw_text_per_type_true.items():
+        eval_per_type[stw_type] = evaluate(stw_text_per_type_pred[stw_type], true_text, eval_pred_speaker=eval_pred_speaker)
+
+    if write:
+        print("Evaluation")
+        print("===========")
+        for stw_type, evaluation in eval_per_type.items():
+            print(stw_type)
+            print("STW")
+            # could print the count numbers too
+            stw_metrics = get_metrics_stw(evaluation.true_to_pred, evaluation.pred_to_true)
+            pretty_print(asdict(stw_metrics))
+            print("\nSPEAKER")
+            get_accuracy_speaker(evaluation.speaker_eval)
+            pretty_print(asdict(evaluation.speaker_eval))
+            print("_"*70)
+
+    return eval_per_type
+
+def get_performance(text, coref=True):
+    eval_info = speaker_eval_info_gold()
+
+    eval_info.total += text.annotation_number
+    if text.annotation_number > 0:
+        for anno in text.annotations:
+            true_speaker = anno.true_speaker_ids
+            predicted_speaker = anno.predicted_speaker
+
+            if true_speaker is not None:
+                eval_info.with_speaker_gold += 1
+
+            if len(predicted_speaker) > 0:
+                eval_info.with_speaker_predicted += 1
+
+                if true_speaker is not None:
+                    if set(true_speaker) == set(predicted_speaker):
+                        eval_info.correct += 1
+                    elif len(set(predicted_speaker).intersection(set(true_speaker))) > 0:
+                        eval_info.partially_correct += 1
+
+                    elif is_coref_correct(text, predicted_speaker, true_speaker):
+                        if coref:
+                            eval_info.coref_correct += 1
+                    elif is_coref_partly_correct(text, predicted_speaker, true_speaker):
+                        if coref:
+                            eval_info.coref_partially_correct += 1
+                    else:
+                        eval_info.not_found += 1
+                else:
+                    eval_info.not_found += 1
+            else:
+                if anno.true_speaker_ids is None:
+                    eval_info.coref_correct += 1
+                else:
+                    eval_info.not_found += 1
+        get_accuracy_speaker(eval_info)
+    return eval_info
+
+
+def join_stw_speaker(eval_info: list):
+    stw_types = list(eval_info[0].keys())
+    sorted_by_type = {key: [] for key in stw_types}
+    for entry in eval_info:
+        for stw_type in stw_types:
+            sorted_by_type[stw_type].append(entry[stw_type])
+
+    for stw_type, eval_info_list in sorted_by_type.items():
+        true_to_preds = [entry.true_to_pred for entry in eval_info_list]
+        pred_to_trues = [entry.pred_to_true for entry in eval_info_list]
+        speaker_evals = [entry.speaker_eval for entry in eval_info_list]
+        joined_true_to_preds = add_dataclasses(true_to_preds)
+        joined_pred_to_trues = add_dataclasses(pred_to_trues)
+        joined_speaker_evals = add_dataclasses(speaker_evals, speaker=True)
+        print(stw_type)
+        get_accuracy_speaker(joined_speaker_evals)
+        stw_metric = get_metrics_stw(joined_true_to_preds, joined_pred_to_trues)
+        print("STW")
+        pretty_print(asdict(stw_metric))
+        print("SPEAKER")
+        pretty_print(asdict(joined_speaker_evals))
+        print("="*70)
+    return
+
+def join_speaker(eval_info: dict):
+    stw_types = list(eval_info[0].keys())
+    sorted_by_type = {key: [] for key in stw_types}
+    for entry in eval_info:
+        for stw_type in stw_types:
+            sorted_by_type[stw_type].append(entry[stw_type])
+
+    for stw_type, eval_info_list in sorted_by_type.items():
+        print(stw_type)
+        #speaker_evals = [entry.speaker_eval for entry in eval_info_list]
+        joined_speaker_evals = add_dataclasses(eval_info_list, speaker_gold=True)
+        get_accuracy_speaker(joined_speaker_evals)
+        pretty_print(asdict(joined_speaker_evals))
+        print("="*70)
+    return
 
 
 def pretty_print(eval_dict):
-	for key, val in eval_dict.items():
-		print("{}\t{}".format(key, val))
-
-
-# evaluate and print evaluation 
-def get_eval_per_class(stw_text_per_type_pred, stw_text_per_type_true, write=True, eval_pred_speaker=True):
-	eval_per_type = {}
-	for stw_type, true_text in stw_text_per_type_true.items():
-		eval_per_type[stw_type] = evaluate(stw_text_per_type_pred[stw_type], true_text, eval_pred_speaker=eval_pred_speaker)
-
-	if write:
-		print("Evaluation")
-		print("===========")
-		for stw_type, evaluation in eval_per_type.items():
-			print(stw_type)
-			pretty_print(evaluation)
-			print("_"*70)
-
-	return eval_per_type
+    for key, val in eval_dict.items():
+        print("{}\t{}".format(key, val))
 
 
 def is_coref_correct(text, pred_ids, true_ids):
-	if true_ids is not None:
-		if pred_ids is None or len(pred_ids) == 0:
-			return False
-		all_corefs = []
-		true_tokens = text.get_tokens_by_id(true_ids)
-		
-		for tok in true_tokens:
-			if tok.has_coreferents():
-				all_corefs.extend(tok.coreferent_ids)
+    if true_ids is not None:
+        if pred_ids is None or len(pred_ids) == 0:
+            return False
+        all_corefs = []
+        true_tokens = text.get_tokens_by_id(true_ids)
 
-		return all(speak_id in all_corefs for speak_id in pred_ids) 
-	else:
-		if pred_ids is None or len(pred_ids) == 0:
-			return True
-	return False
+        for tok in true_tokens:
+            if tok.has_coreferents():
+                all_corefs.extend(tok.coreferent_ids)
+
+        return all(speak_id in all_corefs for speak_id in pred_ids)
+    else:
+        if pred_ids is None or len(pred_ids) == 0:
+            return True
+    return False
 
 def is_coref_partly_correct(text, pred_ids, true_ids):
-	if true_ids is not None:
-		if pred_ids is None or len(pred_ids) == 0:
-			return False
-		all_corefs = []
-		true_tokens = text.get_tokens_by_id(true_ids)
-		
-		for tok in true_tokens:
-			if tok.has_coreferents():
-				all_corefs.extend(tok.coreferent_ids)
+    if true_ids is not None:
+        if pred_ids is None or len(pred_ids) == 0:
+            return False
+        all_corefs = []
+        true_tokens = text.get_tokens_by_id(true_ids)
 
-		return any(speak_id in all_corefs for speak_id in pred_ids) 
-	else:
-		if pred_ids is None or len(pred_ids) == 0:
-			return True
-	return False
+        for tok in true_tokens:
+            if tok.has_coreferents():
+                all_corefs.extend(tok.coreferent_ids)
+
+        return any(speak_id in all_corefs for speak_id in pred_ids)
+    else:
+        if pred_ids is None or len(pred_ids) == 0:
+            return True
+    return False
 
 
-def get_performance(text, coref=False):
-	meta = {"annotation_number": 0, "annotation_number_with_speaker":0, "predicted_num_speaker": 0, "speaker_correct":0, \
-	 "speaker_part_corr": 0, "speaker_coref_correct": 0, "speaker_coref_partly_correct": 0, "speaker_accuracy_strict": 0, \
-	 "speaker_accuracy_loose": 0}
 
-	meta["annotation_number"] += text.annotation_number
-	if text.annotation_number > 0:
-		for anno in text.annotations:
-			if anno.true_speaker_ids is not None:
-				meta["annotation_number_with_speaker"] += 1
-				
-			if len(anno.predicted_speaker) > 0:
-				meta["predicted_num_speaker"] += 1
-				if anno.true_speaker_ids is not None:
-					if all(speak_id in anno.true_speaker_ids for speak_id in anno.predicted_speaker):
-						if all(speak_id in anno.predicted_speaker for speak_id in anno.true_speaker_ids):
-							meta["speaker_correct"] += 1
-						else:
-							meta["speaker_part_corr"] += 1
-					elif any(speak_id in anno.true_speaker_ids for speak_id in anno.predicted_speaker):
-						meta["speaker_part_corr"] += 1
-
-					elif is_coref_correct(text, anno.predicted_speaker, anno.true_speaker_ids):
-						if coref:
-							meta["speaker_coref_correct"] += 1
-					elif is_coref_partly_correct(text, anno.predicted_speaker, anno.true_speaker_ids):
-						if coref:
-							meta["speaker_coref_partly_correct"] += 1
-			else:
-				if anno.true_speaker_ids is None:
-					meta["speaker_correct"] += 1
-
-		acc_strict = round((meta["speaker_correct"] + meta["speaker_coref_correct"]) / meta["annotation_number"] * 100, 2)
-		acc_loose = round((meta["speaker_correct"] + meta["speaker_part_corr"] + meta["speaker_coref_correct"] \
-			+ meta["speaker_coref_partly_correct"]) / meta["annotation_number"] * 100, 2)   
-		meta["speaker_accuracy_strict"] = acc_strict
-		meta["speaker_accuracy_loose"] = acc_loose
-	return meta
-
+# CALLED IN STW ANNO
 def evaluate_stwr_gold_annotations(stwr_anno_per_type, write=True):
-	eval_per_type = {}
-	for stw_type, true_text in stwr_anno_per_type.items():
-		eval_per_type[stw_type] = get_performance(true_text)
+    eval_per_type = {}
+    for stw_type, true_text in stwr_anno_per_type.items():
+        eval_per_type[stw_type] = get_performance(true_text)
 
-	if write:
-		print("Evaluation")
-		print("===========")
-		for stw_type, evaluation in eval_per_type.items():
-			print(stw_type)
-			pretty_print(evaluation)
-			print("_"*70)
+    if write:
+        print("Evaluation")
+        print("===========")
+        for stw_type, evaluation in eval_per_type.items():
+            print(stw_type)
+            pretty_print(asdict(evaluation))
+            print("_"*70)
 
-	return eval_per_type
+    return eval_per_type
 
-def join_evaluations(eval_list):
-	joined_evals = {}
-	stw_types = list(eval_list[0].keys())
-	eval_components = list(eval_list[0][stw_types[0]].keys())
-
-	for stw_type in stw_types:
-		joined_evals[stw_type] = {key:0 for key in eval_components}
-
-	for eval_dict in eval_list:
-		for stw_type, evaluation in eval_dict.items():
-			for eval_comp, val in evaluation.items():
-				joined_evals[stw_type][eval_comp] += val
-
-	for stw_type, evaluation in joined_evals.items():
-		actual_acc = evaluation["speaker_accuracy_strict"] / len(eval_list)
-		actual_acc_loose = evaluation["speaker_accuracy_loose"] / len(eval_list)
-		joined_evals[stw_type]["speaker_accuracy_strict"] = actual_acc
-		joined_evals[stw_type]["speaker_accuracy_loose"] = actual_acc_loose
-
-	print("Overall Evaluation")
-	print("===================")
-	for stw_type, evaluation in joined_evals.items():
-		print(stw_type)
-		pretty_print(evaluation)
-		print("_"*70)
-	return joined_evals
 
 def write_evalutation(outputfilename, eval_per_type):
-	with open(outputfilename, 'w') as out:
-		header = list(eval_per_type["direct"].keys())
-		out.write("STW type/Description\t")
-		out.write("{}\n".format("\t".join(header)))
+    with open(outputfilename, 'w') as out:
+        header = list(eval_per_type["direct"].keys())
+        out.write("STW type/Description\t")
+        out.write("{}\n".format("\t".join(header)))
 
-		for stw_type, evaluation in eval_per_type.items():
-			vals = [evaluation[key] for key in header]
-			out.write("{}\t{}\n".format(stw_type, "\t".join(vals)))
+        for stw_type, evaluation in eval_per_type.items():
+            vals = [evaluation[key] for key in header]
+            out.write("{}\t{}\n".format(stw_type, "\t".join(vals)))
 
 
