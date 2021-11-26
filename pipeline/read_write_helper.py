@@ -6,7 +6,8 @@ This files contains methods to read tsv- and txt-files.
 Additionally methods with which object of the type "Text"
 can be written to a tsv-file. 
 """
-
+import os
+from pathlib import Path
 import pickle
 import pandas as pd
 import csv

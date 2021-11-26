@@ -8,6 +8,7 @@ and featurize. Serves as input for the binary classifier.
 
 import sys
 from tqdm import tqdm
+
 from feature_extraction_binary_classifier import get_all_features
 from feature_extraction_binary_classifier_int import get_all_int_features
 from read_write_helper import read_files_from_directory
