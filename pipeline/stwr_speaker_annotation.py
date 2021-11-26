@@ -312,11 +312,11 @@ def main():
     config = configparser.ConfigParser()
     config.read(args.config)
 
-    print("[0] Initialize flair")
-    initialize_flair()
-
     parzu_path = config["ParZu"]["ParZuPath"]
     if args.mode in ["annotate", "evaluate"]:
+        print("[0] Initialize flair")
+        initialize_flair()
+
         print("[0] Initialize STW taggers")
         initialize_stw_tagger()
 
