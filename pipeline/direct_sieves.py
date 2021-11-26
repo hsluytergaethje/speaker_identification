@@ -1,16 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-""" 
+"""
 This scripts includes the sieves used in the direct system.
 """
-
-import sys
-import copy
-import pickle
-import argparse
-from collections import OrderedDict
-from Text import create_corpus_classes
 from indirect_sieves import retrieve_speaker_from, get_base_context, get_context_before, get_context_after, get_candidates, \
 binary_classifier_sieve, set_up_classifier, set_up_func_verbs, complete_speaker
 
