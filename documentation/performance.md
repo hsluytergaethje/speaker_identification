@@ -1,14 +1,14 @@
 # Performance of the speaker identification system
 
-The highest accuracy for each sieve system could be performed with the sieves selection and order shown in the table below. In the file `pipeline/config.ini` this option can be chosen by selecting 'optimal'. 
+The highest accuracy for each speaker identification system could be performed with the sieve selection and sieve order shown in the table below. In the file `pipeline/config.ini` this option can be chosen by selecting 'optimal'. 
 
 | System Type                 |  Sieves in Order                                             |
 | ----------------------------| ------------------------------------------------------------ |
-| direct                      | Trigram-Matching-Sieve, Colon-Sieve, Dependency-Sieve, Loose-Trigram-Matching-Sieve, Loose-Dependency-Sieve, Single-Candidate-Sieve, Vocative-Detection-Sieve, Conversational-Sieve, Loose-Conversational-Sieve |
-| indirect                    | Dependency-Sieve, Single-Speech-Noun-Sieve, Loose-Dependency-Sieve, Single-Candidate-Sieve, Single-Subject-Sieve, Closest-Verb-Sieve, Closest-Candidate-Sieve |
-| reported - context is STW unit | Passive-Sieve, STW-Dependency-Sieve, Single-Speech-Noun-Sieve, Single-Subject-Sieve-Strict, Single-Candidate-Sieve, STW-I-Sieve, Loose-STW-Dependency-Sieve, Single-Subject-Sieve |
-| reported - context outside of STW unit | Single-Subject-Sieve-Strict, Dependency-Sieve, Single-Candidate-Sieve, Closest-Verb-Sieve
-| free indirect + mixed       | Closest-Speaking-Candidate-Sieve, Closest-Candidate-Sieve    |
+| Direct                      | Trigram-Matching-Sieve, Colon-Sieve, Dependency-Sieve, Loose-Trigram-Matching-Sieve, Loose-Dependency-Sieve, Single-Candidate-Sieve, Vocative-Detection-Sieve, Conversational-Sieve, Loose-Conversational-Sieve |
+| Indirect                    | Dependency-Sieve, Single-Speech-Noun-Sieve, Loose-Dependency-Sieve, Single-Candidate-Sieve, Single-Subject-Sieve, Closest-Verb-Sieve, Closest-Candidate-Sieve |
+| Reported - context is STW unit | Passive-Sieve, STW-Dependency-Sieve, Single-Speech-Noun-Sieve, Single-Subject-Sieve-Strict, Single-Candidate-Sieve, STW-I-Sieve, Loose-STW-Dependency-Sieve, Single-Subject-Sieve |
+| Reported - context outside of STW unit | Single-Subject-Sieve-Strict, Dependency-Sieve, Single-Candidate-Sieve, Closest-Verb-Sieve
+| Free Indirect              | Closest-Speaking-Candidate-Sieve, Closest-Candidate-Sieve    |
 
 ## Performance of the full pipeline
 In the table below the performance of the STW recognition tool and of the speaker identification system is shown. 
@@ -18,7 +18,7 @@ The accuracy of the speaker identification systems could only be calculated for 
 <table border="1">
   <tr>
     <th scope="col">STW type</th>
-    <<th scope="col" colspan="2">STW Recognition F1 Score</th>
+    <th scope="col" colspan="2">STW Recognition F1 Score</th>
     <th scope="col" colspan="2">Speaker Identification Accuracy</th>
   </tr>
   <tr>
@@ -65,12 +65,14 @@ The accuracy of the speaker identification systems could only be calculated for 
 
 In the table below the performance of similar speaker identification system is compared to this work. The performance differs from the one presented above as the speaker identification systems were applied to gold labeled STW. Like this it is assured that complicated STW unit which could not be correctly identified by the STW recognition tool are also attributed. 
 
-| Author               | STW type    | Performance Range | STW Medium    | Domain     | Language    |
-| -------------------  | ------------| ----------------- | ------------- | ---------- | ----------- |
-| Pareti et al. (2013) | Direct<br>Indirect<br>Mixed | 85 -91<br>74-79<br>65-81 | Speech | News | English |
-| Krug et al. (2016)   | Direct      | 78.4              | Speech        | Literature | German      |
-| Muzny et al. (2017)  | Direct      | 76 - 85           | Speech        | Literature | English     |
-| This work            | Direct<br>Indirect<br>Reported<br>Free indirect | 63.91<br>82.2<br>71.38<br>50.0 | Speech<br>Thought<br>Writing | Literature | German | 
+| Author                    | STW type    | Performance Range | STW Medium    | Domain     | Language    |
+| ------------------------- | ------------| ----------------- | ------------- | ---------- | ----------- |
+| Pareti et al. (2013) [^1] | Direct<br>Indirect<br>Mixed | 85 -91<br>74-79<br>65-81 | Speech | News | English |
+| Krug et al. (2016) [^2]   | Direct      | 78.4              | Speech        | Literature | German      |
+| Muzny et al. (2017) [^3]  | Direct      | 76 - 85           | Speech        | Literature | English     |
+| This work                 | Direct<br>Indirect<br>Reported<br>Free indirect | 63.91<br>82.2<br>71.38<br>50.0 | Speech<br>Thought<br>Writing | Literature | German | 
 
-
-
+#### References
+[^1]: Silvia Pareti, Tim O’Keefe, Ioannis Konstas, James R Curran, and Irena Koprinska. Automatically detecting and attributing indirect quotations. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, pages 989–999, Seattle, Washington, USA, October 2013. Association for Computational Linguistics. 
+[^2]: Markus Krug, Fotis Jannidis, Isabella Reger, Luisa Macharowsky, Lukas Weimer and Frank Puppe. Attribuierung direkter Reden in deutschen Romanen des 18.-20. Jahrhunderts. Methoden zur Bestimmung des Sprechers und des Angesprochenen. In DHd 2016, Modellierung - Vernetzung - Visualisierung, Die Digital Humanities als fächerübergreifendes Forschungsparadigma, Konferenzabstracts, pages 124–130, Leipzig, Germany, March 2016. 
+[^3]: Grace Muzny, Michael Fang, Angel Chang, and Dan Jurafsky. A two-stage sieve approach for quote attribution. In Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers), pages 460–470, Valencia, Spain, April 2017. Association for Computational Linguistics. 
